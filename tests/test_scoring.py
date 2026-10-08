@@ -71,6 +71,31 @@ class ScoringTests(unittest.TestCase):
             self.assertEqual(empty['rankedIds'], [])
             self.assertIsNone(empty['choiceId'])
 
+    def test_rice_excludes_noodle_specialists_even_with_incidental_rice(self):
+        base = self.restaurants()[0]
+        excluded = [dict(base, id=str(i), name=name, dishes='鱼香肉丝盖饭、肉炒刀削面')
+                    for i, name in enumerate(['山西面馆(万科星园店)', '李记传统羊汤面馆',
+                                              '兰州牛肉面', '云南米线', '湖南米粉'])]
+        with patch.object(server, 'request_jev', side_effect=AssertionError('must filter before Jev')):
+            result = server.choose({'userPrefs': {'rice': True, 'people': 2}}, excluded)
+        self.assertEqual(result['rankedIds'], [])
+        self.assertIsNone(result['choiceId'])
+
+    def test_explicit_co_primary_rice_format_remains_eligible(self):
+        base = self.restaurants()[0]
+        restaurants = [dict(base, id='mixed', name='拉面·盖饭', dishes='拉面、盖饭'),
+                       dict(base, id='rice', name='小炒餐厅', cuisine='中餐', dishes='小炒配米饭')]
+        def fake(payload):
+            return {'answers': {key: {'noul': .9} for key in payload['questions']}}
+        with patch.object(server, 'request_jev', fake):
+            result = server.choose({'userPrefs': {'rice': True, 'people': 2}}, restaurants)
+        self.assertEqual(set(result['rankedIds']), {'mixed', 'rice'})
+        # Rice hard exclusions do not remove noodle shops from other tags/random.
+        noodle = dict(base, name='山西面馆')
+        with patch.object(server, 'request_jev', fake):
+            for prefs in ({'noodles': True, 'people': 2}, {'people': 2}):
+                self.assertEqual(server.choose({'userPrefs': prefs}, [noodle])['rankedIds'], ['a'])
+
     def test_western_fast_food_remains_available_under_other_tags(self):
         restaurant = dict(self.restaurants()[0], name='汉堡王(暖山生活店)')
         with patch.object(server, 'request_jev', return_value={'answers': {
@@ -149,7 +174,7 @@ class ScoringTests(unittest.TestCase):
             self.assertEqual(scoring.distance_to_score(value), expected)
 
     def restaurants(self):
-        return [{'id':'a','name':'A','cuisine':'面食','price':30,'minPeople':1,'maxPeople':4,'rating':4.7,'distance_m':300}, {'id':'b','name':'B','cuisine':'简餐','price':30,'minPeople':1,'maxPeople':4,'rating':3.5,'distance_m':2100}]
+        return [{'id':'a','name':'A','cuisine':'中餐','price':30,'minPeople':1,'maxPeople':4,'rating':4.7,'distance_m':300}, {'id':'b','name':'B','cuisine':'简餐','price':30,'minPeople':1,'maxPeople':4,'rating':3.5,'distance_m':2100}]
 
     def test_preferences_and_preserved_metadata(self):
         prefs, restaurants = server.valid_request({'preferences':{'people':1,'minBudget':15,'maxBudget':100,'preferredTag':'面食'},'restaurants':self.restaurants()})

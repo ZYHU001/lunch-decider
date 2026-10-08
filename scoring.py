@@ -23,6 +23,38 @@ def is_western_fast_food(restaurant):
     return (any(brand in name or brand in cuisine for brand in WESTERN_FAST_FOOD_BRANDS)
             or cuisine in {"西式快餐", "洋快餐", "westernfastfood", "americanfastfood"})
 
+
+NOODLE_SPECIALIST_MARKERS = (
+    "面馆", "面食", "拉面", "牛肉面", "刀削面", "热干面", "炸酱面", "油泼面",
+    "担担面", "烩面", "板面", "米线", "米粉", "螺蛳粉", "酸辣粉", "土豆粉",
+)
+RICE_MAIN_MARKERS = ("盖饭", "盖浇饭", "炒饭", "煲仔饭", "咖喱饭", "卤肉饭", "烧肉饭", "拌饭", "饭团", "饭面", "饭与面")
+
+
+def tag_candidate_allowed(restaurant, field):
+    """Apply explicit category conflicts before model judgment, without inventing menus."""
+    if field == "variety":
+        return not is_western_fast_food(restaurant)
+    if field == "rice":
+        # Branch/location text and incidental dishes must not redefine a noodle shop.
+        name = str(restaurant.get("name", "")).split("(")[0].split("（")[0]
+        cuisine = str(restaurant.get("cuisine", ""))
+        noodle_specialist = (any(marker in name for marker in NOODLE_SPECIALIST_MARKERS)
+                             or cuisine in {"面食", "面馆", "米线", "米粉"})
+        explicit_rice_main = any(marker in name or marker in cuisine for marker in RICE_MAIN_MARKERS)
+        if noodle_specialist and not explicit_rice_main:
+            return False
+    return True
+
+
+TAG_EVIDENCE_RULE = (
+    "Judge the restaurant's main, typical lunch identity and signature meals, not whether a matching item could exist somewhere on its menu. "
+    "Require explicit supporting evidence in the supplied cuisine, named dishes, or notes for a normal complete lunch matching this tag. "
+    "A secondary item, garnish, optional add-on, generic cuisine stereotype, restaurant name alone for preparation/nutrition, or imagined customization is insufficient. "
+    "If the primary meal contradicts the tag, or evidence is missing, ambiguous, or only incidental, the match MUST be below 0.6. "
+    "A match of 0.6 or above requires a clearly supported primary or signature lunch, not merely a possibility. "
+)
+
 def finite_number(value):
     if value is None or isinstance(value, bool):
         return None
@@ -63,15 +95,15 @@ def calculate_score(restaurant, jev_scores, user_prefs):
     return sum(values[key] * weight for key, weight in weights.items())
 
 NOUl_QUESTIONS = {
-    "rice": "Does this restaurant offer lunch meals where rice is the main staple, such as rice bowls, fried rice, claypot rice, curry rice, or dishes paired with rice? Merely having optional rice is weak evidence; look for a practical rice-based main meal.",
-    "noodles": "Does this restaurant offer lunch meals centered on wheat/flour-based noodles or dough foods, such as noodles, dumplings, wontons, steamed buns, or flatbreads? Small side portions do not strongly match. Rice noodles and rice vermicelli are not included in this tag.",
-    "soup": "Does this restaurant offer a practical lunch where drinkable soup or broth is an important part of the meal, or an explicit substantial soup pairing? Examples include noodle soup, rice-noodle soup, wonton soup, rice in soup, stewed-soup sets, and soup pots. Thick sauces, gravy, dry pots, and a small complimentary soup do not strongly match.",
-    "healthy": "Are this restaurant's main, typical lunch meals low-oil, low-salt, weight-management, or balanced healthy-style meals, such as light meals, steamed fish sets, blanched vegetables, or balanced meat-and-vegetable sets? Meat and fish are allowed; this does not require vegetarian food or salad. Judge the main meal rather than whether any healthy item might exist. A token salad, vegetables in a burger, optional substitutions, removing sauces, or imagined special orders do not establish a healthy main lunch. If the supplied dishes are mainly fried chicken, burgers, fries, or rich/oily meals without explicit evidence of a suitable healthy main meal, give a low match below 0.6. Insufficient evidence or a marketing label alone must not establish a match of 0.6 or higher. Judge the described meal style, not verified nutrition, medical benefits, hygiene, or food safety; do not invent calorie or nutrient values.",
-    "indulgent": "Does this restaurant offer high-calorie, fat-rich, or richly hearty lunch meals for indulgent enjoyment, such as fried chicken, fatty barbecue, cheese pizza, creamy pasta, or oil-rich hotpot? Heavy seasoning may support this tag, but strong chili, salt, or sourness alone does not establish indulgence. Lean or lightly prepared meat is not automatically indulgent. Do not invent measured calorie values.",
-    "heavy_flavor": "Does this restaurant offer meals with pronounced rich oil, salt, chili, numbing spice, or heavy sauces, judged in an everyday Chinese-food context? Examples include mala dry pots, heavily seasoned Sichuan/Hunan dishes, and rich stir-fries. Ordinary seasoning or mild savory flavor is weak evidence. This tag does not require meat, high calories, or chili: strongly oily, salty, or sauced non-spicy meals can match. There is no separate chili-level preference or score.",
-    "meat": "Does this restaurant offer lunch meals centered on substantial livestock or poultry meat for someone wanting to eat meat as the main attraction, such as chicken pots, barbecue, steak, rib pots, beef stew, or roast duck? Fish, shrimp, and other seafood do not count. Small amounts of shredded/minced meat or meat broth do not strongly match. Rice/noodle meals can match only when abundant meat is genuinely the main attraction. Lean meat can match without being indulgent or heavily seasoned.",
-    "variety": "Does this restaurant offer a practical change from everyday Chinese lunch dishes through a distinct non-Chinese meal style, such as Japanese sushi or set meals, Korean, Thai, Vietnamese, or non-fast-food Western meals? Exclude Western-style fast food, including Burger King, McDonald's, KFC, Subway, and similar burger/fried-chicken/sandwich fast-food chains. These do not match this tag, even though their cuisine is foreign; give them a variety match of 0. This exclusion does not apply to other tags, such as quick meals, meat, or indulgence. Japanese/Korean set meals are not excluded simply because they are served quickly. This is a broad exploration preference, not a request for a specific cuisine. Ordinary Chinese meals, including familiar regional Chinese cuisines, do not strongly match merely because they are spicy or have an unusual dish name. Do not invent the user's eating history.",
-    "quick_meal": "Does this restaurant offer practical quick individual lunch meals through fast-food, ready-to-serve, set-meal, or simple-meal formats, such as Chinese fast-food sets, boxed lunches, choose-your-dishes sets, burger sets, rice-ball sets, or simple rice bowls? Long-preparation meals, shared banquets, and lengthy dining formats are weak evidence. Quick meals need not be fried or unhealthy. Use available meal/service-format evidence; do not infer actual waiting times or guaranteed speed, and do not include travel distance in this tag.",
+    'rice': "Is rice the main staple in this restaurant's primary or signature lunch format, such as rice bowls, fried rice, claypot rice, curry rice, or a regular shared-dish lunch explicitly centered on rice? A noodle/rice-noodle specialist does not qualify because of one incidental rice bowl, optional steamed rice, or a possible stir-fry side. Rice noodles, rice vermicelli, rice cakes, and rice flour are not rice meals. A genuinely co-primary rice-and-noodle format needs explicit evidence; do not infer rice simply from a Chinese cuisine category.",
+    'noodles': 'Are wheat/flour noodles or dough foods the primary or signature lunch, such as noodles, dumplings, wontons, steamed buns, or flatbreads? A rice restaurant with an incidental noodle option, a hotpot with optional noodles, or a barbecue with a side bread does not qualify. Rice noodles, rice vermicelli, rice cakes and potato/glass noodles do not qualify. Wontons/dumplings must be a substantial main meal, not a small side.',
+    'soup': 'Is drinkable soup or broth a substantial, integral part of the primary or signature lunch, such as clearly identified soup noodles, rice-noodle soup, wonton soup, rice in soup, stewed-soup sets, or a soup-based pot intended for drinking? Dry noodles, dry pots, thick sauce, gravy, noodle-shop identity alone, generic hotpot broth used only for cooking, and a small free soup do not qualify. Require explicit soup/broth meal evidence, not an assumption that a restaurant can provide soup.',
+    'healthy': 'Do the primary or signature complete lunches have explicit low-oil/low-salt, light preparation, weight-management, or healthy-meal evidence? Steamed/blanched dishes or explicitly low-oil balanced sets can qualify; ordinary meat-and-vegetable balance alone cannot establish low oil or salt. Vegetables, lean meat, fish, soup, sushi, a light-meal marketing name, or a salad side alone do not qualify. Fried chicken, burgers, fries, rich sauces, and oily main meals must be below 0.6 unless a healthy complete meal is explicitly a primary/signature offering. Do not imagine removing sauce, substitutions or special orders. Judge documented meal style, not verified nutrition, hygiene, food safety or medical benefit; never invent nutrient/calorie values.',
+    'indulgent': 'Are the primary or signature lunches explicitly rich in fat, fried, cheese/cream-heavy, or otherwise richly hearty for indulgent enjoyment, such as fried chicken, fatty barbecue, cheese pizza, creamy pasta, or oil-rich hotpot? A small fried side, ordinary meal size, meat alone, or chili/salt/sourness alone does not qualify. Lean lightly prepared meat and ordinary noodles/rice do not qualify without evidence of rich preparation. Strong seasoning can support, but cannot replace, evidence of rich food. Do not invent measured calories.',
+    'heavy_flavor': 'Do the primary or signature meals have explicit pronounced oil, salt, chili, numbing spice, or concentrated sauce producing strong taste stimulation in an everyday Chinese-food context? Clearly described mala dry pots, heavily seasoned Sichuan/Hunan dishes, or rich oily/sauced stir-fries can qualify. Regional cuisine/name alone, ordinary savory seasoning, a dipping sauce, optional chili, a spicy side, or imagining extra spice does not qualify. Burgers, fried chicken or barbecue are not automatically Chinese-style heavy flavor. Meat and high calories are not required; strong oil/salt/sauce can qualify without chili. There is no separate chili score.',
+    'meat': 'Is a substantial portion of livestock or poultry meat the main attraction of the primary or signature lunch, such as chicken pots, barbecue, steak, rib pots, beef stew or roast duck? Fish, shrimp and seafood do not count. Meat broth, minced/shredded meat toppings, an ordinary burger patty, generic beef noodles, or dumpling fillings alone do not establish a meat-centered meal. Rice/noodle/burger meals qualify only with explicit substantial-meat portions that make meat the centerpiece, not merely a meat word in the dish name. Lean meat may qualify independently of indulgence or heavy flavor.',
+    'variety': "Is a distinct non-Chinese meal style the primary/signature lunch, such as Japanese sushi or set meals, Korean, Thai, Vietnamese, or non-fast-food Western meals? Ordinary Chinese dishes and familiar regional Chinese cuisines do not qualify because of a novel name or strong taste. One foreign-style side in an otherwise Chinese meal is insufficient. Exclude Western burger/fried-chicken/sandwich fast food including Burger King, McDonald's, KFC, Subway and similar chains: give match 0. Japanese/Korean set meals remain eligible even if served quickly. A fashionable/foreign-sounding shop name alone is insufficient. Do not invent the user's eating history or infer a specific requested cuisine.",
+    'quick_meal': 'Is the primary lunch service explicitly a practical complete individual meal, fast-food, ready-to-serve, boxed lunch, choose-your-dishes set, burger set, rice-ball set or simple rice-bowl format? A per-person price, small party capacity, one optional set or the fact that a meal can feed one person does not prove quick-meal service. Shared stir-fry dining, barbecue, hotpot, banquets or multi-course dining are not quick meals just because small portions might exist. Noodle/dumpling shops need evidence of a simple individual meal format, not assumed exact waiting times. Quick meals can be healthy; do not include travel distance or promise a waiting time.',
     "party_size_fit": "How well does this restaurant's meal and ordering format suit a lunch party of {people} people? As party size decreases, favor individual portions, fast-food formats, and complete per-person set meals; as party size increases, favor ordering multiple shared dishes, larger portions, and shareable platters or pots. For 1 person, strongly favor a complete individual lunch without having to order several shared dishes; for 2 people, individual sets remain a strong fit while small shareable meals can also fit. For 3-4 people, judge both individual and shared options flexibly; for 5 or more, increasingly favor practical shared dishes or large portions. These are soft preferences, not hard exclusions: a larger group may still fit individual sets, and a small group may fit appropriately sized shared meals. Consider portion format, ordering flexibility, and stated minimum/maximum party sizes. Do not assume a large portion is a banquet or that fast food cannot serve a group. Missing capacity does not prove enough seating; do not invent table sizes, seats, minimum spend, wait times, or portion quantities. Do not repeat travel distance, taste, or calories in this score.",
 }
 
@@ -85,6 +117,8 @@ def build_questions(restaurants, user_prefs):
             question_id = f"r{index}_{field}"
             if field in NOUl_QUESTIONS:
                 instruction = NOUl_QUESTIONS[field]
+                if field in SEMANTIC_FIELDS:
+                    instruction = TAG_EVIDENCE_RULE + instruction
                 if field == "party_size_fit":
                     instruction = instruction.format(people=user_prefs["people"])
                 questions[question_id] = {"type": "noul", "instructions": f"Evaluate only `{target}` from the state. {instruction} Tags are independent and may overlap; do not force exclusive categories. Base the judgment on its cuisine, dishes, party-size range, and notes. If evidence is insufficient, remain uncertain; do not invent restaurant facts."}

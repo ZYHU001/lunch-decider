@@ -8,7 +8,7 @@ import os
 import threading
 import time
 from concurrent.futures import ThreadPoolExecutor
-from scoring import TAG_FIELDS, SEMANTIC_FIELDS, build_weights, build_questions, calculate_score, finite_number, is_western_fast_food, MIN_TAG_MATCH
+from scoring import TAG_FIELDS, SEMANTIC_FIELDS, build_weights, build_questions, calculate_score, finite_number, tag_candidate_allowed, MIN_TAG_MATCH
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.error import HTTPError, URLError
@@ -138,10 +138,10 @@ def request_jev(payload):
 
 def choose(preferences, restaurants):
     user_prefs = preferences["userPrefs"]
-    if user_prefs.get("variety"):
-        restaurants = [r for r in restaurants if not is_western_fast_food(r)]
     weights = build_weights(user_prefs)
     active_tags = [field for field in SEMANTIC_FIELDS if user_prefs.get(field)]
+    restaurants = [r for r in restaurants
+                   if all(tag_candidate_allowed(r, field) for field in active_tags)]
     scores, detail = {}, {}
     model, used_jev = None, False
     # Large question sets can be disconnected upstream before Jev responds.

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "python3 build_static.py",
+  "outputDirectory": "public",
+  "functions": {
+    "api/*.py": {
+      "maxDuration": 300,
+      "includeFiles": "{server.py,scoring.py,beichen_restaurants_2km_full.json}"
+    }
+  }
+}

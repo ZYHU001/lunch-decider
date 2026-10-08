@@ -268,6 +268,9 @@ class Handler(BaseHTTPRequestHandler):
                     allowed_origins.add(f"http://{request_host}")
             except ValueError:
                 pass
+        # Vercel terminates HTTPS before forwarding to the Python function.
+        if os.environ.get("VERCEL") == "1" and request_host:
+            allowed_origins.add(f"https://{request_host}")
         if origin and origin not in allowed_origins:
             self.send_json(403, {"error": "请求来源无效。"})
             return

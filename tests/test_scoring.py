@@ -23,6 +23,36 @@ class ScoringTests(unittest.TestCase):
         self.assertAlmostEqual(scoring.rating_to_score(4.1), .5)
         self.assertEqual(scoring.rating_to_score(5), 1)
 
+    def test_low_tag_match_cannot_be_rescued_by_rating_distance_or_party_fit(self):
+        restaurants = [dict(self.restaurants()[0], id=str(i), rating=5, distance_m=0)
+                       for i in range(3)]
+        def fake(payload):
+            return {'answers': {
+                'r0_healthy': {'noul': 0}, 'r0_party_size_fit': {'noul': 1},
+                'r1_healthy': {'noul': .599}, 'r1_party_size_fit': {'noul': 1},
+                'r2_healthy': {'noul': .6}, 'r2_party_size_fit': {'noul': .2},
+            }}
+        with patch.object(server, 'request_jev', fake):
+            result = server.choose({'userPrefs': {'healthy': True, 'people': 3}}, restaurants)
+        self.assertEqual(result['rankedIds'], ['2'])
+        self.assertEqual(set(result['scores']), {'2'})
+        self.assertEqual(set(result['jevScores']), {'2'})
+
+    def test_all_tags_below_threshold_return_empty_success(self):
+        with patch.object(server, 'request_jev', return_value={'answers': {
+                'r0_meat': {'noul': .5}, 'r0_party_size_fit': {'noul': 1},
+                'r1_meat': {'noul': .2}, 'r1_party_size_fit': {'noul': 1}}}):
+            result = server.choose({'userPrefs': {'meat': True, 'people': 2}}, self.restaurants())
+        self.assertIsNone(result['choiceId'])
+        self.assertEqual(result['rankedIds'], [])
+        self.assertEqual(result['scores'], {})
+
+    def test_random_preference_has_no_tag_threshold(self):
+        with patch.object(server, 'request_jev', return_value={'answers': {
+                'r0_party_size_fit': {'noul': .1}, 'r1_party_size_fit': {'noul': .1}}}):
+            result = server.choose({'userPrefs': {'people': 2}}, self.restaurants())
+        self.assertEqual(result['rankedIds'], ['a', 'b'])
+
     def test_variety_excludes_western_fast_food_before_model(self):
         base = self.restaurants()[0]
         restaurants = [dict(base, id=str(i), name=name) for i, name in enumerate([
@@ -37,8 +67,9 @@ class ScoringTests(unittest.TestCase):
         self.assertEqual(result['rankedIds'], ['4'])
         self.assertEqual(set(result['scores']), {'4'})
         with patch.object(server, 'request_jev', side_effect=AssertionError('no candidates')):
-            with self.assertRaises(RuntimeError):
-                server.choose({'userPrefs': {'variety': True, 'people': 2}}, restaurants[:4])
+            empty = server.choose({'userPrefs': {'variety': True, 'people': 2}}, restaurants[:4])
+            self.assertEqual(empty['rankedIds'], [])
+            self.assertIsNone(empty['choiceId'])
 
     def test_western_fast_food_remains_available_under_other_tags(self):
         restaurant = dict(self.restaurants()[0], name='汉堡王(暖山生活店)')
@@ -137,7 +168,7 @@ class ScoringTests(unittest.TestCase):
             }}
         with patch.object(server, 'request_jev', fake):
             result = server.choose(prefs, self.restaurants())
-        self.assertEqual(result['rankedIds'], ['a', 'b'])
+        self.assertEqual(result['rankedIds'], ['a'])
         self.assertEqual(result['choiceId'], 'a')
         self.assertNotIn('probabilities', result)
         self.assertAlmostEqual(result['scores']['a'], (0.9*40 + .8*10 + 25 + 15)/90)

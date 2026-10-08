@@ -8,7 +8,7 @@ import os
 import threading
 import time
 from concurrent.futures import ThreadPoolExecutor
-from scoring import TAG_FIELDS, SEMANTIC_FIELDS, build_weights, build_questions, calculate_score, finite_number, is_western_fast_food
+from scoring import TAG_FIELDS, SEMANTIC_FIELDS, build_weights, build_questions, calculate_score, finite_number, is_western_fast_food, MIN_TAG_MATCH
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.error import HTTPError, URLError
@@ -140,9 +140,8 @@ def choose(preferences, restaurants):
     user_prefs = preferences["userPrefs"]
     if user_prefs.get("variety"):
         restaurants = [r for r in restaurants if not is_western_fast_food(r)]
-        if not restaurants:
-            raise RuntimeError("排除洋快餐后，当前条件下没有可推荐的餐厅，请调整预算或偏好。")
     weights = build_weights(user_prefs)
+    active_tags = [field for field in SEMANTIC_FIELDS if user_prefs.get(field)]
     scores, detail = {}, {}
     model, used_jev = None, False
     # Large question sets can be disconnected upstream before Jev responds.
@@ -174,6 +173,8 @@ def choose(preferences, restaurants):
                 if value is None or not 0 <= value <= 1:
                     raise RuntimeError("Jev 返回了缺失或无效的评分，请重试。")
                 jev_scores[field] = value
+            if any(jev_scores[field] < MIN_TAG_MATCH for field in active_tags):
+                continue
             batch_scores.append((restaurant["id"], calculate_score(restaurant, jev_scores, user_prefs), jev_scores))
         return batch_model, batch_scores
 
@@ -185,7 +186,7 @@ def choose(preferences, restaurants):
                 scores[rid] = score
                 detail[rid] = jev_scores
     ranked_ids = sorted(scores, key=lambda rid: (-scores[rid], rid))
-    return {"choiceId": ranked_ids[0], "rankedIds": ranked_ids[:15], "scores": scores,
+    return {"choiceId": ranked_ids[0] if ranked_ids else None, "rankedIds": ranked_ids[:15], "scores": scores,
             "weights": weights, "jevScores": detail, "source": "jev-weighted" if used_jev else "local-weighted", "model": model}
 
 

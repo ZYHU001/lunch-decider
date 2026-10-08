@@ -231,10 +231,10 @@
       const response=await fetch('/api/choose',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({preferences:pref,restaurants:eligible.map(item=>item.restaurant)})});
       const data=await response.json();if(!response.ok)throw Error(data.error||'暂时无法完成选择，请重试。');
       if(generation===selectionGeneration){
-        const selected=eligible.find(item=>item.restaurant.id===data.choiceId);
-        if(!selected)throw Error('Jev 返回了无法识别的餐厅。');
+        if(!Array.isArray(data.rankedIds))throw Error('推荐结果格式无效，请重试。');
         const byId=new Map(eligible.map(item=>[item.restaurant.id,item]));
-        const ordered=Array.isArray(data.rankedIds)&&data.rankedIds.length>5?data.rankedIds.map(id=>byId.get(id)).filter(Boolean):[selected,...eligible.filter(item=>item!==selected).sort((a,b)=>Number(data.scores?.[b.restaurant.id]??0)-Number(data.scores?.[a.restaurant.id]??0)||a.restaurant.id.localeCompare(b.restaurant.id))];
+        const ordered=data.rankedIds.map(id=>byId.get(id)).filter(Boolean);
+        if(!ordered.length){showMessage('没有找到符合偏好的餐厅','试试其他偏好，或调整预算。');return;}
         recommendationBatch={key,ranked:ordered.slice(0,8),result:data};renderPage();
       }
     }catch(error){if(generation===selectionGeneration)showMessage('这次没有选出来',error.message||'请稍后重试。');}

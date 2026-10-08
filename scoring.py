@@ -10,6 +10,18 @@ TAG_FIELDS = {
 }
 SEMANTIC_FIELDS = tuple(TAG_FIELDS.values())
 
+WESTERN_FAST_FOOD_BRANDS = (
+    "汉堡王", "麦当劳", "肯德基", "赛百味", "burgerking", "mcdonald", "kfc", "subway",
+)
+
+
+def is_western_fast_food(restaurant):
+    """Recognize explicit brands/categories; generic fast food is not enough."""
+    name = "".join(str(restaurant.get("name", "")).casefold().split())
+    cuisine = "".join(str(restaurant.get("cuisine", "")).casefold().split())
+    return (any(brand in name or brand in cuisine for brand in WESTERN_FAST_FOOD_BRANDS)
+            or cuisine in {"西式快餐", "洋快餐", "westernfastfood", "americanfastfood"})
+
 def finite_number(value):
     if value is None or isinstance(value, bool):
         return None
@@ -57,7 +69,7 @@ NOUl_QUESTIONS = {
     "indulgent": "Does this restaurant offer high-calorie, fat-rich, or richly hearty lunch meals for indulgent enjoyment, such as fried chicken, fatty barbecue, cheese pizza, creamy pasta, or oil-rich hotpot? Heavy seasoning may support this tag, but strong chili, salt, or sourness alone does not establish indulgence. Lean or lightly prepared meat is not automatically indulgent. Do not invent measured calorie values.",
     "heavy_flavor": "Does this restaurant offer meals with pronounced rich oil, salt, chili, numbing spice, or heavy sauces, judged in an everyday Chinese-food context? Examples include mala dry pots, heavily seasoned Sichuan/Hunan dishes, and rich stir-fries. Ordinary seasoning or mild savory flavor is weak evidence. This tag does not require meat, high calories, or chili: strongly oily, salty, or sauced non-spicy meals can match. There is no separate chili-level preference or score.",
     "meat": "Does this restaurant offer lunch meals centered on substantial livestock or poultry meat for someone wanting to eat meat as the main attraction, such as chicken pots, barbecue, steak, rib pots, beef stew, or roast duck? Fish, shrimp, and other seafood do not count. Small amounts of shredded/minced meat or meat broth do not strongly match. Rice/noodle meals can match only when abundant meat is genuinely the main attraction. Lean meat can match without being indulgent or heavily seasoned.",
-    "variety": "Does this restaurant offer a practical change from everyday Chinese lunch dishes through a distinct non-Chinese meal style, such as Japanese sushi or set meals, Korean, Thai, Vietnamese, or Western food? This is a broad exploration preference, not a request for a specific cuisine. Ordinary Chinese meals, including familiar regional Chinese cuisines, do not strongly match merely because they are spicy or have an unusual dish name. Do not invent the user's eating history.",
+    "variety": "Does this restaurant offer a practical change from everyday Chinese lunch dishes through a distinct non-Chinese meal style, such as Japanese sushi or set meals, Korean, Thai, Vietnamese, or non-fast-food Western meals? Exclude Western-style fast food, including Burger King, McDonald's, KFC, Subway, and similar burger/fried-chicken/sandwich fast-food chains. These do not match this tag, even though their cuisine is foreign; give them a variety match of 0. This exclusion does not apply to other tags, such as quick meals, meat, or indulgence. Japanese/Korean set meals are not excluded simply because they are served quickly. This is a broad exploration preference, not a request for a specific cuisine. Ordinary Chinese meals, including familiar regional Chinese cuisines, do not strongly match merely because they are spicy or have an unusual dish name. Do not invent the user's eating history.",
     "quick_meal": "Does this restaurant offer practical quick individual lunch meals through fast-food, ready-to-serve, set-meal, or simple-meal formats, such as Chinese fast-food sets, boxed lunches, choose-your-dishes sets, burger sets, rice-ball sets, or simple rice bowls? Long-preparation meals, shared banquets, and lengthy dining formats are weak evidence. Quick meals need not be fried or unhealthy. Use available meal/service-format evidence; do not infer actual waiting times or guaranteed speed, and do not include travel distance in this tag.",
     "party_size_fit": "How well does this restaurant's meal and ordering format suit a lunch party of {people} people? As party size decreases, favor individual portions, fast-food formats, and complete per-person set meals; as party size increases, favor ordering multiple shared dishes, larger portions, and shareable platters or pots. For 1 person, strongly favor a complete individual lunch without having to order several shared dishes; for 2 people, individual sets remain a strong fit while small shareable meals can also fit. For 3-4 people, judge both individual and shared options flexibly; for 5 or more, increasingly favor practical shared dishes or large portions. These are soft preferences, not hard exclusions: a larger group may still fit individual sets, and a small group may fit appropriately sized shared meals. Consider portion format, ordering flexibility, and stated minimum/maximum party sizes. Do not assume a large portion is a banquet or that fast food cannot serve a group. Missing capacity does not prove enough seating; do not invent table sizes, seats, minimum spend, wait times, or portion quantities. Do not repeat travel distance, taste, or calories in this score.",
 }

@@ -23,6 +23,32 @@ class ScoringTests(unittest.TestCase):
         self.assertAlmostEqual(scoring.rating_to_score(4.1), .5)
         self.assertEqual(scoring.rating_to_score(5), 1)
 
+    def test_variety_excludes_western_fast_food_before_model(self):
+        base = self.restaurants()[0]
+        restaurants = [dict(base, id=str(i), name=name) for i, name in enumerate([
+            '汉堡王(暖山生活店)', '麦当劳(奥运村店)', '肯德基车速取餐点',
+            '赛百味 SUBWAY', '日式定食',
+        ])]
+        def fake(payload):
+            self.assertEqual([r['name'] for r in payload['state']['restaurants'].values()], ['日式定食'])
+            return {'answers': {'r0_variety': {'noul': .9}, 'r0_party_size_fit': {'noul': .8}}}
+        with patch.object(server, 'request_jev', fake):
+            result = server.choose({'userPrefs': {'variety': True, 'people': 2}}, restaurants)
+        self.assertEqual(result['rankedIds'], ['4'])
+        self.assertEqual(set(result['scores']), {'4'})
+        with patch.object(server, 'request_jev', side_effect=AssertionError('no candidates')):
+            with self.assertRaises(RuntimeError):
+                server.choose({'userPrefs': {'variety': True, 'people': 2}}, restaurants[:4])
+
+    def test_western_fast_food_remains_available_under_other_tags(self):
+        restaurant = dict(self.restaurants()[0], name='汉堡王(暖山生活店)')
+        with patch.object(server, 'request_jev', return_value={'answers': {
+                'r0_quick_meal': {'noul': .9}, 'r0_party_size_fit': {'noul': .9}}}):
+            result = server.choose({'userPrefs': {'quick_meal': True, 'people': 2}}, [restaurant])
+        self.assertEqual(result['rankedIds'], ['a'])
+        self.assertFalse(scoring.is_western_fast_food({'name': '日式定食', 'cuisine': '快餐厅'}))
+        self.assertFalse(scoring.is_western_fast_food({'name': '韩式拌饭', 'cuisine': '韩式快餐'}))
+
     def test_legacy_spice_preferences_are_ignored(self):
         payload = {'preferences': {'people': 3, 'minBudget': 15, 'maxBudget': 100,
                                    'preferredTag': '重口的'},

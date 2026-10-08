@@ -8,7 +8,7 @@ import os
 import threading
 import time
 from concurrent.futures import ThreadPoolExecutor
-from scoring import TAG_FIELDS, SEMANTIC_FIELDS, build_weights, build_questions, calculate_score, finite_number
+from scoring import TAG_FIELDS, SEMANTIC_FIELDS, build_weights, build_questions, calculate_score, finite_number, is_western_fast_food
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.error import HTTPError, URLError
@@ -138,6 +138,10 @@ def request_jev(payload):
 
 def choose(preferences, restaurants):
     user_prefs = preferences["userPrefs"]
+    if user_prefs.get("variety"):
+        restaurants = [r for r in restaurants if not is_western_fast_food(r)]
+        if not restaurants:
+            raise RuntimeError("排除洋快餐后，当前条件下没有可推荐的餐厅，请调整预算或偏好。")
     weights = build_weights(user_prefs)
     scores, detail = {}, {}
     model, used_jev = None, False

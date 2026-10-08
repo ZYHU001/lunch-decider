@@ -1,9 +1,8 @@
 (() => {
   const {getRestaurants, loadRestaurants, escapeHtml} = window.LunchStore;
   const $ = id => document.getElementById(id);
-  const people = $('people'), minPrice = $('price-min'), maxPrice = $('price-max'), spice = $('spice');
-  const tags = ['随机','米饭','面食','热乎的','干净的','放纵的','重口的','吃肉','地方菜'];
-  const spiceLabels = ['随机','😐','🌶️','🌶️🌶️','🔥🔥🔥'];
+  const people = $('people'), minPrice = $('price-min'), maxPrice = $('price-max');
+  const tags = ['随机','米饭','面食','带汤的','健康的','放纵的','重口的','吃肉','换个口味','快餐'];
   let chosenTag = '随机', selectionGeneration = 0, shownIds = new Set();
   const departedPileIds=new Set();
   let recommendationBatch=null,isChoosing=false,activePreferencesKey=null;
@@ -36,31 +35,13 @@
     fill.style.width=start===0?thumbCenter(end):`calc(${(end-start)*100}% - ${(end-start)*parseFloat(getComputedStyle($('lunch-app')).getPropertyValue('--thumb'))}px)`;
     fill.style.borderRadius=start===0?'999px 0 0 999px':'0';paintDots(minPrice,start,end);
   }
-  function updateSpice() {
-    const rawValue=Number(spice.value),value=Math.round(rawValue),position=rawValue/4;
-    $('spice-value').textContent=spiceLabels[value];
-    spice.setAttribute('aria-valuetext',value===0?'随机':value===1?'不辣':`${value-1} 级辣度`);
-    $('spice-fill').style.width=thumbCenter(position);paintDots(spice,0,position);
-  }
-  let spiceSnapFrame=0;
-  function snapSpice(){
-    cancelAnimationFrame(spiceSnapFrame);
-    const from=Number(spice.value),to=Math.round(from),start=performance.now();
-    if(matchMedia('(prefers-reduced-motion: reduce)').matches){spice.value=to;updateSpice();return;}
-    function frame(now){
-      const progress=Math.min(1,(now-start)/120);
-      spice.value=from+(to-from)*(1-Math.pow(1-progress,3));updateSpice();
-      if(progress<1)spiceSnapFrame=requestAnimationFrame(frame);
-    }
-    spiceSnapFrame=requestAnimationFrame(frame);
-  }
-  function syncSliders(){updatePeople();updatePrice('max');updateSpice();}
+  function syncSliders(){updatePeople();updatePrice('max');}
   function renderTags(){
-    $('cuisine-options').innerHTML=tags.map(tag=>`<button type="button" class="choice-chip${tag===chosenTag?' is-selected':''}" data-tag="${tag}" aria-pressed="${tag===chosenTag}">${tag}</button>`).join('');
+    $('cuisine-options').innerHTML=[tags.slice(0,5),tags.slice(5)].map(row=>`<div class="tag-row">${row.map(tag=>`<button type="button" class="choice-chip${tag===chosenTag?' is-selected':''}" style="--chip-weight:${tag.length===4?1.45:tag.length===3?1.15:1}" data-tag="${tag}" aria-pressed="${tag===chosenTag}">${tag}</button>`).join('')}</div>`).join('');
   }
-  function preferences(){return {people:Number(people.value),minBudget:Number(minPrice.value),maxBudget:Number(maxPrice.value),spice:Math.round(Number(spice.value))-1,cuisine:chosenTag==='面食'?'面食':'',preferredTag:chosenTag==='随机'?'':chosenTag};}
+  function preferences(){return {people:Number(people.value),minBudget:Number(minPrice.value),maxBudget:Number(maxPrice.value),cuisine:'',preferredTag:chosenTag==='随机'?'':chosenTag};}
   function evaluate(restaurants,pref){
-    const eligible=[],excluded={people:0,price:0,spice:0};
+    const eligible=[],excluded={people:0,price:0};
     for(const restaurant of restaurants){
       if((restaurant.minPeople!=null&&pref.people<restaurant.minPeople)||(restaurant.maxPeople!=null&&pref.people>restaurant.maxPeople)){excluded.people++;continue;}
       if(restaurant.price==null||restaurant.price<pref.minBudget||restaurant.price>pref.maxBudget){excluded.price++;continue;}
@@ -244,7 +225,7 @@
     const pref=preferences(),key=JSON.stringify(pref);
     recommendationBatch=null;
     const restaurants=getRestaurants(),{eligible}=evaluate(restaurants,pref),generation=++selectionGeneration;
-    if(!eligible.length){showMessage('没有找到合适的餐厅',restaurants.length?'调整人数、预算或辣度后再试。':'当前没有餐厅资料。');updateChooseButton();return;}
+    if(!eligible.length){showMessage('没有找到合适的餐厅',restaurants.length?'调整人数或预算后再试。':'当前没有餐厅资料。');updateChooseButton();return;}
     isChoosing=true;activePreferencesKey=key;updateChooseButton();showMessage('别急，找饭中……','');
     try{
       const response=await fetch('/api/choose',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({preferences:pref,restaurants:eligible.map(item=>item.restaurant)})});
@@ -281,9 +262,7 @@
     if(cardElement&&(event.key==='Enter'||event.key===' ')){event.preventDefault();selectRestaurant(cardElement);return;}
     if(event.key==='ArrowLeft'||event.key==='ArrowRight'){event.preventDefault();const cards=carousel.querySelectorAll('.restaurant-card');const stride=cards.length>1?cards[1].offsetLeft-cards[0].offsetLeft:carousel.clientWidth;carousel.scrollBy({left:(event.key==='ArrowRight'?1:-1)*stride,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});}
   });
-  people.addEventListener('input',updatePeople);minPrice.addEventListener('input',()=>updatePrice('min'));maxPrice.addEventListener('input',()=>updatePrice('max'));spice.addEventListener('input',()=>{cancelAnimationFrame(spiceSnapFrame);updateSpice();});
-  spice.addEventListener('change',snapSpice);
-  spice.addEventListener('keydown',event=>{const moves={ArrowLeft:-1,ArrowDown:-1,ArrowRight:1,ArrowUp:1};if(event.key in moves||event.key==='Home'||event.key==='End'){event.preventDefault();cancelAnimationFrame(spiceSnapFrame);spice.value=event.key==='Home'?0:event.key==='End'?4:Math.max(0,Math.min(4,Math.round(Number(spice.value))+moves[event.key]));updateSpice();}});
+  people.addEventListener('input',updatePeople);minPrice.addEventListener('input',()=>updatePrice('min'));maxPrice.addEventListener('input',()=>updatePrice('max'));
   $('cuisine-options').addEventListener('click',event=>{const button=event.target.closest('button[data-tag]');if(!button)return;chosenTag=button.dataset.tag;renderTags();resetForNewPreferences();});
   $('preference-form').addEventListener('input',resetForNewPreferences);
   $('preference-form').addEventListener('submit',chooseRestaurant);window.addEventListener('resize',()=>{cancelFlights();syncSliders();});window.addEventListener('pageshow',()=>{renderTags();renderPile();});

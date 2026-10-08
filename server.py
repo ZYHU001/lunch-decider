@@ -52,11 +52,10 @@ def valid_request(data: object) -> tuple[dict, list[dict]]:
         people = int(prefs["people"])
         min_budget = int(prefs["minBudget"])
         max_budget = int(prefs["maxBudget"])
-        spice = int(prefs["spice"])
     except (KeyError, TypeError, ValueError):
         raise ValueError("用餐条件无效。") from None
     cuisine = prefs.get("cuisine", "")
-    if not (1 <= people <= 100 and 5 <= min_budget < max_budget <= 150 and -1 <= spice <= 3
+    if not (1 <= people <= 100 and 5 <= min_budget < max_budget <= 150
             and isinstance(cuisine, str) and len(cuisine) <= 30):
         raise ValueError("用餐条件无效。")
     preferred_tag = prefs.get("preferredTag", "")
@@ -72,7 +71,6 @@ def valid_request(data: object) -> tuple[dict, list[dict]]:
             price = finite_number(item.get("price"))
             min_people = optional_number(item.get("minPeople"), 1, 100)
             max_people = optional_number(item.get("maxPeople"), 1, 100)
-            heat = optional_number(item.get("spice"), 0, 5)
         except (KeyError, TypeError, ValueError):
             raise ValueError("餐厅资料无效。") from None
         dishes, notes = item.get("dishes", ""), item.get("notes", "")
@@ -87,7 +85,7 @@ def valid_request(data: object) -> tuple[dict, list[dict]]:
             raise ValueError("餐厅资料与用餐条件不符。")
         seen.add(rid)
         clean.append({"id": rid, "name": name.strip(), "cuisine": kind.strip(), "price": price,
-                      "minPeople": min_people, "maxPeople": max_people, "spice": heat,
+                      "minPeople": min_people, "maxPeople": max_people,
                       "dishes": dishes.strip(), "notes": notes.strip(),
                       "rating": optional_number(item.get("rating"), 0, 5),
                       "distance_m": optional_number(item.get("distance_m"), 0, 1_000_000)})
@@ -95,9 +93,9 @@ def valid_request(data: object) -> tuple[dict, list[dict]]:
     tag_field = TAG_FIELDS.get(preferred_tag)
     if tag_field:
         user_prefs[tag_field] = True
-    user_prefs.update({"solo": people == 1, "spiciness": None if spice == -1 else spice})
+    user_prefs.update({"people": people})
     return {"userPrefs": user_prefs, "people": people, "minBudget": min_budget, "maxBudget": max_budget,
-            "spice": spice, "cuisine": cuisine.strip(), "preferredTag": preferred_tag.strip()}, clean
+            "cuisine": cuisine.strip(), "preferredTag": preferred_tag.strip()}, clean
 
 
 def optional_number(value, low, high):
@@ -168,9 +166,8 @@ def choose(preferences, restaurants):
                 answer = answers.get(f"r{index}_{field}", {})
                 if not isinstance(answer, dict):
                     raise RuntimeError("Jev 返回了无法读取的评分，请重试。")
-                value = finite_number(answer.get("score" if field == "spiciness" else "noul"))
-                upper = 5 if field == "spiciness" else 1
-                if value is None or not 0 <= value <= upper:
+                value = finite_number(answer.get("noul"))
+                if value is None or not 0 <= value <= 1:
                     raise RuntimeError("Jev 返回了缺失或无效的评分，请重试。")
                 jev_scores[field] = value
             batch_scores.append((restaurant["id"], calculate_score(restaurant, jev_scores, user_prefs), jev_scores))
@@ -206,7 +203,7 @@ def load_dataset():
                             "price": optional_number(row.get("average_cost_yuan"), 0, 10000),
                             "rating": optional_number(row.get("rating"), 0, 5),
                             "distance_m": optional_number(row.get("distance_m"), 0, 1_000_000),
-                            "minPeople": None, "maxPeople": None, "spice": None,
+                            "minPeople": None, "maxPeople": None,
                             "dishes": "、".join(str(tag) for tag in tags)[:200],
                             "notes": notes[:300], "photo_url": str(row.get("photo_url") or "")})
     return {"center": data.get("center"), "restaurants": restaurants}

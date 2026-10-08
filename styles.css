@@ -1,0 +1,142 @@
+:root{--paper:#fffefa;--block-radius:16px;--surface:#fff;--ink:#29261f;--muted:#776f60;--accent:#ffb900;--selected:#ffe4a0;--line:#e8decb;--track:#38342d;--amber:#855600;--thumb:44px;--track-height:36px;font-family:-apple-system,BlinkMacSystemFont,"SF Pro","Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif;color:var(--ink);background:var(--paper);font-synthesis:none}
+*{box-sizing:border-box}body{margin:0}button,input{font:inherit}button{cursor:pointer}button:disabled{cursor:wait;opacity:.65}button:focus-visible,.card-carousel:focus-visible{outline:3px solid var(--accent);outline-offset:3px}h1,h2,p{margin:0}[hidden]{display:none!important}
+.lunch-app{width:min(100%,375px);min-height:100svh;margin:auto;padding:calc(36px + env(safe-area-inset-top)) 13px calc(20px + env(safe-area-inset-bottom));display:flex;flex-direction:column;gap:0}
+.intro-block{height:66px;flex:none;position:relative;margin-bottom:21px}.intro-copy{position:relative;z-index:1;padding-top:3px}.brand{display:flex;align-items:center;gap:3.2px;width:max-content;padding:4.8px;margin-bottom:3px}.brand img:first-child{width:12px;height:12px}.brand img:last-child{width:50.4px;height:8px}h1{font-size:30px;font-weight:700;line-height:34px;letter-spacing:-.5px;white-space:nowrap}.lunch-doodle{position:absolute;width:105px;height:66px;object-fit:contain;right:0;top:0;mix-blend-mode:multiply}
+.decision-form{display:flex;flex-direction:column;gap:12px;flex:none}.primary-button{height:48px;flex:none;border:0;border-radius:12px;color:var(--ink);background:var(--accent);font-size:16px;font-weight:600;margin-bottom:1px;transition:background .2s,transform .15s}.primary-button:hover{background:#ffca3b}.primary-button:active{transform:scale(.985)}.input-block{background:#f7f5ef;border-radius:var(--block-radius);padding:11.5px 14.5px 10px;flex:none;border:0}.block-head{display:flex;align-items:center;justify-content:space-between;height:20px;margin-bottom:6px;gap:8px}.block-head label,.block-head h2{font-size:15px;font-weight:500;line-height:20px}.block-head output{font-size:16px;font-weight:700;color:var(--amber);font-variant-numeric:tabular-nums}.block-aside{font-size:11px;color:var(--muted)}.people-block,.spice-block{height:84px}.price-block{height:118px}.cuisine-block{padding:12px 14.5px;height:96px}.cuisine-options{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 7px}.choice-chip{width:58px;height:32px;padding:0;border:1px solid var(--line);border-radius:10px;background:var(--paper);color:#746a57;font-size:12px;font-weight:500;white-space:nowrap}.choice-chip.is-selected{background:var(--selected);color:var(--amber);border-color:transparent;font-weight:700}.choice-chip:hover{background:#fff1d8}.price-values{display:flex;gap:8px;margin-bottom:8px}.price-value{display:flex;justify-content:space-between;align-items:center;gap:8px;flex:1;min-width:0;height:29px;padding:0 9px;border:1px solid #ecd8ac;border-radius:10px;background:var(--paper);font-size:11px;color:var(--muted)}.price-value output{font-size:14px;font-weight:600;font-variant-numeric:tabular-nums;color:var(--ink)}
+.slider-surface{position:relative;height:var(--track-height);border-radius:999px;background:var(--track);margin:0 2px;isolation:isolate}.slider-fill{position:absolute;inset:0 auto 0 0;background:var(--accent);border-radius:999px 0 0 999px;z-index:0;pointer-events:none}.slider-dots{position:absolute;inset:0 calc(var(--thumb)/2 - 2.5px);display:flex;align-items:center;justify-content:space-between;z-index:1;pointer-events:none}.slider-dots i{width:5px;height:5px;border-radius:50%;background:#a59c8a}.slider-dots i.is-active{background:#ffdb70}.range-input{position:absolute;inset:0;width:100%;height:var(--track-height);margin:0;background:transparent;appearance:none;-webkit-appearance:none;z-index:2;cursor:grab;touch-action:pan-y}.range-input::-webkit-slider-runnable-track{height:var(--track-height);background:transparent}.range-input::-moz-range-track{height:var(--track-height);background:transparent}.range-input::-webkit-slider-thumb{appearance:none;-webkit-appearance:none;width:var(--thumb);height:var(--thumb);margin-top:calc((var(--track-height) - var(--thumb))/2);background:white;border:1px solid #ded4bd;border-radius:50%;box-shadow:0 1px 3px #3f301626}.range-input::-moz-range-thumb{width:var(--thumb);height:var(--thumb);background:white;border:1px solid #ded4bd;border-radius:50%;box-shadow:0 1px 3px #3f301626;box-sizing:border-box}.range-input:focus-visible{outline:0}.range-input:focus-visible::-webkit-slider-thumb{outline:3px solid var(--accent);outline-offset:2px}.range-input:focus-visible::-moz-range-thumb{outline:3px solid var(--accent);outline-offset:2px}.dual-input{pointer-events:none}.dual-input::-webkit-slider-thumb{pointer-events:auto}.dual-input::-moz-range-thumb{pointer-events:auto}#price-min{z-index:3}#price-max{z-index:4}#spice-value{font-size:12px;white-space:nowrap}
+.recommendations{height:176px;flex:none;margin-bottom:8px;position:relative}.card-carousel{height:176px;display:flex;align-items:flex-start;overflow-x:auto;overflow-y:hidden;padding:8px 80px;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;scrollbar-width:none;touch-action:pan-x;cursor:grab}.card-carousel::-webkit-scrollbar{display:none}.card-carousel.dragging{scroll-snap-type:none;cursor:grabbing;user-select:none}.restaurant-card{width:148px;height:160px;flex:none;background:var(--surface);border-radius:16px;padding:6px;display:flex;flex-direction:column;gap:8px;box-shadow:0 5px 14px #3f30161f;scroll-snap-align:center;position:relative;overflow:hidden}.card-carousel .restaurant-card+.restaurant-card{margin-left:-16px;margin-top:4px}.restaurant-card.is-selected{background:var(--selected)}.card-photo{height:100px;flex:none;border-radius:11px;overflow:hidden;position:relative;background:#e8decb}.card-photo img{position:absolute;top:0;left:0;width:100%;height:181.49%;object-fit:cover;user-select:none;pointer-events:none}.card-info{padding:0 12px 0 4px;min-width:0}.card-name{display:block;font-weight:700;font-size:14px;line-height:20px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.card-meta{display:flex;justify-content:space-between;align-items:center;height:18px;font-size:11px;color:var(--muted);gap:2px;white-space:nowrap}.card-rating{display:flex;align-items:center;gap:2px;color:var(--amber);font-size:12px;font-weight:600}.card-rating img{width:10.4616px;height:9.94959px}.card-rating.is-missing{font-size:9px;color:var(--muted)}.selection-status{position:absolute;inset:0;display:none;align-items:center;justify-content:center;padding:15px;text-align:center;font-size:13px;line-height:1.6;white-space:pre-line;color:var(--muted);background:#f7f5ef;border-radius:16px}.recommendations.has-message .selection-status{display:flex}.restaurant-pile{position:relative;height:116px;flex:none;margin-top:auto;padding-top:18px;overflow:hidden;pointer-events:none}.pile-card{position:absolute;top:var(--y,18px);left:var(--x);transform:rotate(var(--rotation));width:34.533px;height:34.533px;overflow:visible}.pile-card .restaurant-card{transform:scale(.233333);transform-origin:top left}
+.lunch-app.has-results{--thumb:34px;--track-height:28px}.has-results .intro-block{margin-bottom:8px}.has-results .decision-form{gap:8px}.has-results .primary-button{height:42px;margin-bottom:2px}.has-results .cuisine-block{height:82px;padding-top:6px;padding-bottom:6px}.has-results .cuisine-options{row-gap:6px}.has-results .people-block,.has-results .spice-block{height:66px;padding-top:6px;padding-bottom:8px}.has-results .price-block{height:96px;padding-top:6px;padding-bottom:8px}.has-results .block-head{margin-bottom:4px;height:18px}.has-results .block-head h2,.has-results .block-head label{font-size:13px}.has-results .price-values{margin-bottom:8px}.has-results .price-value{height:26px}.has-results .restaurant-pile{height:78px;margin-top:auto}.has-results .price-value output{font-size:13px}
+@media(min-width:600px){body{background:#f4f1e9}.lunch-app{margin:24px auto;min-height:812px;background:var(--paper);border-radius:28px;box-shadow:0 12px 50px #3f301615}}
+@media(max-width:374px){.lunch-app{padding-left:10px;padding-right:10px}h1{font-size:27px}.lunch-doodle{width:88px}.cuisine-block{padding-left:8px;padding-right:8px}.choice-chip{width:calc((100% - 28px)/5);font-size:11px}.block-aside{font-size:10px}}
+@media(max-height:760px) and (max-width:599px){.lunch-app{padding-top:16px;padding-bottom:12px}.has-results .restaurant-pile{height:58px}.has-results .card-carousel .restaurant-card{height:146px}.has-results .card-carousel .card-photo{height:86px}.has-results .recommendations,.has-results .card-carousel{height:162px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+
+/* Restaurant bodies occupy the page behind opaque controls. */
+.lunch-app{position:relative;isolation:isolate;overflow:hidden}
+.lunch-app::after{content:"";height:116px;flex:none;margin-top:auto}
+.lunch-app.has-results::after{height:78px}
+.restaurant-pile,.has-results .restaurant-pile{position:absolute;inset:0;width:100%;height:100%;margin:0;padding:0;overflow:hidden;pointer-events:none;z-index:1}
+.pile-card{top:0;left:0;transform-origin:center;will-change:transform;pointer-events:auto;touch-action:none;user-select:none;-webkit-user-select:none;cursor:grab}
+.pile-card.is-dragging{cursor:grabbing;z-index:2}
+.pile-card .restaurant-card{pointer-events:none}
+.intro-block{z-index:0;background:var(--paper);pointer-events:none}
+.decision-form{position:relative;z-index:3;pointer-events:none}
+.decision-form>.input-block,.decision-form>.primary-button{pointer-events:auto}
+.recommendations{z-index:3;pointer-events:none}
+.card-carousel,.selection-status{pointer-events:auto}
+@media(max-height:760px) and (max-width:599px){.lunch-app.has-results::after{height:58px}}
+
+/* Let the physics world extend to the browser edges, behind the central UI. */
+.lunch-app{isolation:auto;overflow:visible;background:transparent;box-shadow:none}
+.restaurant-pile{position:fixed;inset:0;width:100%;height:100dvh;z-index:1;border-radius:0}
+
+/* Falling tiles show only the restaurant image; recommendation cards keep their details. */
+.pile-card .restaurant-card{height:148px;padding:6px;gap:0;background:#fff;border-radius:30px}
+.pile-card .card-photo{width:100%;height:100%;border-radius:24px}
+.pile-card .card-photo img{height:100%;object-fit:cover}
+.pile-card .card-info{display:none}
+
+/* Recommendations rise from their physical tile, then unfold into the result deck. */
+.recommendation-flight{position:fixed;left:0;top:0;margin:0;transform-origin:top left;z-index:2;pointer-events:none;will-change:transform}
+.recommendation-value{position:absolute;top:6px;right:6px;display:flex;align-items:baseline;gap:3px;padding:4px 6px;border-radius:7px;background:#fffefaed;color:var(--amber);font-size:9px;line-height:12px;white-space:nowrap;box-shadow:0 1px 4px #29261f14}
+.recommendation-value strong{font-size:12px;font-weight:700;font-variant-numeric:tabular-nums}
+.recommendation-value>span{font-size:8px}
+.pile-card .recommendation-value{display:none}
+
+/* Keep the chili thumb continuous under the finger, then settle into its nearest option. */
+#spice{touch-action:none}
+
+/* Start the recommendation deck at the left edge and show three and a half cards. */
+.recommendations,.card-carousel{height:148px}
+.card-carousel{padding:8px 0}
+.card-carousel .restaurant-card{width:calc((100% + 20px)/3.5);height:132px;border-radius:14px;gap:6px}
+.card-carousel .restaurant-card+.restaurant-card{margin-left:-8px;margin-top:4px}
+.card-carousel .card-photo{height:76px;border-radius:9px}
+.card-carousel .card-info{padding:0 2px}
+.card-carousel .card-name{font-size:12px;line-height:18px}
+.card-carousel .card-meta{font-size:9px;height:16px}
+.card-carousel .card-rating{font-size:10px;gap:1px}
+.card-carousel .recommendation-value{top:4px;right:3px;gap:2px;padding:3px 4px;font-size:8px;line-height:11px}
+.card-carousel .recommendation-value strong{font-size:10px}
+.card-carousel .recommendation-value>span{font-size:7px}
+@media(max-height:760px) and (max-width:599px){
+  .has-results .recommendations,.has-results .card-carousel{height:148px}
+  .has-results .card-carousel .restaurant-card{height:132px}
+  .has-results .card-carousel .card-photo{height:76px}
+}
+
+/* A recommendation is highlighted only after it is opened. */
+.card-carousel .restaurant-card[role="button"]{cursor:pointer}
+.card-carousel .restaurant-card[role="button"]:focus-visible{outline:3px solid var(--accent);outline-offset:-3px}
+
+/* Restaurant details open as a mobile bottom sheet. */
+.restaurant-detail{position:fixed;inset:auto 0 0;width:100vw;max-width:none;height:min(56svh,460px);min-height:390px;max-height:80svh;margin:0;padding:8px 24px calc(30px + env(safe-area-inset-bottom));border:0;border-radius:24px 24px 0 0;background:var(--paper);color:var(--ink);box-shadow:0 -16px 48px #29261f30;overflow-y:auto}
+.restaurant-detail:focus{outline:none}
+.restaurant-detail[open]{display:flex;flex-direction:column}
+.restaurant-detail::backdrop{background:#29261f80;backdrop-filter:blur(2px)}
+.restaurant-detail[open]{animation:detail-rise .36s cubic-bezier(.22,1,.36,1) both}
+.restaurant-detail[open]::backdrop{animation:detail-backdrop-in .3s ease both}
+@keyframes detail-rise{from{transform:translateY(100%);opacity:.8}to{transform:translateY(0);opacity:1}}
+@keyframes detail-backdrop-in{from{opacity:0}to{opacity:1}}
+.detail-handle{width:36px;height:5px;margin:0 auto 20px;border-radius:99px;background:#d7cdb9;flex:none}
+.detail-top{display:flex;align-items:center;justify-content:space-between;gap:12px;color:var(--muted);font-size:12px;font-weight:600}
+.detail-close{display:grid;place-items:center;width:32px;height:32px;padding:0;border:0;background:transparent;color:var(--ink);font-size:23px;line-height:1}
+.detail-hero{display:flex;align-items:stretch;gap:15px;margin-top:14px;padding-bottom:18px;border-bottom:1px solid var(--line)}
+.detail-photo{width:124px;aspect-ratio:1;align-self:flex-start;border-radius:14px;overflow:hidden;background:#e8decb;flex:none}
+.detail-photo img{display:block;width:100%;height:100%;object-fit:cover}
+.detail-summary{display:flex;flex:1;min-width:0;flex-direction:column;align-items:flex-start}
+.detail-name{margin:0 0 7px;font-size:18px;line-height:1.3;font-weight:700;overflow-wrap:anywhere}
+.detail-score{display:inline-flex;padding:4px 7px;border-radius:7px;background:#fff0ca;color:var(--amber);font-size:11px;font-weight:700;white-space:nowrap}
+.detail-price{display:flex;flex-direction:column;align-items:flex-start;gap:2px;margin-top:auto;padding-top:10px;font-size:12px;color:var(--muted)}
+.detail-price strong{font-size:18px;color:var(--ink);font-variant-numeric:tabular-nums}
+.detail-location{padding-top:16px}
+.detail-label{display:block;margin-bottom:10px;font-size:13px;color:var(--muted)}
+.detail-location-row{display:flex;align-items:flex-start;gap:14px}
+.detail-location-row p{flex:1;min-width:0;font-size:15px;line-height:1.55;overflow-wrap:anywhere}
+.detail-navigation{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;flex:none;width:58px;height:58px;border:0;border-radius:14px;background:#ffe4a0;color:var(--amber);font-size:12px;font-weight:700}
+.detail-navigation{text-decoration:none;cursor:pointer}
+.detail-navigation:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.detail-navigation[aria-disabled="true"]{cursor:default;opacity:.75}
+@media(min-width:600px){.restaurant-detail{width:375px;left:calc(50% - 187.5px);right:auto}}
+@media(max-width:340px){.detail-photo{width:108px}.detail-hero{gap:12px}.detail-name{font-size:16px}}
+@media(max-height:620px){.restaurant-detail{height:390px;max-height:80svh}}
+@media(prefers-reduced-motion:reduce){.restaurant-detail[open],.restaurant-detail[open]::backdrop{animation:none}}
+
+/* Keep restaurant photos at SDR reference white instead of HDR peak brightness. */
+:root,img{dynamic-range-limit:standard}
+
+.recommendations:not(.has-message) .card-carousel{margin:0}
+.recommendations .card-carousel .restaurant-card{scroll-snap-align:start}
+
+/* Active categories use the primary button yellow. */
+:root{--control-active:var(--accent);--control-active-ink:var(--ink);--control-active-border:var(--accent)}
+.choice-chip{transition:background .18s,color .18s,border-color .18s}
+
+.detail-location-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:10px}
+.detail-location-head .detail-label{margin:0;flex:none}
+.detail-distance{min-width:0;color:var(--muted);font-size:11px;line-height:1.5;text-align:right;font-variant-numeric:tabular-nums}
+
+.choice-chip.is-selected,.choice-chip.is-selected:hover,.choice-chip.is-selected:active{background:var(--control-active);color:var(--control-active-ink);border:1px solid var(--control-active-border)}
+
+/* Show two full cards and half of the third at the default width. */
+.lunch-app .recommendations,.lunch-app .card-carousel{height:185px}
+.lunch-app .card-carousel{padding-top:10px;padding-bottom:10px}
+.lunch-app .card-carousel .restaurant-card{width:calc((100% + 20px)/2.5);height:165px;padding:7.5px;border-radius:17.5px;gap:7.5px}
+.lunch-app .card-carousel .restaurant-card+.restaurant-card{margin-left:-10px;margin-top:5px}
+.lunch-app .card-carousel .card-photo{height:95px;border-radius:11.25px}
+.lunch-app .card-carousel .card-info{padding:0 2.5px}
+.lunch-app .card-carousel .card-name{font-size:15px;line-height:22.5px}
+.lunch-app .card-carousel .card-meta{font-size:11.25px;height:20px;gap:2.5px}
+.lunch-app .card-carousel .card-rating{font-size:12.5px;gap:1.25px}
+.lunch-app .card-carousel .card-rating img{width:13.077px;height:12.43699px}
+.lunch-app .card-carousel .recommendation-value{top:5px;right:3.75px;gap:2.5px;padding:3.75px 5px;border-radius:8.75px;font-size:10px;line-height:13.75px}
+.lunch-app .card-carousel .recommendation-value strong{font-size:12.5px}
+.lunch-app .card-carousel .recommendation-value>span{font-size:8.75px}
+.primary-button:disabled{opacity:1}
+
+/* Keep the sheet mounted until its closing motion finishes. */
+.restaurant-detail[open].is-closing{animation:detail-fall .28s cubic-bezier(.4,0,1,1) both;pointer-events:none}
+.restaurant-detail[open].is-closing::backdrop{animation:detail-backdrop-out .28s ease both}
+@keyframes detail-fall{from{transform:translateY(0);opacity:1}to{transform:translateY(100%);opacity:.8}}
+@keyframes detail-backdrop-out{from{opacity:1}to{opacity:0}}
+@media(prefers-reduced-motion:reduce){.restaurant-detail[open].is-closing,.restaurant-detail[open].is-closing::backdrop{animation:none}}

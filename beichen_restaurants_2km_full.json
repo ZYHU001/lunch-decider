@@ -1,0 +1,6390 @@
+{
+  "center": {
+    "name": "北辰新纪元2号楼",
+    "location": "116.416824,40.031357",
+    "radius_m": 2000
+  },
+  "restaurants": [
+    {
+      "id": "B0FFKKVVBP",
+      "name": "霸蛮湖南米粉(奥运村上品+店)",
+      "distance_m": 14,
+      "address": "北京城区北苑路甲13号院上品奥运村店B1层",
+      "location": "116.416817,40.031487",
+      "photo_url": "http://store.is.autonavi.com/showpic/68702ee55be8ef162d6dda9217c699c3",
+      "category": "快餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 34.0,
+      "rating": 4.1,
+      "opening_hours": "周一至周日 10:00-20:30",
+      "tags": [
+        "米粉",
+        "湖南土辣椒炒肉",
+        "老长沙臭豆腐",
+        "拌饭",
+        "长沙臭豆腐",
+        "霸蛮臭豆腐",
+        "臭豆腐"
+      ]
+    },
+    {
+      "id": "B0MD5NV2K9",
+      "name": "山西刀削面(北苑上品店)",
+      "distance_m": 14,
+      "address": "拂林北路与拂林东街交叉口东北120米",
+      "location": "116.416875,40.031475",
+      "category": "中餐厅",
+      "average_cost_yuan": 13.0,
+      "rating": 3.1,
+      "tags": [
+        "刀削面"
+      ]
+    },
+    {
+      "id": "B0MBT5CXGU",
+      "name": "咏巷炸鸡(上品购物中心)",
+      "distance_m": 25,
+      "address": "奥运村街道北苑路甲13号院2号楼-1层-101内B1-012",
+      "location": "116.417122,40.031349",
+      "photo_url": "https://store.is.autonavi.com/showpic/c18a9a4d465c048f6c591e4fb0072829",
+      "area": "北苑",
+      "average_cost_yuan": 24.0,
+      "rating": 3.0,
+      "opening_hours": "周一至周日 10:00-22:00",
+      "tags": [
+        "炸鸡炸串",
+        "炸鸡"
+      ]
+    },
+    {
+      "id": "B0LK1ACK8Z",
+      "name": "八珍王(北京朝阳区上品店)",
+      "distance_m": 30,
+      "address": "亚运村街道北苑路甲13号院2号楼B1-1层-101内B1-093",
+      "location": "116.416955,40.031611",
+      "photo_url": "https://store.is.autonavi.com/showpic/a25f3cb8215f24d00000007339216519?type=pic",
+      "category": "快餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 38.0,
+      "rating": 3.9,
+      "opening_hours": "周一至周日 10:00-21:00",
+      "tags": [
+        "熟食",
+        "鸡骨架",
+        "童子鸡"
+      ]
+    },
+    {
+      "id": "B0KGY1QSXQ",
+      "name": "他二哥炒鸡(奥运村上品+店)",
+      "distance_m": 31,
+      "address": "奥运村街道北苑路甲13号院2号楼-1层-101内B1-009",
+      "location": "116.416753,40.031629",
+      "photo_url": "https://aos-comment.amap.com/B0KGY1QSXQ/comment/content_media_external_file_14964_1760248419064_82521497.jpg",
+      "category": "中餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 72.0,
+      "rating": 4.5,
+      "opening_hours": "周一至周日 10:00-21:30",
+      "tags": [
+        "中餐",
+        "鸡肉"
+      ]
+    },
+    {
+      "id": "B0FFHLGQQ5",
+      "name": "必胜客(奥运村上品+店)",
+      "distance_m": 33,
+      "address": "北京城区北苑路甲13号院2号楼上品1层",
+      "location": "116.417212,40.031403",
+      "photo_url": "http://store.is.autonavi.com/showpic/c2c6a44f64ec73b74decd82d4a9ae56e",
+      "category": "必胜客",
+      "area": "北苑",
+      "average_cost_yuan": 57.0,
+      "rating": 4.3,
+      "opening_hours": "周一至周日 07:00-22:00",
+      "tags": [
+        "小吃快餐",
+        "金枕榴莲多多比萨",
+        "必胜硬核肉多多比萨",
+        "法式红酒厚切慢煮牛肋排",
+        "炙烤西冷牛排能量碗",
+        "黄金六两松板肉比萨",
+        "海鲜至尊比萨"
+      ]
+    },
+    {
+      "id": "B0FFF6BMZW",
+      "name": "呷哺呷哺(奥运村上品+店)",
+      "distance_m": 34,
+      "address": "北苑路甲13号上品+B1",
+      "location": "116.417189,40.031235",
+      "photo_url": "https://img.alicdn.com/imgextra/i4/O1CN01DMKADK29azGyAma4w_!!6000000008085-2-tps-180-180.png",
+      "category": "呷哺呷哺",
+      "area": "北苑",
+      "average_cost_yuan": 62.0,
+      "rating": 4.1,
+      "opening_hours": "周一至周日 10:00-21:00",
+      "tags": [
+        "小火锅",
+        "牛肉"
+      ]
+    },
+    {
+      "id": "B0FFFRG67U",
+      "name": "西贝(上品+店)",
+      "distance_m": 34,
+      "address": "奥运村街道北苑路甲13号院2号楼上品购物中心5层501内523号",
+      "location": "116.416588,40.031601",
+      "photo_url": "http://store.is.autonavi.com/query_pic?id=sta2ad61af-fe9d-4aa2-99cf-e15f8b282d01&user=search&operate=original",
+      "category": "西北菜",
+      "area": "北苑",
+      "average_cost_yuan": 90.0,
+      "rating": 4.5,
+      "opening_hours": "周一至周五 11:00-14:00,16:30-21:00；周六至周日 11:00-21:00",
+      "tags": [
+        "西北菜",
+        "西北面筋",
+        "草原羊肉串",
+        "黄馍馍",
+        "张爷爷手工空心面",
+        "草莓味酸奶",
+        "草原牛大骨"
+      ]
+    },
+    {
+      "id": "B0FFHWTFZL",
+      "name": "渝八两重庆鸡公煲(北京暖山生活广场店)",
+      "distance_m": 34,
+      "address": "北京城区红军营南路36号院1号楼-3至1层101地下一层1017",
+      "location": "116.417110,40.031575",
+      "photo_url": "https://store.is.autonavi.com/showpic/2e9fbe9e029dfcd00000002532406243?type=pic",
+      "area": "北苑",
+      "average_cost_yuan": 30.0,
+      "rating": 4.1,
+      "opening_hours": "周一至周日 09:00-21:00",
+      "tags": [
+        "鸡公煲",
+        "招牌鸡公煲",
+        "锅巴土豆"
+      ]
+    },
+    {
+      "id": "B0MBZABZ9B",
+      "name": "美诺珂(上品+店)",
+      "distance_m": 34,
+      "address": "北苑路甲13号上品城市奥莱(奥运村店)",
+      "location": "116.417150,40.031179",
+      "rating": 3.1
+    },
+    {
+      "id": "B0MDS5EZVR",
+      "name": "元宝甑糕(上品店)",
+      "distance_m": 34,
+      "address": "北京城区北苑路甲13号院2号楼-1层-101内B1-102",
+      "location": "116.417025,40.031625",
+      "photo_url": "https://store.is.autonavi.com/showpic/949cd9199862520997fb03f0a7b887ca",
+      "category": "快餐厅",
+      "average_cost_yuan": 21.0,
+      "rating": 2.9,
+      "opening_hours": "周一至周日 10:00-22:00",
+      "tags": [
+        "小吃快餐",
+        "青团",
+        "甑糕"
+      ]
+    },
+    {
+      "id": "B0LD37KOSQ",
+      "name": "村上一屋(上品+店)",
+      "distance_m": 35,
+      "address": "北苑路甲13号院2号楼-1层-101内B1-086",
+      "location": "116.417121,40.031576",
+      "photo_url": "https://store.is.autonavi.com/showpic/f9938bd7f8f22bbd86cb5fdf6788185c?operate=original",
+      "area": "北苑",
+      "average_cost_yuan": 70.0,
+      "rating": 4.3,
+      "opening_hours": "周一至周日 10:00-22:30",
+      "tags": [
+        "日本料理"
+      ]
+    },
+    {
+      "id": "B0MURUD446",
+      "name": "饼司令",
+      "distance_m": 36,
+      "address": "红军营南路与拂林北路交叉口东南140米",
+      "location": "116.416875,40.031675",
+      "rating": 2.2
+    },
+    {
+      "id": "B0MD4OJH0R",
+      "name": "牛叉炒饭(上品+奥运村店)",
+      "distance_m": 38,
+      "address": "拂林东街与北苑路交叉口西北100米",
+      "location": "116.417075,40.031075",
+      "category": "快餐厅",
+      "rating": 1.9,
+      "tags": [
+        "小吃快餐"
+      ]
+    },
+    {
+      "id": "B0KKUAJY11",
+      "name": "Diplomat外交官(北京上品+奥运村店)",
+      "distance_m": 39,
+      "address": "北苑路甲13号四层外交官箱包",
+      "location": "116.417021,40.031671",
+      "photo_url": "https://store.is.autonavi.com/showpic/94c48407c782a4c68d4004c26026627e",
+      "area": "北苑",
+      "rating": 3.6
+    },
+    {
+      "id": "B0H22NHA14",
+      "name": "武松家(奥运村上品+店)",
+      "distance_m": 40,
+      "address": "奥运村街道北苑路甲13号院2号楼6层F0-004",
+      "location": "116.417182,40.031585",
+      "photo_url": "https://store.is.autonavi.com/showpic/6acaf11abef008840000002472336942?type=pic",
+      "category": "综合酒楼",
+      "area": "北苑",
+      "average_cost_yuan": 70.0,
+      "rating": 4.1,
+      "opening_hours": "周一至周日 10:00-22:00",
+      "tags": [
+        "中餐",
+        "牛蛙",
+        "鸡柳",
+        "烤串",
+        "红糖糍粑"
+      ]
+    },
+    {
+      "id": "B0LBK76N79",
+      "name": "萨莉亚意式餐厅(奥运村上品+店)",
+      "distance_m": 41,
+      "address": "北苑路甲13号院上品折扣+购物中心 F4层",
+      "location": "116.416825,40.031725",
+      "photo_url": "https://store.is.autonavi.com/showpic/50054f0241cff3f60000004405488608?type=pic",
+      "category": "意式菜品餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 39.0,
+      "rating": 4.3,
+      "opening_hours": "周一至周日 10:00-21:30",
+      "tags": [
+        "意大利菜"
+      ]
+    },
+    {
+      "id": "B0FFI33M9B",
+      "name": "旺顺阁·鱼头泡饼(奥运村上品+店)",
+      "distance_m": 42,
+      "address": "北苑路甲13号院2号楼03层301内025号",
+      "location": "116.417130,40.031057",
+      "photo_url": "http://store.is.autonavi.com/query_pic?id=st7303f4a1-b32e-4f88-9f4a-da59fbc5db38&user=search&operate=original",
+      "category": "中餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 141.0,
+      "rating": 4.6,
+      "opening_hours": "周一至周日 11:00-21:30",
+      "tags": [
+        "北京菜",
+        "双人餐"
+      ]
+    },
+    {
+      "id": "B0IUGUBUCO",
+      "name": "子固路拌粉(暖山生活店)",
+      "distance_m": 42,
+      "address": "北京城区红军营南路36号暖山生活商场B1层B1-24号",
+      "location": "116.417023,40.031702",
+      "photo_url": "http://store.is.autonavi.com/query_pic?id=stc3906d08-7489-424b-afff-41191d0ddba5&user=search&operate=original",
+      "category": "中餐厅",
+      "average_cost_yuan": 30.0,
+      "rating": 3.9,
+      "opening_hours": "周一至周日 10:00-21:00",
+      "tags": [
+        "小吃快餐"
+      ]
+    },
+    {
+      "id": "B0FFHPFAEL",
+      "name": "阿上阿上麻辣烫(奥运村上品+店)",
+      "distance_m": 43,
+      "address": "北京城区亚奥北苑路甲13号上品+B1-001",
+      "location": "116.417083,40.031687",
+      "photo_url": "https://aos-comment.amap.com/comment/content_service__1769820728139_73737268_1769820729558_59921878.jpg",
+      "category": "特色/地方风味餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 31.0,
+      "rating": 4.2,
+      "opening_hours": "周一至周日 10:00-21:00",
+      "tags": [
+        "麻辣烫"
+      ]
+    },
+    {
+      "id": "B0G3FRNGUS",
+      "name": "犟骨头超级排骨饭(北京朝阳上品+店)",
+      "distance_m": 43,
+      "address": "北京城区北苑路甲13号上品+B1-037",
+      "location": "116.417016,40.031715",
+      "photo_url": "https://aos-comment.amap.com/comment/content_service__1769566304733_18921398_1769566306547_94052806.jpg",
+      "category": "东北菜",
+      "area": "北苑",
+      "average_cost_yuan": 25.0,
+      "rating": 3.8,
+      "opening_hours": "周一至周日 10:30-20:30",
+      "tags": [
+        "小吃快餐",
+        "鸡肉",
+        "东北菜"
+      ]
+    },
+    {
+      "id": "B0K12HHSPT",
+      "name": "渝是乎(奥运村上品+店)",
+      "distance_m": 43,
+      "address": "北苑路甲13号上品城市奥莱(奥运村店)",
+      "location": "116.417318,40.031446",
+      "photo_url": "http://store.is.autonavi.com/query_pic?id=st685f3818-aa5b-4c26-af3f-2328bd043ee7&user=search&operate=original",
+      "category": "中餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 37.0,
+      "rating": 3.9,
+      "opening_hours": "周一至周日 10:00-21:00",
+      "tags": [
+        "酸菜鱼",
+        "番茄鱼"
+      ]
+    },
+    {
+      "id": "B0KKX7531Y",
+      "name": "明洞阿姨·韩式酱蟹烤肉·创意料理(北苑1988上品店)",
+      "distance_m": 43,
+      "address": "北京城区上品购物中心五层",
+      "location": "116.417014,40.031718",
+      "photo_url": "https://aos-comment.amap.com/B0KKX7531Y/comment/2702ca6f2c9e0eaf11970df2bc5ec4c_1768678479228_52701743.jpg",
+      "category": "日本料理",
+      "area": "北苑",
+      "average_cost_yuan": 94.0,
+      "rating": 4.5,
+      "opening_hours": "周一至周日 11:00-22:00",
+      "tags": [
+        "韩国料理",
+        "牛舌厚切",
+        "老式肥瘦",
+        "浇汁横膈膜",
+        "烤肉",
+        "料理"
+      ]
+    },
+    {
+      "id": "B0LUD97LEO",
+      "name": "净香居内蒙烧麦(奥运村上品+店)",
+      "distance_m": 43,
+      "address": "北苑路上品+b1(北苑路北地铁站A2西北口步行110米)",
+      "location": "116.417014,40.031718",
+      "photo_url": "https://store.is.autonavi.com/showpic/4cd8076e09450af90000004572236537?type=pic",
+      "category": "中餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 40.0,
+      "rating": 4.5,
+      "opening_hours": "周一至周五 10:30-21:00；周六至周日 09:30-21:00",
+      "tags": [
+        "小吃快餐"
+      ]
+    },
+    {
+      "id": "B0MBYR5MUR",
+      "name": "森煎能量(上品奥运村店)",
+      "distance_m": 43,
+      "address": "北苑路甲13号上品城市奥莱(奥运村店)",
+      "location": "116.417075,40.031025",
+      "photo_url": "https://store.is.autonavi.com/showpic/870b89955efbc2cc0000001785650629?type=pic",
+      "category": "快餐厅",
+      "average_cost_yuan": 36.0,
+      "rating": 3.9,
+      "opening_hours": "周一至周日 09:00-21:00",
+      "tags": [
+        "小吃快餐"
+      ]
+    },
+    {
+      "id": "B0JDJUE1OB",
+      "name": "湘小吉·鸭血粉丝汤(上品+店)",
+      "distance_m": 44,
+      "address": "北苑路甲13号院2号楼-1层-101内B1-056",
+      "location": "116.417013,40.031726",
+      "photo_url": "http://store.is.autonavi.com/showpic/baacaefe2098d916b87859bcd409ac4f",
+      "category": "中餐厅",
+      "rating": 3.6,
+      "opening_hours": "周一至周日 09:00-22:00",
+      "tags": [
+        "中餐",
+        "鸭血粉丝汤"
+      ]
+    },
+    {
+      "id": "B0I141A28Z",
+      "name": "馍是多·陕西小吃中国菜(北苑店)",
+      "distance_m": 46,
+      "address": "北京城区北苑路甲13号院上品奥运村店B1层",
+      "location": "116.417051,40.031733",
+      "photo_url": "https://aos-comment.amap.com/B0I141A28Z/comment/176921083817_1769210865596_08966805.jpg",
+      "category": "特色/地方风味餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 20.0,
+      "rating": 4.1,
+      "opening_hours": "周一至周日 10:00-21:30",
+      "tags": [
+        "中餐",
+        "陕西小吃"
+      ]
+    },
+    {
+      "id": "B0KAA469CF",
+      "name": "清和传家水饺(奥运村上品+店)",
+      "distance_m": 50,
+      "address": "北京城区北苑路甲13号上品B楼",
+      "location": "116.416906,40.031800",
+      "photo_url": "https://store.is.autonavi.com/showpic/34b7d8409baa21900000007232452043?type=pic",
+      "category": "特色/地方风味餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 28.0,
+      "rating": 3.6,
+      "opening_hours": "周一至周日 10:00-22:00",
+      "tags": [
+        "小吃快餐",
+        "双人餐",
+        "单人餐"
+      ]
+    },
+    {
+      "id": "B0FFI2SV0E",
+      "name": "川成元·麻辣香锅(上品+奥运村店)",
+      "distance_m": 53,
+      "address": "北苑路甲13号院2号楼五层014号",
+      "location": "116.417395,40.031544",
+      "photo_url": "http://store.is.autonavi.com/query_pic?id=st77409fe2-a4bf-44a1-a39a-b7521e528728&user=search&operate=original",
+      "category": "中餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 78.0,
+      "rating": 4.4,
+      "opening_hours": "周一至周日 10:00-21:30",
+      "tags": [
+        "麻辣香锅",
+        "单人餐",
+        "双人餐"
+      ]
+    },
+    {
+      "id": "B0MUZS6JAT",
+      "name": "云阿蛮云南生烫牛肉米线",
+      "distance_m": 53,
+      "address": "北京城区北京城区奥运村街道北苑路甲13号院上品商场(奥运村店)B1层",
+      "location": "116.416952,40.031822",
+      "photo_url": "https://store.is.autonavi.com/showpic/a07e1dd16fa2a7050e25639599216b06",
+      "category": "中餐厅",
+      "average_cost_yuan": 27.0,
+      "rating": 3.9,
+      "opening_hours": "周一至周日 09:30-22:00",
+      "tags": [
+        "云南菜"
+      ]
+    },
+    {
+      "id": "B0FFI8VLKS",
+      "name": "云海肴云南菜(北苑上品店)",
+      "distance_m": 54,
+      "address": "北苑路甲13号北辰世纪上品折扣购物中心5层",
+      "location": "116.417395,40.031565",
+      "photo_url": "http://store.is.autonavi.com/query_pic?id=st551050e0-0d1d-4ea9-8ab1-1b92e08a6a19&user=search&operate=original",
+      "category": "云贵菜",
+      "area": "北苑",
+      "average_cost_yuan": 70.0,
+      "rating": 4.4,
+      "opening_hours": "周一至周日 10:00-21:30",
+      "tags": [
+        "云南菜",
+        "汽锅鸡",
+        "咕嘟肉沫包浆豆腐",
+        "云海肴汽锅鸡",
+        "金牌鸡汤",
+        "鸡丝凉米线",
+        "金雀花百合汽锅鸡"
+      ]
+    },
+    {
+      "id": "B0MAGUZDAX",
+      "name": "金大厨自选手擀面(上品+奥运村店)",
+      "distance_m": 56,
+      "address": "北苑路甲13号上品城市奥莱(奥运村店)",
+      "location": "116.417129,40.031802",
+      "rating": 2.8,
+      "tags": [
+        "面馆"
+      ]
+    },
+    {
+      "id": "B0FFF6XJGW",
+      "name": "麦当劳(奥运村上品+店)",
+      "distance_m": 62,
+      "address": "北苑北辰居住区(北苑路北地铁站A2西北口步行110米)",
+      "location": "116.417381,40.031720",
+      "photo_url": "https://aos-comment.amap.com/B0FFF6XJGW/comment/8488a15567760d7c80e6d1d7d9750281_2048_2048_80.jpg",
+      "category": "麦当劳",
+      "area": "北苑",
+      "average_cost_yuan": 29.0,
+      "rating": 4.3,
+      "opening_hours": "周一至周日 00:00-24:00",
+      "tags": [
+        "西式快餐",
+        "麦辣鸡腿堡",
+        "安格斯系列",
+        "人气美味尽享套餐",
+        "原味板烧鸡腿麦满分组合",
+        "板烧美味三件套",
+        "巨无霸汉堡"
+      ]
+    },
+    {
+      "id": "B0FFH0HZEK",
+      "name": "绿茶餐厅(北京北辰上品店)",
+      "distance_m": 62,
+      "address": "亚奥北苑路甲13号上品+4层003(地铁5号线北西)",
+      "location": "116.417549,40.031392",
+      "photo_url": "http://store.is.autonavi.com/query_pic?id=stdcc12055-8642-4c5c-ad45-41aa171d70c3&user=search&operate=original",
+      "category": "中餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 60.0,
+      "rating": 4.3,
+      "opening_hours": "周一至周日 10:00-21:30",
+      "tags": [
+        "江浙菜",
+        "糖醋里脊",
+        "绿茶饼",
+        "绿茶葱香烤鸡",
+        "面包诱惑",
+        "龙井虾仁",
+        "招牌粉丝裹虾"
+      ]
+    },
+    {
+      "id": "B0LUGXN1GS",
+      "name": "食百汇美食广场(奥运村上品+店)",
+      "distance_m": 63,
+      "address": "北苑路甲13号上品城市奥莱(奥运村店)",
+      "location": "116.417557,40.031292",
+      "photo_url": "https://store.is.autonavi.com/showpic/d6fa29bcd7f422dece85122687c25244",
+      "category": "中餐厅",
+      "average_cost_yuan": 25.0,
+      "rating": 4.0,
+      "opening_hours": "周一至周日 05:00-21:00",
+      "tags": [
+        "美食城"
+      ]
+    },
+    {
+      "id": "B0MDU5ZCAO",
+      "name": "川渝小面",
+      "distance_m": 65,
+      "address": "北苑路甲13号尚品F6层007号档口",
+      "location": "116.417239,40.031845",
+      "photo_url": "https://store.is.autonavi.com/showpic/a7a5c0bc85e5e59443ecafb0ec099529",
+      "category": "中餐厅",
+      "rating": 2.9,
+      "tags": [
+        "重庆小面"
+      ]
+    },
+    {
+      "id": "B0MG4CXWRK",
+      "name": "无名缘米粉(北辰购物中心店)",
+      "distance_m": 68,
+      "address": "北京城区北苑路北辰购物中心6层5号档口",
+      "location": "116.417128,40.031922",
+      "category": "中餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 24.0,
+      "rating": 3.1,
+      "tags": [
+        "米粉"
+      ]
+    },
+    {
+      "id": "B0L25BBPFB",
+      "name": "香锅巫山烤鱼",
+      "distance_m": 72,
+      "address": "北苑路与红军营南路交叉口西南100米",
+      "location": "116.417325,40.031875",
+      "category": "中餐厅",
+      "area": "北苑",
+      "rating": 3.3,
+      "tags": [
+        "烤鱼",
+        "巫山烤鱼"
+      ]
+    },
+    {
+      "id": "B0LUPMPDH2",
+      "name": "麻宴麻辣香锅(上品店)",
+      "distance_m": 73,
+      "address": "奥运村街道北苑路甲13号院北辰新纪元2号楼B1层",
+      "location": "116.417034,40.031998",
+      "photo_url": "https://aos-comment.amap.com/B0LUPMPDH2/comment/content_media_external_file_1000039321_ss__1763439546030_51678612.jpg",
+      "category": "四川菜(川菜)",
+      "area": "北苑",
+      "average_cost_yuan": 58.0,
+      "rating": 4.0,
+      "opening_hours": "周一至周日 10:00-22:00",
+      "tags": [
+        "川菜",
+        "单人餐",
+        "双人餐"
+      ]
+    },
+    {
+      "id": "B0MAOOJ0K7",
+      "name": "熊灶灶自助快餐(上品店)",
+      "distance_m": 79,
+      "address": "来广营地区北苑路甲13号院6层",
+      "location": "116.417275,40.031975",
+      "photo_url": "https://store.is.autonavi.com/showpic/8a69e07147d97a7b0000002713406481?type=pic",
+      "category": "快餐厅",
+      "average_cost_yuan": 25.0,
+      "rating": 3.7,
+      "tags": [
+        "自助快餐"
+      ]
+    },
+    {
+      "id": "B0IUFHUSTN",
+      "name": "北辰泰岳美食城(奥运村上品+店)",
+      "distance_m": 82,
+      "address": "奥运村街道北苑路甲13号院上品(奥运村店)五楼",
+      "location": "116.417225,40.032025",
+      "photo_url": "https://aos-comment.amap.com/B0IUFHUSTN/comment/content_media_external_file_1000064415_ss__1768820046384_41809578.jpg",
+      "category": "中餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 40.0,
+      "rating": 3.8,
+      "opening_hours": "周一至周日 09:00-21:00",
+      "tags": [
+        "美食城"
+      ]
+    },
+    {
+      "id": "B0LUGXN87M",
+      "name": "稻香园快餐(奥运村上品+店)",
+      "distance_m": 83,
+      "address": "北苑路甲13号上品城市奥莱(奥运村店)",
+      "location": "116.417303,40.032009",
+      "photo_url": "https://store.is.autonavi.com/showpic/580551e8426c25ab501d07ed1b03f75d?operate=original",
+      "category": "快餐厅",
+      "average_cost_yuan": 29.0,
+      "rating": 2.5,
+      "tags": [
+        "小吃快餐"
+      ]
+    },
+    {
+      "id": "B0LAA7O7DZ",
+      "name": "下酒Haago Drinks(暖山生活店)",
+      "distance_m": 104,
+      "address": "北京城区红军营南路36号院1号楼-3至1层101号1层1045",
+      "location": "116.415813,40.031874",
+      "photo_url": "https://aos-comment.amap.com/B0LAA7O7DZ/comment/content_media_external_images_media_1000051063_ss__1752123122505_75933761.jpg",
+      "category": "中餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 98.0,
+      "rating": 4.6,
+      "opening_hours": "周一至周日 10:00-01:00",
+      "tags": [
+        "烧烤",
+        "每日糯糯奶啤",
+        "小酒馆辣子鸡",
+        "奶啤"
+      ]
+    },
+    {
+      "id": "B0J3B72FOJ",
+      "name": "胖哥抓饭(暖山生活店)",
+      "distance_m": 125,
+      "address": "红军营南路36号院1号楼B1暖山生活商场内",
+      "location": "116.415633,40.032009",
+      "photo_url": "https://aos-comment.amap.com/B0J3B72FOJ/comment/content_media_external_file_32821_ss__1765628474218_74139049.jpg",
+      "category": "清真菜馆",
+      "area": "北苑",
+      "average_cost_yuan": 50.0,
+      "rating": 4.6,
+      "opening_hours": "周一至周日 11:00-18:00",
+      "tags": [
+        "烧烤",
+        "抓饭",
+        "排骨",
+        "胡萝卜",
+        "三排手抓饭"
+      ]
+    },
+    {
+      "id": "B0KU6R4LSO",
+      "name": "悠悠稻香(暖山生活广场店)",
+      "distance_m": 125,
+      "address": "红军营南路36号暖山生活F1层",
+      "location": "116.415765,40.032142",
+      "photo_url": "https://store.is.autonavi.com/showpic/23a17ea0e803556c0000002532546253?type=pic",
+      "area": "北苑",
+      "average_cost_yuan": 27.0,
+      "rating": 4.2,
+      "opening_hours": "周一至周日 10:30-20:00"
+    },
+    {
+      "id": "B0MDMZWYVB",
+      "name": "张拉拉兰州手撕牛肉面(暖山生活店)",
+      "distance_m": 132,
+      "address": "北京城区红军营南路36号院1号楼-3至1层101底下一层1019",
+      "location": "116.415550,40.032039",
+      "photo_url": "https://store.is.autonavi.com/showpic/29ecdc777ac9a0eb0000002926138251?type=pic",
+      "category": "清真菜馆",
+      "average_cost_yuan": 27.0,
+      "rating": 3.8,
+      "opening_hours": "周一至周日 09:00-21:00",
+      "tags": [
+        "面馆"
+      ]
+    },
+    {
+      "id": "B0LKFRUJHH",
+      "name": "靠墙吃海鲜大馅饺子",
+      "distance_m": 133,
+      "address": "奥运村街道红军营南路36号院1号楼-3至1层101号内B1层1027",
+      "location": "116.415625,40.032125",
+      "photo_url": "https://store.is.autonavi.com/showpic/2e06faa633ee38200000002486214084?type=pic",
+      "category": "海鲜酒楼",
+      "area": "北苑",
+      "average_cost_yuan": 40.0,
+      "rating": 4.2,
+      "opening_hours": "周一至周日 08:00-22:00",
+      "tags": [
+        "海鲜",
+        "大馅饺子"
+      ]
+    },
+    {
+      "id": "B0LGF5NG0C",
+      "name": "禾安小铺(暖山生活店)",
+      "distance_m": 135,
+      "address": "红军营南路36号暖山生活B1层",
+      "location": "116.415647,40.032165",
+      "photo_url": "https://store.is.autonavi.com/showpic/f9bc2e5bd468026b0000002562114833?type=pic",
+      "area": "北苑",
+      "average_cost_yuan": 26.0,
+      "rating": 4.0,
+      "opening_hours": "周一至周日 10:00-21:00",
+      "tags": [
+        "面馆"
+      ]
+    },
+    {
+      "id": "B0L3FH5VES",
+      "name": "Foodtrucks纽约健康饭(暖山生活店)",
+      "distance_m": 137,
+      "address": "红军营南路36号暖山生活B1层",
+      "location": "116.415537,40.032098",
+      "photo_url": "https://aos-comment.amap.com/B0L3FH5VES/comment/content_media_external_file_1000069658_ss__1764392598125_16377062.jpg",
+      "category": "快餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 25.0,
+      "rating": 3.4,
+      "opening_hours": "周一至周日 09:00-21:00",
+      "tags": [
+        "小吃快餐"
+      ]
+    },
+    {
+      "id": "B0MAARAINY",
+      "name": "究脑壳·湘潭下饭菜(暖山店)",
+      "distance_m": 138,
+      "address": "红军营南路36号暖山生活B1层",
+      "location": "116.415407,40.031967",
+      "photo_url": "https://store.is.autonavi.com/showpic/dda88d710e1e549b0000002491482874?type=pic",
+      "average_cost_yuan": 54.0,
+      "rating": 4.2,
+      "opening_hours": "周一至周日 11:00-21:30",
+      "tags": [
+        "湘菜"
+      ]
+    },
+    {
+      "id": "B0H1NN8KOH",
+      "name": "轻易轻食(暖山生活店)",
+      "distance_m": 140,
+      "address": "北京城区红军营南路36号院暖山生活B1",
+      "location": "116.415425,40.032025",
+      "photo_url": "https://aos-comment.amap.com/B0H1NN8KOH/comment/5a2d35baf9ce8b317f936bf53315402c_2048_2048_80.jpg",
+      "category": "中式素菜馆",
+      "area": "北苑",
+      "average_cost_yuan": 33.0,
+      "rating": 3.3,
+      "opening_hours": "周一至周日 09:30-21:30",
+      "tags": [
+        "轻食"
+      ]
+    },
+    {
+      "id": "B0K0V62RBL",
+      "name": "卤卤有为(北苑暖山生活店)",
+      "distance_m": 140,
+      "address": "红军营南路36号暖山生活B1层",
+      "location": "116.415525,40.032125",
+      "area": "北苑",
+      "average_cost_yuan": 25.0,
+      "rating": 2.4,
+      "opening_hours": "周一至周日 10:00-22:00",
+      "tags": [
+        "卤味"
+      ]
+    },
+    {
+      "id": "B0KBN9HGBM",
+      "name": "米村拌饭(暖山生活广场店)",
+      "distance_m": 140,
+      "address": "红军营南路36号院1号楼暖山生活广场B1层,西侧扶梯下楼就是",
+      "location": "116.415525,40.032125",
+      "photo_url": "http://store.is.autonavi.com/query_pic?id=st596b1fbb-f39e-4563-a573-71db96d80dc8&user=search&operate=original",
+      "category": "中餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 37.0,
+      "rating": 4.0,
+      "opening_hours": "周一至周日 10:00-21:30",
+      "tags": [
+        "小吃快餐",
+        "石锅拌饭"
+      ]
+    },
+    {
+      "id": "B0L3FR54MV",
+      "name": "晓志传统牛肉面·烧烤",
+      "distance_m": 140,
+      "address": "红军营南路36号1号院-3至1层101号1层1046",
+      "location": "116.415625,40.032225",
+      "photo_url": "https://store.is.autonavi.com/showpic/34103cc57ac08a8b0000002881938503?type=pic",
+      "average_cost_yuan": 25.0,
+      "rating": 4.3,
+      "opening_hours": "周一至周日 09:00-24:00",
+      "tags": [
+        "面馆",
+        "传统牛肉面"
+      ]
+    },
+    {
+      "id": "B0FFMCA53Z",
+      "name": "醉面(北苑暖山店)",
+      "distance_m": 143,
+      "address": "北京城区红军营南路36号暖山生活B1层",
+      "location": "116.415649,40.032279",
+      "photo_url": "http://store.is.autonavi.com/query_pic?id=stb6435500-844b-490c-95e0-c74a4665b6d8&user=search&operate=original",
+      "category": "中餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 15.0,
+      "rating": 4.0,
+      "opening_hours": "周一至周日 10:00-21:00",
+      "tags": [
+        "面馆",
+        "川味面食",
+        "红烧牛肉面",
+        "大鸡排",
+        "卤鸡腿",
+        "卤肉饭",
+        "鸡丝凉面"
+      ]
+    },
+    {
+      "id": "B0H1UL07UR",
+      "name": "超级碗(暖山生活店)",
+      "distance_m": 143,
+      "address": "红军营南路36号暖山生活B1层",
+      "location": "116.415542,40.032181",
+      "photo_url": "https://aos-comment.amap.com/B0H1UL07UR/comment/07178d255ea22617eaaa2330d3f4130d_2048_2048_80.jpg",
+      "area": "北苑",
+      "average_cost_yuan": 42.0,
+      "rating": 4.2,
+      "opening_hours": "周一至周日 10:00-20:30",
+      "tags": [
+        "轻食",
+        "鸡肉"
+      ]
+    },
+    {
+      "id": "B0FFLFHJUR",
+      "name": "Wagas沃歌斯(北京暖山店)",
+      "distance_m": 149,
+      "address": "北京城区红军营南路36号院1号楼-3号楼L1-02-1 L1-02-2",
+      "location": "116.415687,40.032375",
+      "photo_url": "http://store.is.autonavi.com/showpic/b2e913b84fae088fb1113902bcad59c7",
+      "category": "西餐厅(综合风味)",
+      "area": "北苑",
+      "average_cost_yuan": 80.0,
+      "rating": 4.5,
+      "opening_hours": "周一至周日 10:00-21:00",
+      "tags": [
+        "西餐",
+        "单人餐",
+        "下午茶",
+        "牛肉",
+        "双人餐"
+      ]
+    },
+    {
+      "id": "B0H1R7D3AM",
+      "name": "阿芮烤鸡爪(暖山生活店)",
+      "distance_m": 149,
+      "address": "北京城区红军营南路36号暖山生活B1层",
+      "location": "116.415621,40.032330",
+      "photo_url": "https://store.is.autonavi.com/showpic/4f031c18415881b70000002463292427?type=pic",
+      "area": "北苑",
+      "average_cost_yuan": 25.0,
+      "rating": 4.0,
+      "opening_hours": "周一至周日 10:00-21:30",
+      "tags": [
+        "特色小吃",
+        "烤年糕",
+        "冰红茶"
+      ]
+    },
+    {
+      "id": "B0H1UL07U4",
+      "name": "Tubestation站点比萨(暖山生活广场店)",
+      "distance_m": 152,
+      "address": "红军营南路36号院1号楼",
+      "location": "116.415641,40.032383",
+      "photo_url": "http://store.is.autonavi.com/query_pic?id=stcb550dda-722c-4c20-9252-fe874047cc1e&user=search&operate=original",
+      "category": "快餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 79.0,
+      "rating": 4.5,
+      "opening_hours": "周一至周日 12:00-21:00",
+      "tags": [
+        "西式快餐",
+        "香肠",
+        "披萨",
+        "薯条",
+        "比萨",
+        "工作餐"
+      ]
+    },
+    {
+      "id": "B0KUO7VC7C",
+      "name": "九川江重庆菜·水煮鱼(暖山生活店)",
+      "distance_m": 156,
+      "address": "北京城区红军营南路36号暖山生活F1层",
+      "location": "116.415087,40.031798",
+      "photo_url": "https://aos-comment.amap.com/B0KUO7VC7C/comment/b7b73d1e0f10ea8769bf52630d190297_2048_2048_80.jpg",
+      "category": "四川菜(川菜)",
+      "area": "北苑",
+      "average_cost_yuan": 101.0,
+      "rating": 4.5,
+      "opening_hours": "周一至周日 11:00-22:00",
+      "tags": [
+        "川菜",
+        "双人餐",
+        "鲜香麻辣水煮鱼",
+        "传统回锅肉"
+      ]
+    },
+    {
+      "id": "B0KDXBKP1H",
+      "name": "阿甲花甲(暖山生活店)",
+      "distance_m": 158,
+      "address": "红军营南路36号暖山生活B1层",
+      "location": "116.415298,40.032162",
+      "photo_url": "https://store.is.autonavi.com/showpic/289331f1b95b5a5f0000000958920018?type=pic",
+      "category": "中餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 27.0,
+      "rating": 3.6,
+      "opening_hours": "周一至周日 10:00-22:00",
+      "tags": [
+        "花甲"
+      ]
+    },
+    {
+      "id": "B0MAV64UHI",
+      "name": "大米先生(北京朝阳暖山生活店)",
+      "distance_m": 160,
+      "address": "红军营南路与拂林北路交叉口西南80米",
+      "location": "116.415375,40.032275",
+      "photo_url": "https://store.is.autonavi.com/showpic/fb8b587e6fb846ce0000006835620497?type=pic",
+      "average_cost_yuan": 32.0,
+      "rating": 3.9,
+      "opening_hours": "周一至周日 10:00-22:00",
+      "tags": [
+        "小吃快餐"
+      ]
+    },
+    {
+      "id": "B0FFLNAU25",
+      "name": "重八牛府之匠心致远(暖山生活广场店)",
+      "distance_m": 173,
+      "address": "北京城区红军营南路暖山生活B1层",
+      "location": "116.415137,40.032217",
+      "photo_url": "http://store.is.autonavi.com/showpic/035532e1108e551e75dcecd589c202e7",
+      "category": "火锅店",
+      "area": "北苑",
+      "average_cost_yuan": 95.0,
+      "rating": 4.7,
+      "opening_hours": "周一至周日 11:00-22:00",
+      "tags": [
+        "火锅",
+        "重八特饮杨梅汁",
+        "重八手打芝士爱上虾",
+        "重八手打鲜墨鱼丸",
+        "重八特色小料",
+        "重八招牌手打龙虾丸",
+        "重八特色手工大拼盘"
+      ]
+    },
+    {
+      "id": "B0LDTO983F",
+      "name": "轻遇现烤三明治",
+      "distance_m": 176,
+      "address": "红军营南路与拂林北路交叉口西60米",
+      "location": "116.415425,40.032526",
+      "photo_url": "https://aos-comment.amap.com/B0LDTO983F/comment/content_media_external_file_1000069690_ss__1766658966263_70885329.jpg",
+      "category": "快餐厅",
+      "area": "北苑",
+      "rating": 3.1,
+      "tags": [
+        "三明治"
+      ]
+    },
+    {
+      "id": "B0MAKKMMXH",
+      "name": "马菇拜·传统牛肉面(北苑家园店)",
+      "distance_m": 177,
+      "address": "红军营南路36号暖山生活F1层",
+      "location": "116.415181,40.032329",
+      "photo_url": "https://store.is.autonavi.com/showpic/cab16977d29d2bb9f0bf9ab00f52fd24",
+      "area": "北苑",
+      "average_cost_yuan": 29.0,
+      "rating": 3.6,
+      "tags": [
+        "牛肉面",
+        "传统牛肉面"
+      ]
+    },
+    {
+      "id": "B0MUXLBEY6",
+      "name": "K酷美食城",
+      "distance_m": 177,
+      "address": "北苑路与红军营南路交叉口东南40米",
+      "location": "116.418475,40.032325",
+      "category": "中餐厅",
+      "area": "来广营",
+      "rating": 3.7,
+      "tags": [
+        "美食城"
+      ]
+    },
+    {
+      "id": "B0FFLI8KDJ",
+      "name": "汉堡王(暖山生活店)",
+      "distance_m": 185,
+      "address": "红军营南路36号L1-01",
+      "location": "116.415146,40.032411",
+      "photo_url": "https://img.alicdn.com/imgextra/i4/O1CN01i3E7991WR7lDchIS9_!!6000000002784-49-tps-931-931.webp",
+      "category": "快餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 27.0,
+      "rating": 4.5,
+      "opening_hours": "周一至周日 07:00-23:00",
+      "tags": [
+        "小吃快餐",
+        "王道嫩香鸡腿",
+        "鸡腿皇堡(原味_天椒)",
+        "狠霸王鸡堡",
+        "红运香骨鸡",
+        "嗨啤金凤梨风味饮",
+        "王道川蜀鸡翅"
+      ]
+    },
+    {
+      "id": "B0LUAZJ4FT",
+      "name": "小茗智家",
+      "distance_m": 194,
+      "address": "红军营南路傲城天朗园B座1606",
+      "location": "116.414619,40.031807",
+      "rating": 3.2,
+      "opening_hours": "周一至周日 10:00-19:00",
+      "tags": [
+        "装修设计",
+        "智能家居"
+      ]
+    },
+    {
+      "id": "B0FFJCGDXJ",
+      "name": "正新鸡排(北京顺发店)",
+      "distance_m": 250,
+      "address": "北苑路42号K酷时尚广场F1层(西1门附近)",
+      "location": "116.418432,40.033239",
+      "photo_url": "http://store.is.autonavi.com/query_pic?id=st80923c27-cd0e-4450-83a2-239a22584288&user=search&operate=original",
+      "area": "来广营",
+      "average_cost_yuan": 13.0,
+      "rating": 4.0,
+      "opening_hours": "周一至周五 09:00-20:00；周六至周日 10:00-22:00",
+      "tags": [
+        "小吃快餐",
+        "单人餐",
+        "薯条"
+      ]
+    },
+    {
+      "id": "B000A9P9NH",
+      "name": "周黑鸭(北京北苑路店)",
+      "distance_m": 251,
+      "address": "北京城区北苑路42号K酷时尚广场1楼入口处近北五环",
+      "location": "116.418460,40.033230",
+      "photo_url": "http://store.is.autonavi.com/query_pic?id=st35b0102f-23c5-4ba5-a037-8b324c4d53a9&user=search&operate=original",
+      "area": "来广营",
+      "average_cost_yuan": 30.0,
+      "rating": 4.0,
+      "opening_hours": "周一至周日 10:00-20:00",
+      "tags": [
+        "熟食",
+        "鸭锁骨",
+        "鸭翅",
+        "人气小吃"
+      ]
+    },
+    {
+      "id": "B0FFHAG2MI",
+      "name": "一手店(北苑路店)",
+      "distance_m": 257,
+      "address": "北京城区北苑路42号K酷时尚广场F1层(西1门附近)",
+      "location": "116.418445,40.033303",
+      "photo_url": "http://store.is.autonavi.com/query_pic?id=st66d3443b-9a6a-4ccc-bcd4-2cd82ec6e087&user=search&operate=original",
+      "category": "快餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 44.0,
+      "rating": 4.2,
+      "opening_hours": "周一至周日 08:00-21:30",
+      "tags": [
+        "卤味",
+        "点心",
+        "猪蹄",
+        "夫妻肺片",
+        "猪肉",
+        "鸭锁骨",
+        "鱼鲜"
+      ]
+    },
+    {
+      "id": "B0K2OG5KU1",
+      "name": "八宝鸭头(K酷时尚广场店)",
+      "distance_m": 271,
+      "address": "北苑路42号K酷时尚广场F1层(南1门附近)",
+      "location": "116.419141,40.033026",
+      "photo_url": "https://store.is.autonavi.com/showpic/4c0b96bacf9110dc0000007549900803?type=pic",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 24.0,
+      "rating": 4.1,
+      "opening_hours": "周一至周日 10:00-23:00",
+      "tags": [
+        "熟食",
+        "鸭头"
+      ]
+    },
+    {
+      "id": "B0KDSAUWEE",
+      "name": "尚品京味北京烤鸭北苑店",
+      "distance_m": 279,
+      "address": "北苑路42号K酷时尚广场F1层",
+      "location": "116.418738,40.033390",
+      "area": "来广营",
+      "average_cost_yuan": 38.0,
+      "rating": 3.2,
+      "opening_hours": "周一至周日 09:00-21:00",
+      "tags": [
+        "烤鸭"
+      ]
+    },
+    {
+      "id": "B0L6KAJ5A6",
+      "name": "时德福炸鸡煎饼(K酷时尚广场店)",
+      "distance_m": 285,
+      "address": "北苑路42号K酷时尚广场B1层",
+      "location": "116.419336,40.033045",
+      "photo_url": "http://store.is.autonavi.com/showpic/34260dd41e2a64428437709212c7fa16",
+      "area": "来广营",
+      "average_cost_yuan": 13.0,
+      "rating": 3.2,
+      "tags": [
+        "小吃快餐"
+      ]
+    },
+    {
+      "id": "B0M6JCF4PD",
+      "name": "酸酸的酸菜鱼",
+      "distance_m": 287,
+      "address": "奥运村街道北苑路42号K酷时尚广场一层30A",
+      "location": "116.419225,40.033175",
+      "category": "中餐厅",
+      "area": "来广营",
+      "rating": 1.7,
+      "tags": [
+        "酸菜鱼"
+      ]
+    },
+    {
+      "id": "B0JDTS8SY9",
+      "name": "蜀湘曹氏鸭脖(北苑店)",
+      "distance_m": 296,
+      "address": "北苑路42号K酷时尚广场F1层(南1门附近)",
+      "location": "116.419362,40.033179",
+      "photo_url": "https://aos-comment.amap.com/B0JDTS8SY9/comment/90f08608970804d5653d59607064529b_2048_2048_80.jpg",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 43.0,
+      "rating": 3.8,
+      "opening_hours": "周一至周日 10:30-21:30",
+      "tags": [
+        "小吃快餐",
+        "鸭货"
+      ]
+    },
+    {
+      "id": "B0L02ANGMI",
+      "name": "福田家(第21档口k酷美食城)",
+      "distance_m": 297,
+      "address": "奥运村街道北苑路42号K酷时尚广场四层F4A1",
+      "location": "116.419025,40.033425",
+      "area": "来广营",
+      "average_cost_yuan": 65.0,
+      "rating": 3.1
+    },
+    {
+      "id": "B0MUJ1T34Z",
+      "name": "排骨豆角粘卷子(K酷时尚广场店)",
+      "distance_m": 297,
+      "address": "红军营南路与北苑路交叉口东北100米",
+      "location": "116.419025,40.033425",
+      "category": "快餐厅",
+      "area": "来广营",
+      "rating": 1.5,
+      "tags": [
+        "小吃快餐"
+      ]
+    },
+    {
+      "id": "B0FFJOIWBA",
+      "name": "清粥小菜(K酷时尚广场店)",
+      "distance_m": 298,
+      "address": "北苑路42号K酷时尚广场四层",
+      "location": "116.418887,40.033527",
+      "photo_url": "http://store.is.autonavi.com/showpic/7fbce287f4804a4395f05b87508004e3",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 21.0,
+      "rating": 3.7,
+      "opening_hours": "周一至周日 10:30-14:00,16:00-20:30",
+      "tags": [
+        "中餐",
+        "宫保鸡丁",
+        "回锅肉",
+        "南瓜粥"
+      ]
+    },
+    {
+      "id": "B0JAO4SNCT",
+      "name": "香河肉饼·过桥米线",
+      "distance_m": 298,
+      "address": "北苑路42号K酷时尚广场F2层",
+      "location": "116.419012,40.033454",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 26.0,
+      "rating": 2.7,
+      "opening_hours": "周一至周日 09:30-21:30",
+      "tags": [
+        "过桥米线"
+      ]
+    },
+    {
+      "id": "B0G31C0169",
+      "name": "达美乐比萨(北苑店)",
+      "distance_m": 301,
+      "address": "北苑路42号二层ZC-07",
+      "location": "116.419614,40.033025",
+      "photo_url": "https://img.alicdn.com/imgextra/i3/O1CN01B0tmFt20kIonlnp7M_!!6000000006887-0-tps-800-800.jpg",
+      "category": "快餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 75.0,
+      "rating": 4.2,
+      "opening_hours": "周一至周日 09:30-24:00",
+      "tags": [
+        "西式快餐",
+        "金尊猫山王榴莲多多比萨",
+        "照烧风味牛肉土豆比萨",
+        "意大利雪球芝士多肉多芝比萨",
+        "新加坡砂煲风味腊肠鸡肉比萨",
+        "呼伦贝尔羔羊排",
+        "香甜双虾菠萝比萨"
+      ]
+    },
+    {
+      "id": "B0FFHDJRZE",
+      "name": "蜀王王婆大虾(K酷时尚广场店)",
+      "distance_m": 304,
+      "address": "北京城区北京城区北京城区北苑路42号4楼K酷国际影城对面",
+      "location": "116.419186,40.033410",
+      "photo_url": "http://store.is.autonavi.com/showpic/ba5e117431696abb446e0ddfc924d812",
+      "category": "火锅店",
+      "area": "来广营",
+      "average_cost_yuan": 91.0,
+      "rating": 4.2,
+      "opening_hours": "周一至周日 09:30-21:30",
+      "tags": [
+        "火锅",
+        "营养涮品—鹌鹑蛋",
+        "水果捞",
+        "招牌虾锅",
+        "面点主食—绿豆杂面",
+        "筋头巴脑",
+        "金钱肚"
+      ]
+    },
+    {
+      "id": "B0FFGHIZIZ",
+      "name": "吉祥馄饨(北京朝阳北苑路店)",
+      "distance_m": 305,
+      "address": "北苑路42号K酷时尚广场F4层",
+      "location": "116.418997,40.033538",
+      "photo_url": "https://store.is.autonavi.com/showpic/a38e66c215728d080000002894954652?type=pic",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 24.0,
+      "rating": 3.8,
+      "opening_hours": "周一至周日 08:00-22:00",
+      "tags": [
+        "小吃快餐",
+        "武汉热干面",
+        "辣椒炒肉",
+        "红烧牛肉面"
+      ]
+    },
+    {
+      "id": "B0MBPC1MMP",
+      "name": "蓉姐湖南米粉",
+      "distance_m": 308,
+      "address": "奥运村街道北苑路42号K酷时尚广场4层",
+      "location": "116.419225,40.033425",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 24.0,
+      "rating": 3.2,
+      "opening_hours": "周一至周日 10:00-22:00",
+      "tags": [
+        "米粉"
+      ]
+    },
+    {
+      "id": "B0FFHW3DYT",
+      "name": "田老师红烧肉",
+      "distance_m": 309,
+      "address": "北苑路42号K酷时尚广场四层K酷美食城餐饮区A号",
+      "location": "116.419057,40.033546",
+      "photo_url": "http://store.is.autonavi.com/showpic/7778e7b25a3306f51ccd53e987f1c48f",
+      "category": "快餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 18.0,
+      "rating": 4.2,
+      "opening_hours": "周一至周日 08:00-21:00",
+      "tags": [
+        "小吃快餐",
+        "红烧肉饭",
+        "咖喱鸡肉饭",
+        "烧茄子饭",
+        "梅菜扣肉饭",
+        "炭烧鸡肉饭",
+        "双人餐"
+      ]
+    },
+    {
+      "id": "B0M6XHQMF7",
+      "name": "铁锅炖家常菜",
+      "distance_m": 313,
+      "address": "奥运村街道北苑路42号K酷时尚广场四层",
+      "location": "116.419625,40.033175",
+      "category": "中餐厅",
+      "area": "来广营",
+      "rating": 2.9,
+      "tags": [
+        "家常菜",
+        "铁锅炖"
+      ]
+    },
+    {
+      "id": "B0LDFNQEE9",
+      "name": "虎头军煎饼(北苑路店)",
+      "distance_m": 314,
+      "address": "万科星园东门便利蜂旁(北苑路北地铁站A1西南口步行390米)",
+      "location": "116.414604,40.029097",
+      "photo_url": "https://store.is.autonavi.com/showpic/94500a445e34251da3445fb138977bad",
+      "category": "中餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 22.0,
+      "rating": 3.9,
+      "tags": [
+        "小吃快餐",
+        "烤鸭",
+        "烤肠"
+      ]
+    },
+    {
+      "id": "B0FFI8XIUD",
+      "name": "龙门阵串串香(北苑店)",
+      "distance_m": 316,
+      "address": "北苑路42号K酷时尚广场F1层",
+      "location": "116.419827,40.033022",
+      "photo_url": "http://store.is.autonavi.com/showpic/55ed77fd7cd069274f622a37e9c21d7a",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 84.0,
+      "rating": 3.0,
+      "opening_hours": "10:00-23:00",
+      "tags": [
+        "串串香",
+        "串串"
+      ]
+    },
+    {
+      "id": "B0KKARTEIA",
+      "name": "聚源兴南门涮肉",
+      "distance_m": 321,
+      "address": "万科星园东门北80米(北苑路北地铁站A1西南口步行400米)",
+      "location": "116.414563,40.029049",
+      "photo_url": "https://store.is.autonavi.com/showpic/2afc160cced6b9430000002977430164?type=pic",
+      "category": "火锅店",
+      "area": "北苑",
+      "average_cost_yuan": 89.0,
+      "rating": 4.5,
+      "opening_hours": "周一至周日 10:00-23:00",
+      "tags": [
+        "中餐",
+        "双人餐",
+        "牛肉",
+        "素菜"
+      ]
+    },
+    {
+      "id": "B0MG0CHPX3",
+      "name": "蹄虾一锅鲜(k酷四层店)",
+      "distance_m": 323,
+      "address": "奥运村街道北苑路42号K酷时尚广场四层F4A1",
+      "location": "116.419275,40.033575",
+      "photo_url": "https://store.is.autonavi.com/showpic/c094f8694afee9bad73bcf3dbeac7d64",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 79.0,
+      "rating": 2.4,
+      "tags": [
+        "小龙虾"
+      ]
+    },
+    {
+      "id": "B000A8X40E",
+      "name": "绝味鸭脖(北苑北路店)",
+      "distance_m": 324,
+      "address": "北苑路42号东门1层K酷广场底层",
+      "location": "116.419951,40.033025",
+      "photo_url": "https://img.alicdn.com/imgextra/i3/O1CN01uzSDbN1kxYQTOAcyJ_!!6000000004750-0-tps-712-712.jpg",
+      "area": "来广营",
+      "average_cost_yuan": 28.0,
+      "rating": 4.4,
+      "opening_hours": "周一至周日 10:00-22:00",
+      "tags": [
+        "卤味",
+        "鸭脖",
+        "素菜"
+      ]
+    },
+    {
+      "id": "B0L0LLA8UL",
+      "name": "鼎盛轩羊蝎子",
+      "distance_m": 324,
+      "address": "万科星园(北苑路北地铁站A1西南口步行400米)",
+      "location": "116.414593,40.029002",
+      "photo_url": "https://store.is.autonavi.com/showpic/c57c60363e7e445480ac8e3648bf5f1b",
+      "area": "北苑",
+      "average_cost_yuan": 104.0,
+      "rating": 3.1,
+      "opening_hours": "周一至周日 10:00-24:00",
+      "tags": [
+        "中餐",
+        "羊蝎子"
+      ]
+    },
+    {
+      "id": "B0FFGK01XZ",
+      "name": "易事达美食广场(K酷时尚广场店)",
+      "distance_m": 325,
+      "address": "北苑路42号K酷时尚广场F4层",
+      "location": "116.419273,40.033599",
+      "category": "中餐厅",
+      "area": "来广营",
+      "rating": 3.3,
+      "opening_hours": "周一至周日 09:30-21:30",
+      "tags": [
+        "美食城"
+      ]
+    },
+    {
+      "id": "B0FFIZWRHP",
+      "name": "南城香(红军营店)",
+      "distance_m": 325,
+      "address": "北京城区北苑路42号1层07D",
+      "location": "116.419802,40.033182",
+      "photo_url": "http://store.is.autonavi.com/query_pic?id=st1f4d36d8-a299-4197-a0e1-9c6f3c864e58&user=search&operate=original",
+      "category": "火锅店",
+      "area": "来广营",
+      "average_cost_yuan": 28.0,
+      "rating": 4.4,
+      "opening_hours": "周一至周日 06:00-19:30",
+      "tags": [
+        "小吃快餐",
+        "牛肉",
+        "油条"
+      ]
+    },
+    {
+      "id": "B0JAKYH4CN",
+      "name": "有面有串·菜肴·烧烤(北苑路店)",
+      "distance_m": 325,
+      "address": "K酷时尚广场西2门西北90米",
+      "location": "116.417934,40.034154",
+      "photo_url": "https://aos-comment.amap.com/B0JAKYH4CN/comment/content_media_external_file_1000168438_ss__1766589391433_11997487.jpg",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 49.0,
+      "rating": 4.5,
+      "opening_hours": "周一至周日 00:00-24:00",
+      "tags": [
+        "烧烤",
+        "红烧牛肉面",
+        "大盘鸡拌拉条子",
+        "烤羊肉串",
+        "兰州尕炒面",
+        "牛肉土豆饭",
+        "砂锅扁豆丝"
+      ]
+    },
+    {
+      "id": "B0JK0LSRJG",
+      "name": "杂粮煎饼烤冷面",
+      "distance_m": 326,
+      "address": "K酷时尚广场西2门西北90米",
+      "location": "116.417904,40.034173",
+      "photo_url": "https://store.is.autonavi.com/showpic/c367e51f4eb18b12a919d3f9bc16eab9",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 41.0,
+      "rating": 3.9,
+      "tags": [
+        "煎饼",
+        "酸辣粉",
+        "杂粮煎饼"
+      ]
+    },
+    {
+      "id": "B0JGN10GCW",
+      "name": "金诚源麻辣香锅(K酷时尚广场店)",
+      "distance_m": 327,
+      "address": "北苑路42号K酷时尚广场F4层",
+      "location": "116.419425,40.033525",
+      "photo_url": "http://store.is.autonavi.com/showpic/5d4c73d030c550a34f9ab2b1a3f2f350",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 27.0,
+      "rating": 2.5,
+      "opening_hours": "周一至周日 09:30-21:30",
+      "tags": [
+        "川菜",
+        "麻辣香锅",
+        "五花肉"
+      ]
+    },
+    {
+      "id": "B0MBPR29X7",
+      "name": "最成都巫山烤鱼精品川菜(北苑店)",
+      "distance_m": 329,
+      "address": "北京城区北苑路40号(北京有色金属与稀土应用研究所)22号平房",
+      "location": "116.417917,40.034197",
+      "photo_url": "https://store.is.autonavi.com/showpic/d05649f255824cc60000002268466713?type=pic",
+      "category": "四川菜(川菜)",
+      "area": "来广营",
+      "average_cost_yuan": 80.0,
+      "rating": 4.4,
+      "opening_hours": "周一至周日 00:00-24:00",
+      "tags": [
+        "川菜",
+        "双人餐"
+      ]
+    },
+    {
+      "id": "B0MALN6W22",
+      "name": "宴遇串吧",
+      "distance_m": 330,
+      "address": "北京城区北京城区北苑路40号(40号平房)",
+      "location": "116.418025,40.034175",
+      "photo_url": "https://store.is.autonavi.com/showpic/21351f65e8f0b3a00000002465722723?type=pic",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 78.0,
+      "rating": 3.7,
+      "opening_hours": "周一至周日 16:00-02:30",
+      "tags": [
+        "烧烤"
+      ]
+    },
+    {
+      "id": "B0HA9CAB9T",
+      "name": "湘赣土菜馆(北苑店)",
+      "distance_m": 331,
+      "address": "北苑路40号,K酷大广场侧面",
+      "location": "116.418272,40.034118",
+      "photo_url": "https://aos-comment.amap.com/B0HA9CAB9T/comment/AC4342CE_9F1D_48F1_9F47_16560F985876_L0_001_2000_150_1757656355442_59137949.jpg",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 66.0,
+      "rating": 4.5,
+      "opening_hours": "周一至周日 09:00-24:00",
+      "tags": [
+        "湘菜",
+        "江西菜"
+      ]
+    },
+    {
+      "id": "B0HROCMBEA",
+      "name": "有家·砂锅米线·热干面(第7档口聚食餐饮美食城店)",
+      "distance_m": 331,
+      "address": "北苑路42号K酷时尚广场F4层",
+      "location": "116.419661,40.033391",
+      "category": "中餐厅",
+      "area": "来广营",
+      "rating": 1.9,
+      "tags": [
+        "热干面",
+        "砂锅米线"
+      ]
+    },
+    {
+      "id": "B0M6TR64DW",
+      "name": "大叔过桥米线·砂锅面(第15档口聚食美食城店)",
+      "distance_m": 331,
+      "address": "北苑路42号K酷时尚广场F4层",
+      "location": "116.419425,40.033575",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 20.0,
+      "rating": 2.2,
+      "tags": [
+        "过桥米线",
+        "砂锅面"
+      ]
+    },
+    {
+      "id": "B0MBMY753F",
+      "name": "鱼多美烧烤好再来小馆",
+      "distance_m": 333,
+      "address": "奥运村街道北苑路42号K酷时尚广场",
+      "location": "116.419825,40.033275",
+      "category": "特色/地方风味餐厅",
+      "area": "来广营",
+      "rating": 2.6,
+      "tags": [
+        "烧烤"
+      ]
+    },
+    {
+      "id": "B0FFG3X8CH",
+      "name": "巫山烤鱼",
+      "distance_m": 334,
+      "address": "K酷时尚广场西2门西北80米",
+      "location": "116.418175,40.034175",
+      "photo_url": "http://store.is.autonavi.com/showpic/b47b4382514498e1ad8d6276a1817dca",
+      "category": "特色/地方风味餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 104.0,
+      "rating": 3.9,
+      "tags": [
+        "烤鱼",
+        "巫山烤鱼"
+      ]
+    },
+    {
+      "id": "B0H2F1KY3S",
+      "name": "李记传统羊汤面馆",
+      "distance_m": 335,
+      "address": "北京城区北苑路40号一层10-1号",
+      "location": "116.418323,40.034141",
+      "photo_url": "https://comment-oss-online.oss-cn-wulanchabu.aliyuncs.com/B0H2F1KY3S/comment/content_media_external_images_media_7776_1653205776299_3d5d6688.jpg",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 30.0,
+      "rating": 4.1,
+      "opening_hours": "周一至周日 09:00-01:00",
+      "tags": [
+        "汤",
+        "电烤羊肉串",
+        "秘制羊大骨棒老汤",
+        "麻辣鸭头",
+        "酱牛肉",
+        "羊蹄",
+        "葱油拌面"
+      ]
+    },
+    {
+      "id": "B0L0RO7T7P",
+      "name": "赵氏辣卤·麻辣鸭脖·酸菜鱼",
+      "distance_m": 335,
+      "address": "北苑路42号K酷时尚广场F4层",
+      "location": "116.418375,40.034125",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 28.0,
+      "rating": 2.2,
+      "tags": [
+        "鸭脖",
+        "酸菜鱼"
+      ]
+    },
+    {
+      "id": "B000A8X4TW",
+      "name": "山西刀削面家常菜烧烤",
+      "distance_m": 336,
+      "address": "北京城区北京城区北苑路40号41幢1层10-3号",
+      "location": "116.418417,40.034124",
+      "photo_url": "https://store.is.autonavi.com/showpic/7868a45e34d039730000002453466046?type=pic",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 26.0,
+      "rating": 3.7,
+      "opening_hours": "周一至周日 09:00-21:00",
+      "tags": [
+        "面馆",
+        "牛肉",
+        "家常菜"
+      ]
+    },
+    {
+      "id": "B0FFHDJRZ7",
+      "name": "咱家锅贴·馄饨(第2档口K酷美食城店)",
+      "distance_m": 336,
+      "address": "北苑路42号K酷时尚广场F4层",
+      "location": "116.419353,40.033681",
+      "photo_url": "http://store.is.autonavi.com/showpic/62706898eebf79ec8fd625105345fe27",
+      "category": "特色/地方风味餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 18.0,
+      "rating": 3.1,
+      "opening_hours": "周一至周日 09:30-21:30",
+      "tags": [
+        "小吃快餐",
+        "锅贴"
+      ]
+    },
+    {
+      "id": "B0MBAOAHCM",
+      "name": "自选面打卤炸酱面",
+      "distance_m": 337,
+      "address": "北苑路42号K酷时尚广场F4层",
+      "location": "116.419525,40.033575",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 14.0,
+      "rating": 2.8,
+      "tags": [
+        "炸酱面"
+      ]
+    },
+    {
+      "id": "B0K2CSKCZ4",
+      "name": "小湘村猪脚饭(K酷时尚广场店)",
+      "distance_m": 338,
+      "address": "北苑路42号K酷时尚广场F4层",
+      "location": "116.419599,40.033528",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 29.0,
+      "rating": 2.5,
+      "tags": [
+        "猪脚饭"
+      ]
+    },
+    {
+      "id": "B0L2LOQ8C7",
+      "name": "饼呱呱·烧饼夹里脊(北苑店)",
+      "distance_m": 340,
+      "address": "北苑路40号(北京有色金属与稀土应用研究所)47号",
+      "location": "116.417935,40.034296",
+      "photo_url": "https://aos-comment.amap.com/B0L2LOQ8C7/comment/content_media_external_file_1000062915_ss__1768819282186_06278385.jpg",
+      "area": "来广营",
+      "average_cost_yuan": 11.0,
+      "rating": 3.9,
+      "opening_hours": "周一至周日 06:30-21:00",
+      "tags": [
+        "小吃快餐",
+        "烧饼夹里脊"
+      ]
+    },
+    {
+      "id": "B0FFG8FWKM",
+      "name": "台湾烤肉饭(K酷时尚广场店)",
+      "distance_m": 342,
+      "address": "北苑路42号K酷时尚广场F4层4FD-03",
+      "location": "116.419711,40.033501",
+      "photo_url": "http://store.is.autonavi.com/showpic/0d5024c914b1aa124ed43d4586cadc4f",
+      "category": "台湾菜",
+      "area": "来广营",
+      "average_cost_yuan": 26.0,
+      "rating": 1.3,
+      "opening_hours": "周一至周日 09:30-21:30",
+      "tags": [
+        "台湾菜",
+        "烤肉饭"
+      ]
+    },
+    {
+      "id": "B0L33RBO1K",
+      "name": "赵记坛子肉焖饼家常菜(K酷时尚广场店)",
+      "distance_m": 342,
+      "address": "北苑路42号K酷时尚广场F4层",
+      "location": "116.419596,40.033588",
+      "category": "中餐厅",
+      "area": "来广营",
+      "rating": 2.5,
+      "tags": [
+        "家常菜"
+      ]
+    },
+    {
+      "id": "B0FFF3I66W",
+      "name": "王记羊汤·凉皮(K酷时尚广场店)",
+      "distance_m": 343,
+      "address": "北苑路42号K酷时尚广场F4层4FD-21",
+      "location": "116.419392,40.033730",
+      "photo_url": "http://store.is.autonavi.com/showpic/10e0678ca78797da003add3ff6aff599",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 22.0,
+      "rating": 3.7,
+      "opening_hours": "周一至周日 09:00-20:30",
+      "tags": [
+        "羊肉汤",
+        "羊汤",
+        "特色小吃"
+      ]
+    },
+    {
+      "id": "B0HD2MAOW7",
+      "name": "安徽板面(双营路店)",
+      "distance_m": 343,
+      "address": "北苑路与红军营南路交叉口北180米",
+      "location": "116.417891,40.034329",
+      "photo_url": "https://store.is.autonavi.com/showpic/20705aeda06d50810000002412362234?type=pic",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 20.0,
+      "rating": 4.0,
+      "opening_hours": "周一至周日 10:00-24:00",
+      "tags": [
+        "板面"
+      ]
+    },
+    {
+      "id": "B0GK1123VB",
+      "name": "薛先生砂锅土豆粉面米线(K酷时尚广场店)",
+      "distance_m": 344,
+      "address": "北苑路42号K酷时尚广场F4层",
+      "location": "116.419767,40.033482",
+      "photo_url": "https://aos-comment.amap.com/B0GK1123VB/comment/content_media_external_file_1000061142_ss__1768257038521_34153995.jpg",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 22.0,
+      "rating": 3.6,
+      "opening_hours": "周一至周日 08:00-21:00",
+      "tags": [
+        "土豆粉"
+      ]
+    },
+    {
+      "id": "B0FFGLIXJP",
+      "name": "蜀香园快餐(K酷时尚广场店)",
+      "distance_m": 345,
+      "address": "北苑路42-5号K酷时尚广场K酷美食城四楼",
+      "location": "116.419738,40.033519",
+      "photo_url": "https://store.is.autonavi.com/showpic/57bf50467cc969e64fe46a1ef0dd8db9",
+      "category": "四川菜(川菜)",
+      "area": "来广营",
+      "average_cost_yuan": 14.0,
+      "rating": 3.6,
+      "opening_hours": "周一至周日 09:30-21:30",
+      "tags": [
+        "中式快餐",
+        "素菜",
+        "炸鸡腿",
+        "鸡肉"
+      ]
+    },
+    {
+      "id": "B0JUTS9CBJ",
+      "name": "木子李牛街牛羊肉店",
+      "distance_m": 348,
+      "address": "仰山路北拂林路甲3号1层C4号(万科星园东门旁)",
+      "location": "116.414599,40.028727",
+      "photo_url": "https://aos-comment.amap.com/B0JUTS9CBJ/comment/content_media_external_file_1000046365_ss__1764462400013_03491643.jpg",
+      "category": "农副产品市场",
+      "area": "北苑",
+      "rating": 3.9,
+      "opening_hours": "周一至周日 07:30-19:30",
+      "tags": [
+        "农副产品",
+        "清真牛街牛羊肉"
+      ]
+    },
+    {
+      "id": "B0M6F117NM",
+      "name": "饺子研究所·东北大馅水饺(第1档口聚食美食城店)",
+      "distance_m": 349,
+      "address": "奥运村街道北苑路42号K酷时尚广场F4层",
+      "location": "116.419725,40.033575",
+      "photo_url": "https://store.is.autonavi.com/showpic/81b175bf2f31b267bc792e4dfbc931e7",
+      "category": "中餐厅",
+      "area": "来广营",
+      "rating": 3.3,
+      "tags": [
+        "小吃快餐"
+      ]
+    },
+    {
+      "id": "B000AA0IVN",
+      "name": "河间人家驴肉火烧(北辰店)",
+      "distance_m": 350,
+      "address": "万科星园甲3号1层C4",
+      "location": "116.414599,40.028714",
+      "photo_url": "http://store.is.autonavi.com/showpic/4c31b1de7ead435e18b68c551e300cb6",
+      "category": "特色/地方风味餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 32.0,
+      "rating": 4.3,
+      "opening_hours": "周一至周日 09:00-23:00",
+      "tags": [
+        "驴肉火烧",
+        "麻酱"
+      ]
+    },
+    {
+      "id": "B0HGORV7OO",
+      "name": "川妹子美食(第7号档口店)",
+      "distance_m": 355,
+      "address": "北苑路42号K酷时尚广场F4层4FD-12",
+      "location": "116.419734,40.033646",
+      "photo_url": "https://aos-comment.amap.com/B0HGORV7OO/comment/content_media_external_file_1000061148_ss__1768256687897_84101683.jpg",
+      "category": "四川菜(川菜)",
+      "area": "来广营",
+      "average_cost_yuan": 17.0,
+      "rating": 2.7,
+      "opening_hours": "周一至周日 09:30-21:30",
+      "tags": [
+        "川菜",
+        "溜肉段",
+        "回锅肉",
+        "红烧肉",
+        "麻婆豆腐"
+      ]
+    },
+    {
+      "id": "B0M6DZ69N9",
+      "name": "扶垚泡泡鸡烤鱼饭",
+      "distance_m": 357,
+      "address": "北苑路42号K酷时尚广场B1层",
+      "location": "116.419840,40.033587",
+      "photo_url": "https://store.is.autonavi.com/showpic/fcc1a1af038f055235dcb883882dec75",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 33.0,
+      "rating": 2.4,
+      "tags": [
+        "烤鱼",
+        "泡泡鸡",
+        "烤鱼饭"
+      ]
+    },
+    {
+      "id": "B0LKXCOQ2R",
+      "name": "老北京油炸臭豆腐",
+      "distance_m": 359,
+      "address": "北苑路42号K酷时尚广场F4层",
+      "location": "116.419625,40.033775",
+      "area": "来广营",
+      "average_cost_yuan": 29.0,
+      "rating": 3.1,
+      "tags": [
+        "小吃快餐"
+      ]
+    },
+    {
+      "id": "B0FFG7LT5H",
+      "name": "嘉和一品(K酷广场店)",
+      "distance_m": 361,
+      "address": "北苑路42-5号k酷时尚广场",
+      "location": "116.419133,40.034075",
+      "photo_url": "https://store.is.autonavi.com/showpic/c0a53422c91cc30ff686c1981c5a4879?operate=original?operate=original?operate=original?operate=original",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 25.0,
+      "rating": 4.1,
+      "opening_hours": "周一至周日 06:30-21:30",
+      "tags": [
+        "中式快餐",
+        "鸡翅",
+        "葱花饼",
+        "皮蛋瘦肉粥",
+        "小米粥"
+      ]
+    },
+    {
+      "id": "B0K65SHG0J",
+      "name": "北民宴·东北菜海鲜烧烤大排档",
+      "distance_m": 369,
+      "address": "北苑路40号18号",
+      "location": "116.417804,40.034589",
+      "photo_url": "https://aos-comment.amap.com/B0K65SHG0J/comment/15a31fb8fb78e9ddfa3dc8d6f212f960_2048_2048_80.jpg",
+      "category": "特色/地方风味餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 78.0,
+      "rating": 4.6,
+      "opening_hours": "周一至周日 10:00-14:30,16:30-02:30",
+      "tags": [
+        "烧烤",
+        "烧烤大排档",
+        "鸡肉",
+        "牛肉",
+        "双人餐",
+        "海鲜烧烤",
+        "大排档"
+      ]
+    },
+    {
+      "id": "B0MGUG9TS3",
+      "name": "馋嘴鸭王",
+      "distance_m": 369,
+      "address": "北苑路与红军营南路交叉口北200米",
+      "location": "116.417837,40.034580",
+      "area": "来广营",
+      "rating": 2.3,
+      "tags": [
+        "卤味",
+        "馋嘴鸭"
+      ]
+    },
+    {
+      "id": "B0IDCN686V",
+      "name": "杭州小吃(万科星园店)",
+      "distance_m": 429,
+      "address": "万科星园南2门旁",
+      "location": "116.414587,40.027897",
+      "photo_url": "https://aos-comment.amap.com/B0IDCN686V/comment/41fc1f98-9cc3-455c-b3e7-0c6fbd8ac0f1.png",
+      "category": "快餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 20.0,
+      "rating": 4.1,
+      "opening_hours": "周一至周日 06:00-22:00",
+      "tags": [
+        "小吃快餐",
+        "杭州小吃"
+      ]
+    },
+    {
+      "id": "B0LDV98EPK",
+      "name": "新疆人烧烤(万科星园店)",
+      "distance_m": 433,
+      "address": "仰山路万科星园甲3号1层A3",
+      "location": "116.414642,40.027844",
+      "photo_url": "https://aos-comment.amap.com/B0LDV98EPK/comment/content_media_external_file_1000066234_ss__1761046746497_80505083.jpg",
+      "category": "特色/地方风味餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 52.0,
+      "rating": 4.5,
+      "opening_hours": "周一至周日 17:00-03:00",
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "id": "B0FFLNPQJV",
+      "name": "蒋哥乐山麻辣串",
+      "distance_m": 434,
+      "address": "万科星园",
+      "location": "116.414587,40.027852",
+      "photo_url": "https://aos-comment.amap.com/B0FFLNPQJV/comment/12cf257d8b53b43fd802155b41b50730_2048_2048_80.jpg",
+      "category": "中餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 21.0,
+      "rating": 3.7,
+      "opening_hours": "周一至周日 08:30-21:00",
+      "tags": [
+        "串串香",
+        "麻辣串"
+      ]
+    },
+    {
+      "id": "B0M61RJQ2G",
+      "name": "晶晶啤酒海鲜烧烤",
+      "distance_m": 439,
+      "address": "北苑路与双营路交叉口南260米",
+      "location": "116.416175,40.035275",
+      "rating": 2.2,
+      "tags": [
+        "海鲜",
+        "海鲜烧烤"
+      ]
+    },
+    {
+      "id": "B0FFHWTTEV",
+      "name": "山西面馆(万科星园店)",
+      "distance_m": 443,
+      "address": "北京城区万科星园东门南行200米二层",
+      "location": "116.414585,40.027763",
+      "photo_url": "https://store.is.autonavi.com/showpic/e4a44e2ca89d3cfe810075158b56e164",
+      "category": "快餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 22.0,
+      "rating": 4.1,
+      "opening_hours": "周一至周日 10:00-22:00",
+      "tags": [
+        "面馆",
+        "西红柿鸡蛋",
+        "肉炒刀削面",
+        "鱼香肉丝盖饭",
+        "双椒猪大肠拌面",
+        "油泼面",
+        "尖椒肉丝拌面"
+      ]
+    },
+    {
+      "id": "B0LUA7L1T3",
+      "name": "晋味源手擀面(北苑路店)",
+      "distance_m": 445,
+      "address": "北苑路36号金苑大厦F1层",
+      "location": "116.417690,40.035307",
+      "photo_url": "https://store.is.autonavi.com/showpic/b1e7f2ccf3938d9c0000002412244200?type=pic",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 28.0,
+      "rating": 3.9,
+      "opening_hours": "周一至周日 10:30-23:00",
+      "tags": [
+        "面馆",
+        "手擀面"
+      ]
+    },
+    {
+      "id": "B0GRZ781TQ",
+      "name": "原鄉本味丹江渔市(北苑店)",
+      "distance_m": 447,
+      "address": "北苑路36号金苑大厦F1层",
+      "location": "116.417699,40.035323",
+      "photo_url": "https://store.is.autonavi.com/showpic/5a03a848dc34bf9a0000000952048036?type=pic",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 68.0,
+      "rating": 4.5,
+      "opening_hours": "周六至周日 10:00-21:30；周一至周五 10:00-14:00,17:00-21:30",
+      "tags": [
+        "湖北菜",
+        "洪湖莲藕排骨汤",
+        "青椒丹江口生态大翘嘴",
+        "风味臭鳜鱼",
+        "鲜花椒汁牛肉粒",
+        "原乡毛血旺",
+        "金牌酱肘花"
+      ]
+    },
+    {
+      "id": "B0HRO7N7G7",
+      "name": "晋大碗面坊",
+      "distance_m": 453,
+      "address": "仰山路万科星园甲3号楼2层A5",
+      "location": "116.414288,40.027771",
+      "category": "中餐厅",
+      "rating": 2.5,
+      "tags": [
+        "中餐",
+        "大碗面"
+      ]
+    },
+    {
+      "id": "B0M6P9OG7U",
+      "name": "阿祥嫂隆江猪脚饭(北苑路店)",
+      "distance_m": 459,
+      "address": "北京城区北京城区北苑路36号金苑大厦底商100号",
+      "location": "116.417578,40.035446",
+      "photo_url": "https://store.is.autonavi.com/showpic/8dec4ef8760a00220000002444546541?type=pic",
+      "category": "快餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 25.0,
+      "rating": 4.5,
+      "opening_hours": "周一至周日 10:00-21:30",
+      "tags": [
+        "小吃快餐",
+        "绿豆汤"
+      ]
+    },
+    {
+      "id": "B0MU47B1BU",
+      "name": "后宰门澄城水盆羊肉(北苑店)",
+      "distance_m": 462,
+      "address": "北苑路36号",
+      "location": "116.417566,40.035474",
+      "photo_url": "https://store.is.autonavi.com/showpic/fc571c74113e2e0e5e78ae913dead097",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 51.0,
+      "rating": 4.2,
+      "opening_hours": "周一至周日 10:30-22:00",
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "id": "B0J3UC05WU",
+      "name": "曾府·传家湘菜",
+      "distance_m": 490,
+      "address": "北京城区北苑路58号航空科技大厦2层",
+      "location": "116.419164,40.027332",
+      "photo_url": "https://aos-comment.amap.com/B0J3UC05WU/comment/content_media_external_file_12060_ss__1768115661321_15580878.jpg",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 104.0,
+      "rating": 4.6,
+      "opening_hours": "周一至周日 11:00-14:00,16:30-22:00",
+      "tags": [
+        "湘菜",
+        "烤鸭",
+        "红烧肉",
+        "陈年花雕红烧肉",
+        "长沙臭豆腐",
+        "甲鱼"
+      ]
+    },
+    {
+      "id": "B0I2LD1GZP",
+      "name": "如一铁锅炖·家常菜(万科星园店)",
+      "distance_m": 493,
+      "address": "万科星园南2门南50米",
+      "location": "116.414548,40.027277",
+      "photo_url": "https://store.is.autonavi.com/showpic/da783b6ae39fdd2aae9c4fdc1a1bd3e4",
+      "category": "中餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 58.0,
+      "rating": 4.5,
+      "opening_hours": "周一至周日 11:00-23:00",
+      "tags": [
+        "家常菜",
+        "铁锅炖",
+        "铁锅炖大鹅"
+      ]
+    },
+    {
+      "id": "B0KGNZWQGP",
+      "name": "雅源澜亭(万科星园店)",
+      "distance_m": 493,
+      "address": "北京城区仰山路万科星园甲2号3层J",
+      "location": "116.414108,40.027439",
+      "photo_url": "https://store.is.autonavi.com/showpic/c7d8328268289075d0202404218a9e4e",
+      "area": "北苑",
+      "average_cost_yuan": 121.0,
+      "rating": 4.2,
+      "opening_hours": "周一至周日 10:00-20:00",
+      "tags": [
+        "按摩"
+      ]
+    },
+    {
+      "id": "B0L3OKXA5E",
+      "name": "贝克巴斯",
+      "distance_m": 495,
+      "address": "来广营乡北苑路58号航空科技大厦A座1305室",
+      "location": "116.418975,40.027225",
+      "photo_url": "https://store.is.autonavi.com/showpic/29dbf84bb307606e345dcfd12d3d08b3",
+      "area": "来广营",
+      "rating": 3.5
+    },
+    {
+      "id": "B0LDZ5UOCX",
+      "name": "渔乡寨黔味(北苑店)",
+      "distance_m": 509,
+      "address": "仰山路万科星园2层甲2号",
+      "location": "116.414541,40.027129",
+      "photo_url": "https://store.is.autonavi.com/showpic/f2ccc4a055aa37930000003304932469?type=pic",
+      "category": "中餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 75.0,
+      "rating": 4.6,
+      "opening_hours": "周一至周日 10:00-23:00",
+      "tags": [
+        "贵州菜",
+        "双人餐"
+      ]
+    },
+    {
+      "id": "B0LUL9AAOL",
+      "name": "伊兰香·西北滩羊宴·烧烤(北苑店)",
+      "distance_m": 509,
+      "address": "仰山路万科星园甲2号楼1层D2层",
+      "location": "116.414338,40.027191",
+      "photo_url": "https://aos-comment.amap.com/B0LUL9AAOL/comment/content_media_external_file_564694_ss__1765004710815_02381913.jpg",
+      "category": "清真菜馆",
+      "area": "北苑",
+      "average_cost_yuan": 56.0,
+      "rating": 4.4,
+      "opening_hours": "周一至周日 09:00-00:00 10-01至10-07 周一至周日 09:30-00:00",
+      "tags": [
+        "烤串",
+        "滩羊"
+      ]
+    },
+    {
+      "id": "B0L1T15L9Y",
+      "name": "粮碗福炒饭(天溪园店)",
+      "distance_m": 534,
+      "address": "林奥购物中心B1层",
+      "location": "116.414525,40.035825",
+      "category": "中餐厅",
+      "rating": 2.9,
+      "opening_hours": "周一至周日 10:00-22:00",
+      "tags": [
+        "小吃快餐"
+      ]
+    },
+    {
+      "id": "B0FFFALOE8",
+      "name": "山西刀削面(双营路店)",
+      "distance_m": 601,
+      "address": "军区总医院南门对面",
+      "location": "116.423744,40.032440",
+      "photo_url": "http://store.is.autonavi.com/showpic/68f72c55a8f88d17bbd3e0a015cbd985",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 12.0,
+      "rating": 3.6,
+      "opening_hours": "周一至周日 09:00-23:00",
+      "tags": [
+        "刀削面",
+        "炒面",
+        "牛肉"
+      ]
+    },
+    {
+      "id": "B0LRS54SF3",
+      "name": "饼呱呱·烧饼+里脊(北苑店)",
+      "distance_m": 608,
+      "address": "奥运村街道北苑路K酷时尚广场",
+      "location": "116.422825,40.034325",
+      "photo_url": "https://store.is.autonavi.com/showpic/4bd5582706c5f2290000002412366312?type=pic",
+      "area": "来广营",
+      "average_cost_yuan": 11.0,
+      "rating": 3.3,
+      "tags": [
+        "烧饼",
+        "里脊"
+      ]
+    },
+    {
+      "id": "B0FFGZV1MK",
+      "name": "大福龙虾(北苑店)",
+      "distance_m": 610,
+      "address": "红军营南路6号一层-10(集美家居斜对面)",
+      "location": "116.423890,40.032251",
+      "photo_url": "http://store.is.autonavi.com/showpic/48cf536bcb959b4f80fbaa55360c57f0",
+      "category": "特色/地方风味餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 92.0,
+      "rating": 4.7,
+      "opening_hours": "周一至周日 11:00-04:00",
+      "tags": [
+        "烧烤",
+        "烤串",
+        "锅包肉",
+        "羊肉",
+        "鸡架",
+        "麻辣烫",
+        "龙虾"
+      ]
+    },
+    {
+      "id": "B0IA34HMMA",
+      "name": "1号早餐店(北苑店)",
+      "distance_m": 611,
+      "address": "仰山路与双苑路交叉口东180米",
+      "location": "116.412569,40.026932",
+      "photo_url": "https://store.is.autonavi.com/showpic/063a7d8640cf1ce40000003330324368?type=pic",
+      "category": "中餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 10.0,
+      "rating": 3.8,
+      "opening_hours": "周一至周日 00:00-24:00",
+      "tags": [
+        "小吃快餐"
+      ]
+    },
+    {
+      "id": "B0JUTN5M45",
+      "name": "兴兴早餐(第1档口星星美食城店)",
+      "distance_m": 613,
+      "address": "秋实街与红军营南路交叉口北260米",
+      "location": "116.422308,40.034934",
+      "photo_url": "http://store.is.autonavi.com/showpic/a49a525f0ddcd0072cbaa3fbad08f558",
+      "category": "中餐厅",
+      "area": "来广营",
+      "rating": 2.6,
+      "tags": [
+        "小吃快餐"
+      ]
+    },
+    {
+      "id": "B0L1PK3V0D",
+      "name": "正宗安徽板面",
+      "distance_m": 617,
+      "address": "北京城区秋实街与红军营南路交叉口北260米",
+      "location": "116.422366,40.034928",
+      "photo_url": "https://store.is.autonavi.com/showpic/2ca99b18990239efe6e7e324bd57dfa8",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 25.0,
+      "rating": 3.9,
+      "opening_hours": "周一至周日 10:00-01:00",
+      "tags": [
+        "面馆"
+      ]
+    },
+    {
+      "id": "B0KKVG00ER",
+      "name": "叨叨驴肉馆(暂停营业)",
+      "distance_m": 622,
+      "address": "6号15",
+      "location": "116.424031,40.032270",
+      "photo_url": "https://aos-comment.amap.com/B0KKVG00ER/comment/DECB7AC3_0A26_4C2F_97D1_CB56066A08B1_L0_001_1920_108_1763905593600_93970828.jpg",
+      "area": "来广营",
+      "average_cost_yuan": 44.0,
+      "rating": 4.6,
+      "opening_hours": "周一至周日 09:00-23:30",
+      "tags": [
+        "特色小吃"
+      ]
+    },
+    {
+      "id": "B0HDJSTRH3",
+      "name": "那家大院铁锅炖",
+      "distance_m": 625,
+      "address": "来广营乡红军营南路6号",
+      "location": "116.424061,40.032280",
+      "photo_url": "https://store.is.autonavi.com/showpic/b6815a9cdc6b81b60000003632602553?type=pic",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 73.0,
+      "rating": 4.1,
+      "opening_hours": "周一至周日 11:00-24:00",
+      "tags": [
+        "东北菜",
+        "铁锅炖",
+        "五花肉"
+      ]
+    },
+    {
+      "id": "B0KR4OH0Z6",
+      "name": "人民公社大食堂(来广营店)",
+      "distance_m": 633,
+      "address": "北京朝来爱心公寓东侧",
+      "location": "116.424170,40.032254",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 72.0,
+      "rating": 3.6,
+      "tags": [
+        "中餐",
+        "宫保鸡丁",
+        "水煮肉片",
+        "家常菜"
+      ]
+    },
+    {
+      "id": "B0KUCU30VV",
+      "name": "香宇熟食",
+      "distance_m": 633,
+      "address": "北京城区仰山路与双苑路交叉口东南140米",
+      "location": "116.418992,40.025909",
+      "photo_url": "http://store.is.autonavi.com/showpic/88fb0ac906830a815b36e86a59dbd280",
+      "area": "来广营",
+      "average_cost_yuan": 35.0,
+      "rating": 3.4,
+      "opening_hours": "周一至周日 08:00-21:00",
+      "tags": [
+        "熟食"
+      ]
+    },
+    {
+      "id": "B0K2JR1R6P",
+      "name": "华安麻辣烫",
+      "distance_m": 634,
+      "address": "佳兴园对面北苑菜市场旁边30米",
+      "location": "116.422323,40.035207",
+      "photo_url": "https://store.is.autonavi.com/showpic/2e5570b2be5ad4ab81cd6340e18e2ed5",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 36.0,
+      "rating": 4.5,
+      "opening_hours": "周一至周日 11:00-23:00",
+      "tags": [
+        "麻辣烫"
+      ]
+    },
+    {
+      "id": "B0MA5OQSXN",
+      "name": "嘎嘎好吃",
+      "distance_m": 634,
+      "address": "红军营南路与秋实街交叉口东120米",
+      "location": "116.424175,40.032291",
+      "category": "中餐厅",
+      "area": "来广营",
+      "rating": 2.3,
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "id": "B0J3K7PJLJ",
+      "name": "东北乡村东北菜饺子馆(北苑家园店)",
+      "distance_m": 637,
+      "address": "北京朝来爱心公寓东侧",
+      "location": "116.424204,40.032282",
+      "photo_url": "https://store.is.autonavi.com/showpic/8fa1bfce0764fb2641d2592681b4a1a6",
+      "category": "特色/地方风味餐厅",
+      "area": "来广营",
+      "rating": 3.6,
+      "opening_hours": "周一至周日 10:00-24:00",
+      "tags": [
+        "东北菜",
+        "家常菜"
+      ]
+    },
+    {
+      "id": "B0LBCD3H46",
+      "name": "勇顺重庆糊辣壳面(安立路店)",
+      "distance_m": 638,
+      "address": "安立路28号院3号楼1层商业101-A30",
+      "location": "116.412696,40.026566",
+      "photo_url": "http://store.is.autonavi.com/showpic/66948a19e94ed986376238d963d4e4cc",
+      "category": "中餐厅",
+      "average_cost_yuan": 31.0,
+      "rating": 3.5,
+      "opening_hours": "周一至周日 10:00-22:00",
+      "tags": [
+        "面馆"
+      ]
+    },
+    {
+      "id": "B0IDXC0O5N",
+      "name": "街边烧烤(北苑店)",
+      "distance_m": 640,
+      "address": "北苑五号院4区东侧60米",
+      "location": "116.422315,40.035289",
+      "photo_url": "https://store.is.autonavi.com/showpic/0115dbbeb0e491b0951558c0ab19d444",
+      "category": "特色/地方风味餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 70.0,
+      "rating": 4.3,
+      "opening_hours": "周一至周日 17:00-03:00",
+      "tags": [
+        "烤串",
+        "羊肉串"
+      ]
+    },
+    {
+      "id": "B0J0DBO85U",
+      "name": "融柳大铁牛螺蛳粉(秋实街店)",
+      "distance_m": 642,
+      "address": "佳兴园西门对面便民菜市场融柳大铁牛螺蛳粉",
+      "location": "116.422310,40.035317",
+      "photo_url": "https://aos-comment.amap.com/B0J0DBO85U/comment/e666af2323a90305fcd1d9e0dad5fb3a_2048_2048_80.jpg",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 22.0,
+      "rating": 4.1,
+      "opening_hours": "周一至周日 10:00-22:00",
+      "tags": [
+        "螺蛳粉"
+      ]
+    },
+    {
+      "id": "B0L1G1BVXD",
+      "name": "好再来早餐",
+      "distance_m": 642,
+      "address": "北苑5号院四区东侧60米",
+      "location": "116.422311,40.035311",
+      "photo_url": "https://store.is.autonavi.com/showpic/5e8877d85403bea5b53c62dc3447948f",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 17.0,
+      "rating": 3.9,
+      "opening_hours": "周一至周日 03:00-14:00",
+      "tags": [
+        "小吃快餐"
+      ]
+    },
+    {
+      "id": "B0FFI73R5K",
+      "name": "牛肉板面牛杂面",
+      "distance_m": 648,
+      "address": "红军营南路6号-1牛肉板面牛杂面",
+      "location": "116.424347,40.032245",
+      "photo_url": "https://store.is.autonavi.com/showpic/3b4f3cdf1addba580000002406396634?type=pic",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 22.0,
+      "rating": 4.0,
+      "opening_hours": "周一至周日 08:00-23:00",
+      "tags": [
+        "面馆",
+        "牛杂面",
+        "虎皮鸡爪",
+        "牛肉板面",
+        "板面"
+      ]
+    },
+    {
+      "id": "B0MDKABOW1",
+      "name": "安徽早点·小笼包",
+      "distance_m": 651,
+      "address": "红军营南路与秋实街交叉口东140米",
+      "location": "116.424375,40.032275",
+      "category": "中餐厅",
+      "area": "来广营",
+      "rating": 3.5,
+      "tags": [
+        "小笼包"
+      ]
+    },
+    {
+      "id": "B0HK9Z12WE",
+      "name": "紫光园·烤鸭·小馆(安立路店)",
+      "distance_m": 654,
+      "address": "安立路28号院好果好菜MallF1层",
+      "location": "116.412324,40.026590",
+      "photo_url": "http://store.is.autonavi.com/query_pic?id=stc56029d4-8f36-4428-b61d-aded6ac2fe6d&user=search&operate=original",
+      "category": "中餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 60.0,
+      "rating": 4.4,
+      "opening_hours": "周一至周日 10:00-14:00,16:30-21:30",
+      "tags": [
+        "北京菜",
+        "双人餐",
+        "烤鸭"
+      ]
+    },
+    {
+      "id": "B0LRGHSX1L",
+      "name": "家边的渔港(北苑店)",
+      "distance_m": 654,
+      "address": "红军营南路6号一层-1",
+      "location": "116.424417,40.032265",
+      "photo_url": "https://store.is.autonavi.com/showpic/caee0f3878f85e9df828f1f783ef1b0a",
+      "category": "海鲜酒楼",
+      "area": "来广营",
+      "average_cost_yuan": 94.0,
+      "rating": 3.4,
+      "tags": [
+        "海鲜"
+      ]
+    },
+    {
+      "id": "B0ID6ZZN3R",
+      "name": "杨老大地摊烧烤羊蝎子",
+      "distance_m": 657,
+      "address": "北京城区红军营南路6-1号",
+      "location": "116.424442,40.032279",
+      "photo_url": "https://store.is.autonavi.com/showpic/d41b400b13b582c30000002419952725?type=pic",
+      "category": "特色/地方风味餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 14.0,
+      "rating": 3.5,
+      "opening_hours": "周一至周日 16:00-02:00",
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "id": "B0L0H7QYH1",
+      "name": "無名蹄花(安立路店)",
+      "distance_m": 666,
+      "address": "安立路28号院上元",
+      "location": "116.412025,40.026625",
+      "photo_url": "https://aos-comment.amap.com/B0L0H7QYH1/comment/content_media_external_file_107586_ss__1769737911442_76148171.jpg",
+      "category": "中餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 48.0,
+      "rating": 4.6,
+      "opening_hours": "周一至周日 09:00-24:00",
+      "tags": [
+        "蹄花"
+      ]
+    },
+    {
+      "id": "B0K2R7BJH5",
+      "name": "湘粤远方餐厅(北京朝阳戴斯精选温德姆酒店)",
+      "distance_m": 667,
+      "address": "秋实街与双营路交叉口南200米",
+      "location": "116.422171,40.035739",
+      "photo_url": "https://store.is.autonavi.com/showpic/e80ee7e2471006ab0000003617688794?type=pic",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 86.0,
+      "rating": 3.6,
+      "opening_hours": "周一至周日 07:00-21:00",
+      "tags": [
+        "粤菜"
+      ]
+    },
+    {
+      "id": "B0L1SUQ18R",
+      "name": "精品家常菜",
+      "distance_m": 671,
+      "address": "北苑5号院西南侧50米",
+      "location": "116.422191,40.035772",
+      "photo_url": "https://aos-comment.amap.com/B0L1SUQ18R/comment/68DA0B5A_76E9_442A_8C13_3685F29A1B76_L0_001_2048_204_1769653089802_84806935.jpg",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 69.0,
+      "rating": 3.0,
+      "tags": [
+        "家常菜"
+      ]
+    },
+    {
+      "id": "B0MATRWKCW",
+      "name": "红星里中式炸鸡(双营路店)",
+      "distance_m": 674,
+      "address": "双营路与北苑路交叉口东180米",
+      "location": "116.418175,40.037325",
+      "photo_url": "https://store.is.autonavi.com/showpic/42bd6e34c756fe480000003297008455?type=pic",
+      "category": "快餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 20.0,
+      "rating": 3.7,
+      "tags": [
+        "小吃快餐",
+        "中式炸鸡"
+      ]
+    },
+    {
+      "id": "B0MBZZCH9O",
+      "name": "李华泽热卤鸭头(星悦广场店)",
+      "distance_m": 676,
+      "address": "安立路28号院上元",
+      "location": "116.411937,40.026566",
+      "photo_url": "https://store.is.autonavi.com/showpic/f3ed80e7faeb80820000002402950421?type=pic",
+      "area": "北苑",
+      "average_cost_yuan": 29.0,
+      "rating": 4.0,
+      "opening_hours": "周一至周日 10:00-01:00",
+      "tags": [
+        "卤味"
+      ]
+    },
+    {
+      "id": "B0M6OUMANU",
+      "name": "永和大王(星悦广场店)",
+      "distance_m": 678,
+      "address": "北京城区安立路28号院3号楼1层商业101-A179",
+      "location": "116.411899,40.026571",
+      "photo_url": "https://aos-comment.amap.com/B0M6OUMANU/comment/content_media_external_file_1000014532_ss__1773305709526_50474191.jpg",
+      "category": "快餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 20.0,
+      "rating": 4.0,
+      "opening_hours": "周一至周日 06:00-20:00",
+      "tags": [
+        "小吃快餐"
+      ]
+    },
+    {
+      "id": "B0K2A7ZHQS",
+      "name": "京缘煲 现熬鸡汤馄饨 现炒土鸡",
+      "distance_m": 681,
+      "address": "安立路28号院3号楼星悦生活广场1层",
+      "location": "116.412015,40.026460",
+      "photo_url": "https://store.is.autonavi.com/showpic/0ae919afafb1c1350000002504402640?type=pic",
+      "area": "北苑",
+      "average_cost_yuan": 33.0,
+      "rating": 3.8,
+      "opening_hours": "周一至周日 10:30-15:00,17:00-20:00",
+      "tags": [
+        "特色小吃"
+      ]
+    },
+    {
+      "id": "B0K2A1VW01",
+      "name": "黄桥烧饼(美立方店)",
+      "distance_m": 695,
+      "address": "双营路11号院美立方",
+      "location": "116.418175,40.037525",
+      "photo_url": "https://store.is.autonavi.com/showpic/ca215cc5008065ae0000002486548368?type=pic",
+      "area": "来广营",
+      "average_cost_yuan": 13.0,
+      "rating": 3.8,
+      "opening_hours": "周一至周日 07:00-20:00",
+      "tags": [
+        "烧饼",
+        "黄桥烧饼"
+      ]
+    },
+    {
+      "id": "B0MGPL1KEF",
+      "name": "卤力郎拌拌卤(美立方店)",
+      "distance_m": 697,
+      "address": "亚北新区·鑫兆丽园北2门西280米",
+      "location": "116.418625,40.037475",
+      "photo_url": "https://store.is.autonavi.com/showpic/f9641a627b4436f10000003171476626?type=pic",
+      "area": "来广营",
+      "average_cost_yuan": 53.0,
+      "rating": 3.3,
+      "tags": [
+        "卤味"
+      ]
+    },
+    {
+      "id": "B0H2PCSBKR",
+      "name": "翠屿港式火锅(林奥CITY PARK购物中心店)",
+      "distance_m": 698,
+      "address": "清林东路4号院6号楼东侧林奥CITY PARK购物中心B1层",
+      "location": "116.409071,40.033395",
+      "photo_url": "https://aos-comment.amap.com/B0H2PCSBKR/comment/content_media_external_images_media_5493_ss__1765493075710_88613014.jpg",
+      "category": "火锅店",
+      "area": "北苑",
+      "average_cost_yuan": 72.0,
+      "rating": 4.3,
+      "opening_hours": "周一至周日 10:00-22:00",
+      "tags": [
+        "火锅",
+        "港式火锅",
+        "油泼面",
+        "手打牛肉丸",
+        "海鲜粥",
+        "脆皮乳鸽"
+      ]
+    },
+    {
+      "id": "B0IKBUH7M2",
+      "name": "紫光园清真北京小吃(双营路店)",
+      "distance_m": 700,
+      "address": "奥运村地区大羊坊甲4号1号楼1层-7内2",
+      "location": "116.418292,40.037552",
+      "photo_url": "http://store.is.autonavi.com/query_pic?id=stc56029d4-8f36-4428-b61d-aded6ac2fe6d&user=search&operate=original",
+      "area": "来广营",
+      "average_cost_yuan": 24.0,
+      "rating": 4.4,
+      "opening_hours": "周一至周日 08:00-20:30",
+      "tags": [
+        "特色小吃",
+        "北京菜",
+        "烤鸭",
+        "千层手撕糖火烧",
+        "鸡腿",
+        "奶皮子",
+        "点心"
+      ]
+    },
+    {
+      "id": "B0KK4RV0T2",
+      "name": "花游记成都米粉(林奥CITY PARK购物中心店)",
+      "distance_m": 701,
+      "address": "林奥CITYPARK购物中心B1北广场北门",
+      "location": "116.409354,40.034016",
+      "photo_url": "http://store.is.autonavi.com/showpic/162e34b6eeed6a3e13871dd7c3c90a38",
+      "category": "中餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 19.0,
+      "rating": 3.2,
+      "opening_hours": "周一至周日 10:00-22:00",
+      "tags": [
+        "小吃快餐"
+      ]
+    },
+    {
+      "id": "B0K061AXZ6",
+      "name": "后象东南亚食堂(林奥CITY PARK购物中心店)",
+      "distance_m": 709,
+      "address": "清林路林奥CITYPARK购物中心B1层202号",
+      "location": "116.409525,40.034425",
+      "photo_url": "https://aos-comment.amap.com/B0K061AXZ6/comment/content_media_external_images_media_1000050332_ss__1750828911562_85414257.jpg",
+      "category": "泰国/越南菜品餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 47.0,
+      "rating": 3.9,
+      "opening_hours": "周一至周日 11:00-22:00",
+      "tags": [
+        "东南亚菜"
+      ]
+    },
+    {
+      "id": "B0L2H9BMGA",
+      "name": "深夜食堂(林奥CITY PARK购物中心店)",
+      "distance_m": 709,
+      "address": "林奥CITY PARK购物中心",
+      "location": "116.409835,40.034832",
+      "category": "中餐厅",
+      "rating": 3.6,
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "id": "B0M6TR6JW2",
+      "name": "陶然涮肉(奥运村店)",
+      "distance_m": 709,
+      "address": "安立路28号院上元",
+      "location": "116.411475,40.026475",
+      "photo_url": "https://aos-comment.amap.com/B0M6TR6JW2/comment/content_media_external_images_media_1000068528_ss__1769676546086_26028114.jpg",
+      "category": "火锅店",
+      "area": "北苑",
+      "average_cost_yuan": 148.0,
+      "rating": 3.9,
+      "opening_hours": "周一至周日 10:30-14:30,16:30-22:00",
+      "tags": [
+        "涮羊肉",
+        "涮肉"
+      ]
+    },
+    {
+      "id": "B0FFHUTU0X",
+      "name": "泰合鲜(奥运村店)",
+      "distance_m": 710,
+      "address": "北京城区安立路28号华创生活广场3层",
+      "location": "116.411413,40.026498",
+      "photo_url": "http://store.is.autonavi.com/showpic/64ce3acbf14341eb6af14f589ada97e6",
+      "category": "山东菜(鲁菜)",
+      "area": "北苑",
+      "average_cost_yuan": 114.0,
+      "rating": 4.7,
+      "opening_hours": "周一至周日 10:30-14:30,16:30-21:30",
+      "tags": [
+        "鲁菜",
+        "有无障碍设施",
+        "葱烧海参",
+        "双人餐"
+      ]
+    },
+    {
+      "id": "B0K1DH8GEC",
+      "name": "耙耙重庆老火锅",
+      "distance_m": 710,
+      "address": "来广营地区红军营南路甲6号",
+      "location": "116.425071,40.032274",
+      "photo_url": "https://store.is.autonavi.com/showpic/f21bb588d1da17250000002901106422?type=pic",
+      "category": "火锅店",
+      "area": "来广营",
+      "average_cost_yuan": 96.0,
+      "rating": 4.6,
+      "opening_hours": "周一至周日 11:00-22:00",
+      "tags": [
+        "重庆火锅",
+        "鸳鸯锅",
+        "鲜切牛肉卷",
+        "鲜切羊肉卷",
+        "开花郡肝",
+        "不辣牛肉",
+        "红油锅底"
+      ]
+    },
+    {
+      "id": "B0G0MALZA2",
+      "name": "聚宝源(北苑店)",
+      "distance_m": 712,
+      "address": "来广营乡北苑2号院",
+      "location": "116.423676,40.027680",
+      "photo_url": "http://store.is.autonavi.com/query_pic?id=sta00d5c6c-2982-4522-bff3-db768d93c6ea&user=search&operate=original",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 111.0,
+      "rating": 4.7,
+      "opening_hours": "周一至周日 09:30-01:00",
+      "tags": [
+        "涮羊肉",
+        "高钙羔羊肉",
+        "现烤羊肉串",
+        "前切牛百叶",
+        "手切鲜羊上脑",
+        "烧饼",
+        "手切鲜羊肉"
+      ]
+    },
+    {
+      "id": "B0MUDNGTOQ",
+      "name": "凉皮遇到粉(盒马林奥店)",
+      "distance_m": 713,
+      "address": "安立路与红军营南路辅路交叉口北200米",
+      "location": "116.409731,40.034767",
+      "category": "中餐厅",
+      "average_cost_yuan": 18.0,
+      "rating": 2.8,
+      "tags": [
+        "小吃快餐"
+      ]
+    },
+    {
+      "id": "B0MUSCCNYO",
+      "name": "Vinup·Dolly·人偶主题餐厅(林奥City Park店)",
+      "distance_m": 713,
+      "address": "安立路与红军营南路辅路交叉口西北140米",
+      "location": "116.409125,40.033875",
+      "category": "外国餐厅",
+      "average_cost_yuan": 92.0,
+      "rating": 3.6,
+      "tags": [
+        "主题餐厅"
+      ]
+    },
+    {
+      "id": "B0JROHT2HN",
+      "name": "老坑记·2068·港味餐厅(林奥CITY PARK购物中心店)",
+      "distance_m": 714,
+      "address": "清林东路4号院6号楼东侧林奥CITY PARK购物中心B1层",
+      "location": "116.409383,40.034323",
+      "photo_url": "https://store.is.autonavi.com/showpic/4e59a99529909672d48a43a7d9b1579b",
+      "category": "中餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 111.0,
+      "rating": 4.2,
+      "opening_hours": "周一至周五 11:00-14:30,16:30-21:00；周六至周日 10:30-21:00",
+      "tags": [
+        "香港菜",
+        "杨枝甘露",
+        "柠檬茶"
+      ]
+    },
+    {
+      "id": "B0LAY706LG",
+      "name": "韩鼎丰·韩国料理(林奥CITY PARK购物中心店)",
+      "distance_m": 715,
+      "address": "清林东路4号院林奥CITY PARK购物中心F1层",
+      "location": "116.409327,40.034264",
+      "photo_url": "https://aos-comment.amap.com/B0LAY706LG/comment/169AE976_3100_4C85_AF2E_8AC341695AFE_L0_001_1170_146_1772338169859_37457453.jpg",
+      "average_cost_yuan": 88.0,
+      "rating": 4.1,
+      "opening_hours": "周一至周日 11:00-22:00",
+      "tags": [
+        "韩国料理"
+      ]
+    },
+    {
+      "id": "B0K3XU60ON",
+      "name": "洞庭湖水鸭",
+      "distance_m": 718,
+      "address": "秋实街与双营路交叉口南120米",
+      "location": "116.422049,40.036426",
+      "photo_url": "http://store.is.autonavi.com/showpic/7638638b25c53748b219fe33605d1ec4",
+      "category": "中餐厅",
+      "area": "来广营",
+      "rating": 3.0,
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "id": "B0FFK6IXJ3",
+      "name": "刀削面家常菜(安外北苑2号院店)",
+      "distance_m": 720,
+      "address": "北苑路北苑2号院57号",
+      "location": "116.423118,40.027039",
+      "photo_url": "https://aos-comment.amap.com/B0FFK6IXJ3/comment/%5B2025-01-10-12-00-34%5D650D3463-8503-4D92-B6C8-0B09CFD52FB_1736481636468_48200393.jpg",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 44.0,
+      "rating": 4.1,
+      "opening_hours": "周一至周日 10:00-23:00",
+      "tags": [
+        "刀削面",
+        "家常菜"
+      ]
+    },
+    {
+      "id": "B0FFHIYIAB",
+      "name": "正湘聚(北苑店)",
+      "distance_m": 724,
+      "address": "北苑五号院四区北地大厦1层东侧",
+      "location": "116.422039,40.036496",
+      "photo_url": "https://store.is.autonavi.com/showpic/149eccde7d74dacc0000003185022090?type=pic",
+      "category": "湖南菜(湘菜)",
+      "area": "来广营",
+      "average_cost_yuan": 83.0,
+      "rating": 4.5,
+      "opening_hours": "周一至周日 10:30-14:00,16:30-22:30",
+      "tags": [
+        "湘菜",
+        "蛋炒饭",
+        "剁椒鱼头"
+      ]
+    },
+    {
+      "id": "B0JKRSX0B6",
+      "name": "肯德基(北苑路店)",
+      "distance_m": 727,
+      "address": "北京城区北京城区北苑路30号院4号楼1至10层101号1层101",
+      "location": "116.416915,40.037897",
+      "photo_url": "http://store.is.autonavi.com/showpic/62e8c0ce15bcc103e31e666dae763967",
+      "category": "肯德基",
+      "area": "来广营",
+      "average_cost_yuan": 18.0,
+      "rating": 4.2,
+      "opening_hours": "周一至周日 07:00-22:00",
+      "tags": [
+        "小吃快餐",
+        "单人餐",
+        "鸡肉",
+        "双人餐"
+      ]
+    },
+    {
+      "id": "B0KK0AE0K7",
+      "name": "京皇十二道天津菜(北苑店)",
+      "distance_m": 729,
+      "address": "红军营南路甲6号A6",
+      "location": "116.425305,40.032257",
+      "photo_url": "https://store.is.autonavi.com/showpic/95eb55506294a7b70000006487264396?type=pic",
+      "area": "来广营",
+      "average_cost_yuan": 69.0,
+      "rating": 4.5,
+      "opening_hours": "周一至周日 09:30-14:30,16:30-22:30",
+      "tags": [
+        "天津菜",
+        "家常菜"
+      ]
+    },
+    {
+      "id": "B0L6YZFWXQ",
+      "name": "肯德基车速取餐点(北苑路店)",
+      "distance_m": 730,
+      "address": "北苑路30号北苑文创大厦南门路边",
+      "location": "116.417030,40.037921",
+      "photo_url": "https://img.alicdn.com/imgextra/i2/O1CN01EE3OXZ1uY2KTsfGg7_!!6000000006048-0-tps-720-720.jpg",
+      "area": "来广营",
+      "average_cost_yuan": 29.0,
+      "rating": 4.2
+    },
+    {
+      "id": "B0KU5URIQJ",
+      "name": "Vinup薇葡·餐吧(林奥citypark店)",
+      "distance_m": 740,
+      "address": "林奥CityPark购物中心B1层北广场百济烤肉北侧",
+      "location": "116.409225,40.034596",
+      "photo_url": "https://aos-comment.amap.com/B0KU5URIQJ/comment/content_media_external_images_media_1000013790_ss__1743266342387_36206257.jpg",
+      "area": "北苑",
+      "average_cost_yuan": 97.0,
+      "rating": 4.2,
+      "opening_hours": "周一至周日 12:00-22:00",
+      "tags": [
+        "西餐",
+        "牛肉",
+        "牛排",
+        "披萨",
+        "蘑菇",
+        "芝士",
+        "意面"
+      ]
+    },
+    {
+      "id": "B0FFIG4QQO",
+      "name": "美团外卖柜(北京文化创意大厦店)",
+      "distance_m": 742,
+      "address": "来广营镇双营路美立方小区3号楼4单元",
+      "location": "116.416425,40.038025",
+      "photo_url": "https://store.is.autonavi.com/showpic/c3c92423f55b2b344c36a197b835c593",
+      "area": "来广营",
+      "rating": 3.3
+    },
+    {
+      "id": "B0MU67VXQK",
+      "name": "草阳包子",
+      "distance_m": 746,
+      "address": "双营路与北苑路交叉口东220米",
+      "location": "116.418625,40.037925",
+      "photo_url": "https://store.is.autonavi.com/showpic/e26a5eaabfc38ef365480a0dbdfa8aaa",
+      "category": "中餐厅",
+      "area": "来广营",
+      "rating": 3.0,
+      "tags": [
+        "小吃快餐"
+      ]
+    },
+    {
+      "id": "B0FFMCIR0J",
+      "name": "1998小树林烤吧",
+      "distance_m": 747,
+      "address": "来广营乡北苑红军营南路甲6一7号",
+      "location": "116.425516,40.032268",
+      "photo_url": "https://aos-comment.amap.com/B0FFMCIR0J/comment/8506244F_3CFB_4D8F_A582_50CF6ECA5C72_L0_001_1280_170_1754201468693_50921002.jpg",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 69.0,
+      "rating": 4.6,
+      "opening_hours": "周一至周日 14:00-02:00 2026-02-11至2026-02-27 周一至周日 全天关闭",
+      "tags": [
+        "烧烤",
+        "羊肉",
+        "宵夜",
+        "烤串",
+        "羊肉串"
+      ]
+    },
+    {
+      "id": "B0MDCL4BW8",
+      "name": "萍姐快餐",
+      "distance_m": 747,
+      "address": "双营路11号院美立方",
+      "location": "116.419175,40.037825",
+      "category": "快餐厅",
+      "area": "来广营",
+      "rating": 3.4,
+      "tags": [
+        "小吃快餐"
+      ]
+    },
+    {
+      "id": "B0J3CHDQLG",
+      "name": "夸父炸串(林奥CITYPARK购物中心店)",
+      "distance_m": 748,
+      "address": "北京城区清林路4号院林奥CITYPARK购物中心B1层025号商铺",
+      "location": "116.408667,40.033856",
+      "photo_url": "https://aos-comment.amap.com/B0J3CHDQLG/comment/0f5672ff85417e345d519baab4d2102a_2048_2048_80.jpg",
+      "area": "北苑",
+      "average_cost_yuan": 20.0,
+      "rating": 3.7,
+      "opening_hours": "周一至周日 10:00-21:30",
+      "tags": [
+        "小吃快餐",
+        "豆腐"
+      ]
+    },
+    {
+      "id": "B0G3ZRSTWJ",
+      "name": "海底捞火锅(奥森店)",
+      "distance_m": 749,
+      "address": "清林东路4号院6号楼东侧林奥CITY PARK购物中心B1层",
+      "location": "116.409037,40.034487",
+      "photo_url": "https://store.is.autonavi.com/showpic/bcb84a02dd0ebb388d01c309af554414?operate=original",
+      "category": "火锅店",
+      "area": "北苑",
+      "average_cost_yuan": 120.0,
+      "rating": 4.6,
+      "opening_hours": "周一至周日 10:00-05:00",
+      "tags": [
+        "火锅",
+        "双人餐"
+      ]
+    },
+    {
+      "id": "B0KR2CADEC",
+      "name": "山西大碗刀削面",
+      "distance_m": 749,
+      "address": "来广营乡红军营南路甲6号",
+      "location": "116.425541,40.032263",
+      "photo_url": "https://store.is.autonavi.com/showpic/3db2fca264b688820000002548866885?type=pic",
+      "category": "特色/地方风味餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 18.0,
+      "rating": 4.0,
+      "opening_hours": "周一至周日 09:30-23:30",
+      "tags": [
+        "山西菜",
+        "运城大盘鸡",
+        "家常菜",
+        "酸辣粉",
+        "肉夹馍"
+      ]
+    },
+    {
+      "id": "B0FFKLNQQM",
+      "name": "山西刀削面(双营路)",
+      "distance_m": 751,
+      "address": "北苑双营路美立方小区4号楼",
+      "location": "116.418662,40.037961",
+      "photo_url": "https://aos-comment.amap.com/B0FFKLNQQM/comment/%5B2024-09-29-14-46-11%5D362F785D-EB5C-4F8E-882A-64A2C4343D5_1727592378976_17911923.jpg",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 22.0,
+      "rating": 3.9,
+      "opening_hours": "周一至周日 10:00-22:00",
+      "tags": [
+        "刀削面",
+        "拌面",
+        "炒面",
+        "面食",
+        "羊肉汤",
+        "炒饭"
+      ]
+    },
+    {
+      "id": "B0K2CS09VG",
+      "name": "七十七品饺子",
+      "distance_m": 752,
+      "address": "双营路11号院美立方",
+      "location": "116.418854,40.037941",
+      "photo_url": "https://store.is.autonavi.com/showpic/9edd311edcbefd7e83719444d071f985",
+      "category": "特色/地方风味餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 29.0,
+      "rating": 3.7,
+      "opening_hours": "周一至周日 10:00-22:00",
+      "tags": [
+        "小吃快餐"
+      ]
+    },
+    {
+      "id": "B0LU2DWEK1",
+      "name": "满巍明生炸鸡架(北京林奥CITY PARK店)",
+      "distance_m": 752,
+      "address": "北京城区北京城区清林东路4号院12幢地下一层-202内015B",
+      "location": "116.408925,40.034375",
+      "photo_url": "https://store.is.autonavi.com/showpic/ea1609b9fb8b3c1b0000002508322644?type=pic",
+      "area": "北苑",
+      "average_cost_yuan": 23.0,
+      "rating": 3.5,
+      "opening_hours": "周一至周日 10:00-22:00",
+      "tags": [
+        "炸鸡炸串",
+        "究极鸡腿肉",
+        "招牌生炸鸡架",
+        "超级鸡叉骨",
+        "鸡叉骨",
+        "掌中宝"
+      ]
+    },
+    {
+      "id": "B0L1DCUFFL",
+      "name": "老马食府",
+      "distance_m": 753,
+      "address": "北京城区双营路11号院美立方",
+      "location": "116.418572,40.037991",
+      "photo_url": "https://store.is.autonavi.com/showpic/7e92312981ecc33b27d389a88c1ace42",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 51.0,
+      "rating": 4.3,
+      "opening_hours": "周一至周日 10:00-24:00",
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "id": "B000A9P9FB",
+      "name": "沙县小吃(美立方店)",
+      "distance_m": 754,
+      "address": "美立方南门东50米",
+      "location": "116.418868,40.037958",
+      "photo_url": "https://aos-comment.amap.com/B000A9P9FB/comment/42586c0e5a08f817998793a44a67e4de_2048_2048_80.jpg",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 19.0,
+      "rating": 3.9,
+      "opening_hours": "周一至周日 07:00-22:00",
+      "tags": [
+        "刀削面",
+        "排骨",
+        "鸭肉",
+        "鸡腿饭"
+      ]
+    },
+    {
+      "id": "B0I2HU2UQF",
+      "name": "虎逢羊烩面羊汤(美立方店)",
+      "distance_m": 757,
+      "address": "北京城区双营路17号美立方4号楼106底商",
+      "location": "116.419044,40.037951",
+      "photo_url": "https://aos-comment.amap.com/B0I2HU2UQF/comment/acdbbcc4e813da173a6b09ea9df7d37c_2048_2048_80.jpg",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 18.0,
+      "rating": 4.4,
+      "opening_hours": "周一至周日 09:00-23:30",
+      "tags": [
+        "汤",
+        "双人餐",
+        "烩面",
+        "单人餐",
+        "羊汤"
+      ]
+    },
+    {
+      "id": "B0FFLMDRN7",
+      "name": "中国兰州牛肉拉面(美立方店)",
+      "distance_m": 759,
+      "address": "双营路11号美立方4107",
+      "location": "116.419120,40.037954",
+      "photo_url": "http://store.is.autonavi.com/query_pic?id=st1c70706a-ddd6-4231-b85f-91ffd4561d53&user=search&operate=original",
+      "category": "清真菜馆",
+      "area": "来广营",
+      "average_cost_yuan": 21.0,
+      "rating": 4.4,
+      "opening_hours": "周一至周日 07:00-23:00",
+      "tags": [
+        "清真菜",
+        "羊肉串",
+        "牛肉",
+        "肉夹馍",
+        "牛肉面"
+      ]
+    },
+    {
+      "id": "B0G245EGP4",
+      "name": "路边烧烤(美立方店)",
+      "distance_m": 759,
+      "address": "北京城区双营路11号美立方小区4号楼南侧一层底商",
+      "location": "116.419150,40.037951",
+      "photo_url": "https://aos-comment.amap.com/B0G245EGP4/comment/F3D962DA_6AB9_4124_A129_00C91A420AE4_L0_001_1440_192_1767488271261_65873297.jpg",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 51.0,
+      "rating": 4.4,
+      "opening_hours": "周一至周日 11:30-01:30",
+      "tags": [
+        "烧烤",
+        "夜市烧烤",
+        "素菜",
+        "羊肉串",
+        "五花肉"
+      ]
+    },
+    {
+      "id": "B0J3YLD8DW",
+      "name": "伞下江南斑鱼火锅(林奥嘉园店)",
+      "distance_m": 759,
+      "address": "北京城区清林东路4号院6号楼东侧林奥购物中心B楼",
+      "location": "116.408502,40.033805",
+      "photo_url": "https://aos-comment.amap.com/B0J3YLD8DW/comment/content_media_external_images_media_10865_ss__1743293876864_46186702.jpg",
+      "category": "中餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 79.0,
+      "rating": 4.5,
+      "opening_hours": "周一至周日 09:30-22:00",
+      "tags": [
+        "鱼火锅",
+        "双人餐"
+      ]
+    },
+    {
+      "id": "B0K2FRRNKD",
+      "name": "嫩牛家潮汕牛肉火锅(林奥店)",
+      "distance_m": 759,
+      "address": "北京城区清林路林奥CITY PARK购物中心B1层010B-010C号",
+      "location": "116.408636,40.034066",
+      "photo_url": "https://aos-comment.amap.com/B0K2FRRNKD/comment/0BFBAB28_8E7A_4706_AC51_7A2AB5E22C57_L0_001_2000_150_1756786829530_27445617.jpg",
+      "category": "火锅店",
+      "area": "北苑",
+      "average_cost_yuan": 145.0,
+      "rating": 4.6,
+      "opening_hours": "周一至周日 11:00-02:00",
+      "tags": [
+        "牛肉火锅",
+        "双人餐",
+        "牛肉"
+      ]
+    },
+    {
+      "id": "B0JR65IM96",
+      "name": "安徽牛肉板面王(双营路店)",
+      "distance_m": 761,
+      "address": "北京城区北苑美立方双营路4号楼底商111号",
+      "location": "116.419304,40.037935",
+      "photo_url": "https://aos-comment.amap.com/B0JR65IM96/comment/content_media_external_images_media_100002968_1730602378995_84085409.jpg",
+      "area": "来广营",
+      "average_cost_yuan": 19.0,
+      "rating": 4.3,
+      "opening_hours": "周一至周日 10:00-01:00",
+      "tags": [
+        "面馆",
+        "安徽牛肉板面"
+      ]
+    },
+    {
+      "id": "B0LGXUBJ4K",
+      "name": "乡村基·川味现炒大王(林奥CITY PARK购物中心店)",
+      "distance_m": 761,
+      "address": "清林东路4号院林奥购物中心地下一层商铺",
+      "location": "116.408225,40.033225",
+      "photo_url": "https://aos-comment.amap.com/B0LGXUBJ4K/comment/D4ACF2D1_4712_44DC_A376_DFF36A628F33_L0_001_2000_150_1764318522816_93384418.jpg",
+      "category": "四川菜(川菜)",
+      "area": "北苑",
+      "average_cost_yuan": 32.0,
+      "rating": 3.7,
+      "opening_hours": "周一至周日 10:00-21:00",
+      "tags": [
+        "川菜"
+      ]
+    },
+    {
+      "id": "B0MUDMHQ4F",
+      "name": "德克士",
+      "distance_m": 761,
+      "address": "美立方南门东100米",
+      "location": "116.419298,40.037931",
+      "photo_url": "https://store.is.autonavi.com/showpic/8055f4c3735449f40000003203210226?type=pic",
+      "category": "快餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 32.0,
+      "rating": 4.0,
+      "opening_hours": "周一至周日 09:30-23:00",
+      "tags": [
+        "西式快餐"
+      ]
+    },
+    {
+      "id": "B0MGCHF0DX",
+      "name": "河马叔叔北京林奥店",
+      "distance_m": 763,
+      "address": "北京城区清林东路4号院6号楼东侧二层212-213部分",
+      "location": "116.408275,40.033425",
+      "area": "北苑",
+      "average_cost_yuan": 104.0,
+      "rating": 3.7,
+      "opening_hours": "周一至周日 10:00-20:00",
+      "tags": [
+        "儿童理发"
+      ]
+    },
+    {
+      "id": "B0FFFAPQCX",
+      "name": "杨国福麻辣烫(美立方店)",
+      "distance_m": 764,
+      "address": "北京城区北苑双营路11号院4号楼109号底商",
+      "location": "116.418961,40.038031",
+      "photo_url": "https://img.alicdn.com/imgextra/i1/O1CN01hpPgOL1i4TZ2umDKr_!!6000000004359-49-tps-1080-1080.webp",
+      "category": "特色/地方风味餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 31.0,
+      "rating": 4.1,
+      "opening_hours": "周一至周日 11:00-22:00",
+      "tags": [
+        "麻辣烫"
+      ]
+    },
+    {
+      "id": "B0J3MZE68Y",
+      "name": "可能湘菜馆(林奥店)",
+      "distance_m": 766,
+      "address": "奥运村街道清林东路4号院12幢-2",
+      "location": "116.408164,40.033218",
+      "photo_url": "http://store.is.autonavi.com/showpic/da223fd874c40b93308c630c1d2a0e7a",
+      "category": "湖南菜(湘菜)",
+      "area": "北苑",
+      "average_cost_yuan": 95.0,
+      "rating": 4.5,
+      "opening_hours": "周一至周日 11:00-15:00,17:00-21:30",
+      "tags": [
+        "湘菜",
+        "双椒鱼头",
+        "紫苏臭鳜鱼",
+        "湖南辣椒炒肉",
+        "双人餐",
+        "农家小炒肉",
+        "辣椒炒肉"
+      ]
+    },
+    {
+      "id": "B0J3J6PM01",
+      "name": "甲乙饼·手工牛肉饼(林奥购物中心店)",
+      "distance_m": 768,
+      "address": "清林东路4号院林奥CITYPARK购物中心b1层",
+      "location": "116.408375,40.033775",
+      "photo_url": "https://aos-comment.amap.com/B0J3J6PM01/comment/1C8A9F21_6B53_4511_A756_C4A70BE6951C_L0_001_2000_1500_1731317168915_24848702.jpg",
+      "area": "北苑",
+      "average_cost_yuan": 35.0,
+      "rating": 3.7,
+      "opening_hours": "周一至周日 10:00-22:00",
+      "tags": [
+        "粥",
+        "麻辣烫",
+        "豆腐"
+      ]
+    },
+    {
+      "id": "B0IUDYDV7N",
+      "name": "敢探·露营主题西餐吧CAMPERAMA(林奥CITY PARK购物中心店)",
+      "distance_m": 769,
+      "address": "清林东路4号院12幢地下二层202内008D",
+      "location": "116.408825,40.034575",
+      "photo_url": "https://aos-comment.amap.com/B0IUDYDV7N/comment/1E45FDC9_8BF4_4E96_A77C_20DC1CADF44B_L0_001_1500_2000__1659279746635_322e6bc8.jpg",
+      "category": "西餐厅(综合风味)",
+      "area": "北苑",
+      "average_cost_yuan": 84.0,
+      "rating": 4.1,
+      "opening_hours": "周一至周日 10:30-22:00",
+      "tags": [
+        "西餐",
+        "烤肉"
+      ]
+    },
+    {
+      "id": "B0L2S97BO2",
+      "name": "深海电音烤吧",
+      "distance_m": 770,
+      "address": "清林东路4号院林奥嘉园",
+      "location": "116.408337,40.033744",
+      "category": "中餐厅",
+      "average_cost_yuan": 125.0,
+      "rating": 3.7,
+      "tags": [
+        "烧烤"
+      ]
+    },
+    {
+      "id": "B0LDH7QF0W",
+      "name": "湖南米粉·宝庆风味(文化创意大厦店)",
+      "distance_m": 770,
+      "address": "北京文化创意大厦1号楼(立水桥南地铁站D西南口步行430米)",
+      "location": "116.416425,40.038275",
+      "photo_url": "https://store.is.autonavi.com/showpic/afc7ba840eded53d0000002418436779?type=pic",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 24.0,
+      "rating": 4.0,
+      "opening_hours": "周一至周日 09:00-21:00",
+      "tags": [
+        "米粉"
+      ]
+    },
+    {
+      "id": "B0M6DX81DH",
+      "name": "霸碗盖码饭(北京林奥店)",
+      "distance_m": 770,
+      "address": "清林东路4号院林奥嘉园",
+      "location": "116.408425,40.033925",
+      "photo_url": "https://store.is.autonavi.com/showpic/529d1d901f5d58e70000002369554174?type=pic",
+      "category": "中餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 21.0,
+      "rating": 3.7,
+      "opening_hours": "周一至周日 10:00-21:00",
+      "tags": [
+        "小吃快餐",
+        "盖码饭"
+      ]
+    },
+    {
+      "id": "B0FFHECO26",
+      "name": "万良沙县小吃(红军营店)",
+      "distance_m": 771,
+      "address": "格林豪泰快捷酒店西北门东80米",
+      "location": "116.425801,40.032258",
+      "photo_url": "https://aos-comment.amap.com/B0FFHECO26/comment/content_media_external_file_1000255489_ss__1763341476987_12137214.jpg",
+      "category": "特色/地方风味餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 19.0,
+      "rating": 3.9,
+      "opening_hours": "周一至周日 07:00-23:00",
+      "tags": [
+        "小吃快餐",
+        "鸡肉",
+        "炒饭",
+        "香肠"
+      ]
+    },
+    {
+      "id": "B0K03LS2BK",
+      "name": "流忙村1988(林奥CITY PARK购物中心店)",
+      "distance_m": 771,
+      "address": "林奥购物中心b1层电影院入口旁",
+      "location": "116.408143,40.033325",
+      "photo_url": "https://store.is.autonavi.com/showpic/f232a9b3b4d865b00000001643234702?type=pic",
+      "category": "日本料理",
+      "average_cost_yuan": 80.0,
+      "rating": 4.6,
+      "opening_hours": "周一至周日 11:00-22:00",
+      "tags": [
+        "韩国料理",
+        "双人餐"
+      ]
+    },
+    {
+      "id": "B0L2R5NT2Q",
+      "name": "后象咖喱·海南鸡饭(林奥店)",
+      "distance_m": 771,
+      "address": "清林东路4号院林奥嘉园",
+      "location": "116.408675,40.034375",
+      "photo_url": "https://store.is.autonavi.com/showpic/506df2bcf548bc917681162ff1ef21b6",
+      "category": "中餐厅",
+      "average_cost_yuan": 56.0,
+      "rating": 2.6,
+      "tags": [
+        "小吃快餐",
+        "海南鸡饭"
+      ]
+    },
+    {
+      "id": "B0LK9ZA0XJ",
+      "name": "酥小小-香酥牛肉饼",
+      "distance_m": 771,
+      "address": "清林东路4号院林奥CITY PARK购物中心F1层",
+      "location": "116.408237,40.033548",
+      "photo_url": "https://store.is.autonavi.com/showpic/63c5cc2802551bcf0000003775572831?type=pic",
+      "category": "中餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 10.0,
+      "rating": 3.1,
+      "tags": [
+        "小吃快餐",
+        "香酥牛肉饼"
+      ]
+    },
+    {
+      "id": "B0LR7NI915",
+      "name": "欢喜Curry·Nawab印度和巴基斯坦清真食品(林奥店)",
+      "distance_m": 771,
+      "address": "北京城区清林东路4号院林奥CITY PARK购物中心B1层023C",
+      "location": "116.408663,40.034365",
+      "photo_url": "https://aos-comment.amap.com/B0KDG7O9BG/comment/ad99d42f45a80adab51a09831df30f6a_2048_2048_80.jpg",
+      "category": "西餐厅(综合风味)",
+      "area": "北苑",
+      "average_cost_yuan": 41.0,
+      "rating": 4.4,
+      "opening_hours": "周一至周日 10:00-22:00",
+      "tags": [
+        "清真菜"
+      ]
+    },
+    {
+      "id": "B0L21LTXAF",
+      "name": "张正发茶餐厅(林奥购物中心店)",
+      "distance_m": 772,
+      "address": "奥运村街道清林东路4号院12幢林奥CITY PARK购物中心B1层",
+      "location": "116.408325,40.033775",
+      "photo_url": "https://store.is.autonavi.com/showpic/7ed957442b95f9888d8f2f4c2b26497b",
+      "category": "中餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 26.0,
+      "rating": 3.9,
+      "opening_hours": "周一至周日 10:00-22:00",
+      "tags": [
+        "茶餐厅"
+      ]
+    },
+    {
+      "id": "B0MD2H5J0N",
+      "name": "云朵朵·云南米线",
+      "distance_m": 772,
+      "address": "清林路与清林东路交叉口东北180米",
+      "location": "116.408300,40.033734",
+      "photo_url": "https://store.is.autonavi.com/showpic/f6b8d29a09527a4d0000002985772904?type=pic",
+      "average_cost_yuan": 26.0,
+      "rating": 3.3,
+      "tags": [
+        "米线",
+        "云南米线"
+      ]
+    },
+    {
+      "id": "B0J1JMHK1T",
+      "name": "井弘饭团(林奥CITY PARK购物中心店)",
+      "distance_m": 776,
+      "address": "清林东路4号院林奥CITY PARK购物中心F1层",
+      "location": "116.408173,40.033564",
+      "photo_url": "https://aos-comment.amap.com/B0J1JMHK1T/comment/c7dabd0351d3d5b1a9614897fab7377d_2048_2048_80.jpg",
+      "category": "日本料理",
+      "average_cost_yuan": 14.0,
+      "rating": 3.2,
+      "opening_hours": "周一至周日 10:00-22:00",
+      "tags": [
+        "日本料理",
+        "饭团"
+      ]
+    },
+    {
+      "id": "B0J24AQ90E",
+      "name": "珍味小筑烤全鱼(林奥CITY PARK购物中心店)",
+      "distance_m": 778,
+      "address": "林奥City park地下B1层048-050号",
+      "location": "116.408174,40.033613",
+      "photo_url": "https://store.is.autonavi.com/showpic/f3d8a9aac26114650000002572376807?type=pic",
+      "category": "特色/地方风味餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 75.0,
+      "rating": 4.2,
+      "opening_hours": "周一至周日 10:30-21:30",
+      "tags": [
+        "烤鱼",
+        "升级麻辣味烤鱼",
+        "浓郁番茄烤鱼",
+        "香辣烤鱼",
+        "金汤酸菜味烤鱼",
+        "金汤花胶烤鱼",
+        "鲜麻藤椒烤鱼"
+      ]
+    },
+    {
+      "id": "B0LGACNO9G",
+      "name": "马一兰(林奥CITY PARK购物中心店)",
+      "distance_m": 779,
+      "address": "清林东路4号院林奥CITY PARK购物中心F1层",
+      "location": "116.408125,40.033525",
+      "photo_url": "https://store.is.autonavi.com/showpic/6e62fb3f266d68e40000001280954153?type=pic",
+      "category": "中餐厅",
+      "rating": 2.9,
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "id": "B0J22CYZ6Y",
+      "name": "西岚兰州牛肉面(林奥CITY PARK购物中心店)",
+      "distance_m": 780,
+      "address": "林奥CITYPARK购物中心B1中央大街3号电梯旁边",
+      "location": "116.408196,40.033716",
+      "photo_url": "https://aos-comment.amap.com/B0J22CYZ6Y/comment/F1504613_CD3D_41AF_9CB2_D9F655E3DEE2_L0_001_2000_1126_1726617817603_17586826.jpg",
+      "category": "中餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 24.0,
+      "rating": 4.1,
+      "opening_hours": "周一至周日 10:00-21:30",
+      "tags": [
+        "牛肉面",
+        "牛肉拉面",
+        "精品大片牛肉面",
+        "羊肉串",
+        "牛肉串",
+        "红烧牛肉面",
+        "拉面"
+      ]
+    },
+    {
+      "id": "B0KUPLJPWO",
+      "name": "贵凤凰贵州小吃博物馆(林奥店)",
+      "distance_m": 782,
+      "address": "清林东路4号院12幢-2层202内林奥CITYPARK购物中心地下一层",
+      "location": "116.408590,40.034475",
+      "photo_url": "https://aos-comment.amap.com/B0KUPLJPWO/comment/2ab58ddefe2524da84b14cf52b598a46_2048_2048_80.jpg",
+      "area": "北苑",
+      "rating": 4.3,
+      "opening_hours": "周一至周日 11:00-21:30",
+      "tags": [
+        "小吃快餐"
+      ]
+    },
+    {
+      "id": "B0LAG9UV96",
+      "name": "滇火源·云南火塘烧烤·米线(林奥CITYPARK购物中心店)",
+      "distance_m": 782,
+      "address": "北京城区林奥购物中心B1层下沉广场13·14电梯旁云川台球附近",
+      "location": "116.408725,40.034675",
+      "photo_url": "https://aos-comment.amap.com/B0LAG9UV96/comment/CEA2A699_2669_4305_9D90_D907F1CBCA08_L0_001_1512_201_1753112083706_25242203.jpg",
+      "category": "中餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 104.0,
+      "rating": 4.4,
+      "opening_hours": "周一至周日 11:00-24:00",
+      "tags": [
+        "烧烤",
+        "米线",
+        "云南之滇牛干巴"
+      ]
+    },
+    {
+      "id": "B0L6KUQNNO",
+      "name": "粮碗福·炒饭",
+      "distance_m": 783,
+      "address": "林奥citypark购物中心b1层022B(近3号直梯)",
+      "location": "116.408575,40.034475",
+      "photo_url": "https://store.is.autonavi.com/showpic/fcedc5e2ab66555a0000006788938979?type=pic",
+      "category": "中餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 33.0,
+      "rating": 3.6,
+      "opening_hours": "周一至周日 10:00-21:30",
+      "tags": [
+        "中餐",
+        "炒饭"
+      ]
+    },
+    {
+      "id": "B0FFLGTWTR",
+      "name": "紫燕百味鸡(双营路店)",
+      "distance_m": 793,
+      "address": "北京城区双营路63号大羊坊甲6号院2号楼2门1层104",
+      "location": "116.422025,40.037275",
+      "photo_url": "https://store.is.autonavi.com/showpic/f08774b214ecf2210000003296922061?type=pic",
+      "category": "服装鞋帽皮具店",
+      "area": "来广营",
+      "average_cost_yuan": 35.0,
+      "rating": 4.1,
+      "opening_hours": "周一至周日 08:00-19:30",
+      "tags": [
+        "熟食",
+        "素菜",
+        "百味鸡",
+        "夫妻肺片",
+        "藤椒鸡",
+        "鸡肉"
+      ]
+    },
+    {
+      "id": "B0JUAYLMRH",
+      "name": "佳儿萌豆儿童辅食餐厅(林奥CITY PARK购物中心店)",
+      "distance_m": 800,
+      "address": "奥运村街道清林东路4号院林奥CITY PARK购物中心B1层",
+      "location": "116.407925,40.033675",
+      "photo_url": "https://store.is.autonavi.com/showpic/f07572215b5967b20000002508104032?type=pic",
+      "category": "中餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 49.0,
+      "rating": 4.2,
+      "opening_hours": "周一至周日 08:00-20:30",
+      "tags": [
+        "早餐",
+        "牛骨汤"
+      ]
+    },
+    {
+      "id": "B0MG4HX5ZV",
+      "name": "学七餐厅(文化创意店)",
+      "distance_m": 801,
+      "address": "北京城区北苑路30号院2号楼1-10层101号1层104号",
+      "location": "116.416220,40.038550",
+      "photo_url": "https://store.is.autonavi.com/showpic/c563135e20799227871990d39d07e673",
+      "area": "来广营",
+      "average_cost_yuan": 31.0,
+      "rating": 3.3,
+      "tags": [
+        "自助餐"
+      ]
+    },
+    {
+      "id": "B0L2X7XFAV",
+      "name": "哆莉公馆",
+      "distance_m": 810,
+      "address": "安立路246号",
+      "location": "116.408619,40.035043",
+      "photo_url": "https://store.is.autonavi.com/showpic/97bee6dde554c49e19b7520c7bccdf8e",
+      "area": "北苑",
+      "average_cost_yuan": 142.0,
+      "rating": 4.5,
+      "opening_hours": "周一至周日 12:30-20:30"
+    },
+    {
+      "id": "B0L1KMUI0X",
+      "name": "贤记港式烧腊(创意大厦店)",
+      "distance_m": 814,
+      "address": "北苑路30号院文化创意大厦一层103铺",
+      "location": "116.416525,40.038675",
+      "photo_url": "https://aos-comment.amap.com/B0L1KMUI0X/comment/129F5512_7A49_4F38_A34C_A9E2241712C6_L0_001_1500_200_1770816966464_16275435.jpg",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 32.0,
+      "rating": 3.1,
+      "opening_hours": "周一至周日 11:00-21:00",
+      "tags": [
+        "香港菜",
+        "港式烧腊"
+      ]
+    },
+    {
+      "id": "B0LGR49W47",
+      "name": "文贝森winbursen(林奥CITY PARK购物中心店)",
+      "distance_m": 814,
+      "address": "清林路与清林东路交叉口东100米",
+      "location": "116.407554,40.033142",
+      "area": "北苑",
+      "average_cost_yuan": 21.0,
+      "rating": 3.6,
+      "opening_hours": "周一至周日 08:00-22:00"
+    },
+    {
+      "id": "B0LGX9DYRD",
+      "name": "老乡鸡(北京文化创意大厦店)",
+      "distance_m": 838,
+      "address": "北京城区北京文化创意大厦1号楼",
+      "location": "116.416413,40.038891",
+      "photo_url": "http://store.is.autonavi.com/query_pic?id=stdf876988-05b0-4853-b6aa-9275d4cd3bb1&user=search&operate=original",
+      "category": "快餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 32.0,
+      "rating": 4.0,
+      "opening_hours": "周一至周日 10:00-22:00",
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "id": "B0KKPD0IK8",
+      "name": "时间之外·塔罗Tarot",
+      "distance_m": 839,
+      "address": "清林东路4号院林奥嘉园",
+      "location": "116.407325,40.033375",
+      "area": "北苑",
+      "average_cost_yuan": 140.0,
+      "rating": 2.6
+    },
+    {
+      "id": "B0MUSZAOT1",
+      "name": "两广鱼宴(北苑店)",
+      "distance_m": 839,
+      "address": "红军营南路150号",
+      "location": "116.426618,40.032203",
+      "photo_url": "https://store.is.autonavi.com/showpic/7d59dc1ae4c6bcb61087a23ddbba9bda",
+      "category": "中餐厅",
+      "area": "来广营",
+      "rating": 3.9,
+      "tags": [
+        "中餐",
+        "鱼宴"
+      ]
+    },
+    {
+      "id": "B0MADSIODE",
+      "name": "海里家里&三文鱼(北苑店)",
+      "distance_m": 841,
+      "address": "红军营南路南甲6号",
+      "location": "116.426632,40.032232",
+      "photo_url": "https://store.is.autonavi.com/showpic/7ac0c449bf3674bb7c71e08c0e80e8a0",
+      "category": "日本料理",
+      "area": "来广营",
+      "average_cost_yuan": 68.0,
+      "rating": 4.0,
+      "opening_hours": "周一至周日 09:30-03:30",
+      "tags": [
+        "水产海鲜",
+        "三文鱼"
+      ]
+    },
+    {
+      "id": "B0I6DZMLOE",
+      "name": "管氏翅吧(北苑店)",
+      "distance_m": 846,
+      "address": "北苑路30号院北京文化创意大厦一层B座右角",
+      "location": "116.416092,40.038949",
+      "photo_url": "http://store.is.autonavi.com/query_pic?id=stf0e84b3d-3735-4150-b766-66c549b277d9&user=search&operate=original",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 80.0,
+      "rating": 4.6,
+      "opening_hours": "周一至周日 11:00-24:00",
+      "tags": [
+        "烧烤",
+        "海鲜烧烤",
+        "管氏特拌菜",
+        "精酿",
+        "羊肉串",
+        "招牌管氏烤鸡翅",
+        "肉筋"
+      ]
+    },
+    {
+      "id": "B0IU9RXPEF",
+      "name": "米斗云南菜(林奥CITY PARK购物中心店)",
+      "distance_m": 852,
+      "address": "清林路4号院林奥嘉园4号楼CITY PARK商场负一楼",
+      "location": "116.407335,40.033801",
+      "photo_url": "https://aos-comment.amap.com/B0IU9RXPEF/comment/content_media_external_images_media_5176937_1658040579946_cd19f2b2.jpg",
+      "category": "云贵菜",
+      "area": "北苑",
+      "average_cost_yuan": 93.0,
+      "rating": 4.4,
+      "opening_hours": "周一至周日 11:30-14:30,17:30-21:30",
+      "tags": [
+        "云南菜",
+        "包浆豆腐",
+        "汽锅鸡",
+        "小锅米线",
+        "过桥米线",
+        "牛干巴",
+        "鲜花饼"
+      ]
+    },
+    {
+      "id": "B0LB7L6II1",
+      "name": "好适口(林奥中心店)",
+      "distance_m": 855,
+      "address": "北京城区清林东路4号院13幢-2层一203内038B",
+      "location": "116.408156,40.035244",
+      "photo_url": "https://store.is.autonavi.com/showpic/89722eb86dfdfb350000002473860027?type=pic",
+      "category": "中餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 17.0,
+      "rating": 4.1,
+      "opening_hours": "周一至周日 07:00-22:00",
+      "tags": [
+        "小吃快餐"
+      ]
+    },
+    {
+      "id": "B0J6ZSILJH",
+      "name": "包烧米线(林奥CITY PARK购物中心店)",
+      "distance_m": 865,
+      "address": "奥运村街道清林东路4号院林奥CITY PARK购物中心B1层002J",
+      "location": "116.408042,40.035260",
+      "photo_url": "http://store.is.autonavi.com/showpic/620e69e4ec887bfeb5bfa942693f5741",
+      "category": "中餐厅",
+      "area": "北苑",
+      "average_cost_yuan": 26.0,
+      "rating": 3.7,
+      "opening_hours": "周一至周日 10:00-22:00",
+      "tags": [
+        "中餐",
+        "花甲米线"
+      ]
+    },
+    {
+      "id": "B0FFJO1W9K",
+      "name": "汤姆之家英语",
+      "distance_m": 873,
+      "address": "景龙国际",
+      "location": "116.414009,40.023808",
+      "photo_url": "http://store.is.autonavi.com/showpic/810f2633507bf0c68d3f67cd4d78611c",
+      "rating": 1.3,
+      "opening_hours": "周二至周日 10:00-20:00",
+      "tags": [
+        "少儿培训"
+      ]
+    },
+    {
+      "id": "B0KG0UAHZD",
+      "name": "肥肠赞",
+      "distance_m": 900,
+      "address": "红军营南路与清苑路交叉口西160米",
+      "location": "116.427337,40.032230",
+      "photo_url": "https://aos-comment.amap.com/B0KG0UAHZD/comment/ADFB8A1E_636A_4A2B_8A90_23382F93EBA8_L0_001_2000_112_1764047943508_91284234.jpg",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 69.0,
+      "rating": 4.5,
+      "opening_hours": "周一至周日 11:00-09:00",
+      "tags": [
+        "火锅鸡",
+        "肥肠鸡",
+        "肥肠"
+      ]
+    },
+    {
+      "id": "B0MAYC2AUQ",
+      "name": "清泉达(北苑店)",
+      "distance_m": 903,
+      "address": "清林东路4号院林奥嘉园",
+      "location": "116.407425,40.035125",
+      "average_cost_yuan": 53.0,
+      "rating": 1.9
+    },
+    {
+      "id": "B0MDY1VRI2",
+      "name": "大斌炭烤·露天排档",
+      "distance_m": 904,
+      "address": "红军营南路与秋实东街交叉口东南100米",
+      "location": "116.427374,40.032250",
+      "photo_url": "https://store.is.autonavi.com/showpic/37f2eef4838dae650000003404876013?type=pic",
+      "area": "来广营",
+      "average_cost_yuan": 74.0,
+      "rating": 4.5,
+      "opening_hours": "周一至周日 17:30-02:00",
+      "tags": [
+        "大排档"
+      ]
+    },
+    {
+      "id": "B0FFL772TT",
+      "name": "屯老二农家铁锅炖( 红军营店 )",
+      "distance_m": 939,
+      "address": "北京城区红军营南路217号北卫新园北门",
+      "location": "116.427794,40.032227",
+      "photo_url": "https://aos-comment.amap.com/B0FFL772TT/comment/979416f32ef0164a05bb8439121c28fa_2048_2048_80.jpg",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 70.0,
+      "rating": 4.6,
+      "opening_hours": "周一至周日 11:00-23:00",
+      "tags": [
+        "东北菜",
+        "东北大拉皮",
+        "铁锅炖",
+        "五花肉",
+        "家常菜",
+        "东北炖菜",
+        "铁锅炖鱼"
+      ]
+    },
+    {
+      "id": "B0KUSRVC24",
+      "name": "热素里·滩羊(北苑店)",
+      "distance_m": 957,
+      "address": "来广营街道北苑家园双营路2号筑华年",
+      "location": "116.426284,40.036010",
+      "photo_url": "https://aos-comment.amap.com/B0KUSRVC24/comment/9168183F_303E_4AED_BF88_07586CF64822_L0_001_848_113_1770800431178_92911615.jpg",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 59.0,
+      "rating": 4.6,
+      "opening_hours": "周一至周日 09:30-02:00 2026-02-16至2026-02-23 周一至周日 09:30-02:00",
+      "tags": [
+        "中餐",
+        "羊肉串",
+        "酸菜鱼"
+      ]
+    },
+    {
+      "id": "B0L2PZPOVD",
+      "name": "爆爆锅超级下饭锅(第14档口贰拾佰碗美食城店)",
+      "distance_m": 994,
+      "address": "北苑路28号院北科创业大厦F1层",
+      "location": "116.416075,40.040275",
+      "photo_url": "https://store.is.autonavi.com/showpic/33442af869bfea5cc9dfd178aa0d78f5",
+      "category": "中餐厅",
+      "area": "来广营",
+      "rating": 2.7,
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "id": "B0L2H5B5DV",
+      "name": "酱骨头米饭",
+      "distance_m": 995,
+      "address": "北苑路28号院1号楼(立水桥南地铁站D西南口步行220米)",
+      "location": "116.415875,40.040275",
+      "category": "中餐厅",
+      "area": "立水桥",
+      "average_cost_yuan": 29.0,
+      "rating": 3.0,
+      "tags": [
+        "小吃快餐"
+      ]
+    },
+    {
+      "id": "B0M61ZG96C",
+      "name": "柴火灶大馅手工水饺",
+      "distance_m": 1009,
+      "address": "北苑路28号院1号北科创业大厦(春华路)",
+      "location": "116.416425,40.040425",
+      "category": "特色/地方风味餐厅",
+      "area": "立水桥",
+      "average_cost_yuan": 17.0,
+      "rating": 2.4,
+      "tags": [
+        "小吃快餐"
+      ]
+    },
+    {
+      "id": "B0JDUDMSUQ",
+      "name": "潇湘阁(北苑店)",
+      "distance_m": 1011,
+      "address": "北京城区北苑路28号院1号楼下沉广场",
+      "location": "116.415837,40.040422",
+      "photo_url": "https://aos-comment.amap.com/B0JDUDMSUQ/comment/5f445ca89d1d2d283c553df90c08fa1e_2048_2048_80.jpg",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 68.0,
+      "rating": 4.7,
+      "opening_hours": "周一至周日 10:30-21:30",
+      "tags": [
+        "湘菜",
+        "酸萝卜牛肉",
+        "金钱蛋",
+        "烟笋腊肉",
+        "臭鳜鱼",
+        "肉末茄子煲",
+        "酸辣鸡胗"
+      ]
+    },
+    {
+      "id": "B0K6PMU9K6",
+      "name": "牛肉板面(天天美食城店)",
+      "distance_m": 1012,
+      "address": "北苑路28号院北科创业大厦F1层",
+      "location": "116.415825,40.040425",
+      "category": "中餐厅",
+      "area": "来广营",
+      "rating": 2.0,
+      "tags": [
+        "板面",
+        "牛肉板面"
+      ]
+    },
+    {
+      "id": "B0J0UR73YG",
+      "name": "汴京记(北苑店)",
+      "distance_m": 1015,
+      "address": "北苑路28号院1号楼B1层-103内麦当劳旁",
+      "location": "116.415936,40.040456",
+      "photo_url": "https://store.is.autonavi.com/showpic/b201a98a0f141b8d0000002979030133?type=pic",
+      "area": "来广营",
+      "average_cost_yuan": 30.0,
+      "rating": 4.1,
+      "opening_hours": "周一至周日 10:30-21:10",
+      "tags": [
+        "河南小吃",
+        "中原排骨豆角焖面",
+        "原味河南烩面",
+        "现炸油条",
+        "招牌逍遥镇胡辣汤",
+        "蒸菜三拼",
+        "蒸菜"
+      ]
+    },
+    {
+      "id": "B0M6O7MJYO",
+      "name": "源麦访大饼卷一切",
+      "distance_m": 1024,
+      "address": "北苑路28号院1号北科创业大厦(春华路)",
+      "location": "116.416237,40.040552",
+      "category": "中餐厅",
+      "area": "立水桥",
+      "rating": 2.7,
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "id": "B0JRTO5HS9",
+      "name": "牧贺兰·清真宁夏菜·宁夏滩羊手抓(立水桥店)",
+      "distance_m": 1038,
+      "address": "北京城区北苑路28号院北科创业大厦F1层",
+      "location": "116.415792,40.040660",
+      "photo_url": "https://aos-comment.amap.com/B0JRTO5HS9/comment/content_media_external_file_48357_ss__1771345946738_44408308.jpg",
+      "category": "清真菜馆",
+      "area": "来广营",
+      "average_cost_yuan": 98.0,
+      "rating": 4.6,
+      "opening_hours": "周一至周日 10:30-23:00",
+      "tags": [
+        "西北菜",
+        "羊肉",
+        "单人餐",
+        "双人餐",
+        "鸡肉"
+      ]
+    },
+    {
+      "id": "B0JKKXAN5V",
+      "name": "潮黄记·潮汕鲜牛肉火锅(北苑店)",
+      "distance_m": 1040,
+      "address": "北京城区北京城区北苑路28号院1号北科创业大厦",
+      "location": "116.415809,40.040676",
+      "photo_url": "http://store.is.autonavi.com/showpic/e0ff264d2c88dca104a8b08243cbc94e",
+      "category": "火锅店",
+      "area": "来广营",
+      "average_cost_yuan": 97.0,
+      "rating": 4.6,
+      "opening_hours": "周一至周五 11:00-14:00,17:00-23:00；周六至周日 11:00-23:00",
+      "tags": [
+        "火锅",
+        "牛肉"
+      ]
+    },
+    {
+      "id": "B0G02L78Q7",
+      "name": "南潮驿(北京北科创业大厦店)",
+      "distance_m": 1044,
+      "address": "北苑春华路北科创业大厦北苑路28号院1号楼一层",
+      "location": "116.416350,40.040737",
+      "area": "来广营",
+      "rating": 2.0,
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "id": "B0K2T7NYAY",
+      "name": "高筑墙·新疆羊肉串(北苑店)",
+      "distance_m": 1047,
+      "address": "筑华年北门西120米",
+      "location": "116.426492,40.037179",
+      "photo_url": "https://aos-comment.amap.com/B0K2T7NYAY/comment/20260313-614a5c83786e07dbc6cc094c-1UJERUjaQ867xLks9eVGop.jpg",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 58.0,
+      "rating": 4.4,
+      "opening_hours": "周一至周日 16:00-02:00 2026-02-14至2026-02-23 周一至周日 全天关闭",
+      "tags": [
+        "烧烤",
+        "新疆羊肉串"
+      ]
+    },
+    {
+      "id": "B0K3JHDQ8H",
+      "name": "丑仔包子",
+      "distance_m": 1049,
+      "address": "来广营街道北苑家园双营路2号筑华年",
+      "location": "116.426492,40.037208",
+      "photo_url": "https://aos-comment.amap.com/B0K3JHDQ8H/comment/content_media_external_images_media_1000066954_ss__1769407929976_64380169.jpg",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 10.0,
+      "rating": 3.9,
+      "opening_hours": "周一至周日 06:00-20:00",
+      "tags": [
+        "小吃快餐"
+      ]
+    },
+    {
+      "id": "B0FFHZXRMG",
+      "name": "释面",
+      "distance_m": 1051,
+      "address": "双营路2号院12号楼一层105-10",
+      "location": "116.426549,40.037180",
+      "photo_url": "https://aos-comment.amap.com/B0FFHZXRMG/comment/1ee97bca45a5e5f367a3e6bfe19d4d23_2048_2048_80.jpg",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 47.0,
+      "rating": 4.6,
+      "opening_hours": "周一至周日 10:00-21:00",
+      "tags": [
+        "面馆",
+        "盖饭",
+        "手擀面",
+        "土豆丝",
+        "拉面",
+        "东北菜",
+        "猪头肉"
+      ]
+    },
+    {
+      "id": "B0K0C9BU55",
+      "name": "五谷杂粮煎饼",
+      "distance_m": 1052,
+      "address": "来广营街道北苑家园双营路2号筑华年",
+      "location": "116.426575,40.037175",
+      "photo_url": "https://store.is.autonavi.com/showpic/2ff8f08a1af49850b085b806b4a9b2f9",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 13.0,
+      "rating": 3.7,
+      "tags": [
+        "煎饼"
+      ]
+    },
+    {
+      "id": "B0FFKHMRWB",
+      "name": "老边饺子馆(双营路店)",
+      "distance_m": 1070,
+      "address": "来广营街道北苑家园双营路2号筑华年",
+      "location": "116.426835,40.037169",
+      "photo_url": "https://store.is.autonavi.com/showpic/6c03f2ac9b9d198975f789e283e4fa17",
+      "category": "特色/地方风味餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 79.0,
+      "rating": 4.6,
+      "opening_hours": "周一至周日 10:00-22:00 2026-05-01至2026-05-05 周一至周日 10:00-22:00",
+      "tags": [
+        "东北菜",
+        "双人餐",
+        "单人餐",
+        "东北锅包肉"
+      ]
+    },
+    {
+      "id": "B0LR67GJBO",
+      "name": "小龙烧烤(筑华年店)",
+      "distance_m": 1072,
+      "address": "来广营乡双营路2号院12号楼底商",
+      "location": "116.426873,40.037161",
+      "photo_url": "https://store.is.autonavi.com/showpic/01d5a98548052d140000002480234043?type=pic",
+      "category": "特色/地方风味餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 69.0,
+      "rating": 4.3,
+      "opening_hours": "周一至周日 15:00-03:00",
+      "tags": [
+        "烤肉"
+      ]
+    },
+    {
+      "id": "B0MADLK5MU",
+      "name": "炭火羊肉炉",
+      "distance_m": 1073,
+      "address": "原叶美苑北门旁",
+      "location": "116.426875,40.037175",
+      "photo_url": "https://store.is.autonavi.com/showpic/aa7ddfd7ced47aee9de904fb74202f5e",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 67.0,
+      "rating": 3.0,
+      "opening_hours": "周一至周日 15:00-03:00",
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "id": "B0MD04PVB1",
+      "name": "老张烤炉鸡蛋灌饼",
+      "distance_m": 1083,
+      "address": "来广营街道北苑家园双营路2号筑华年",
+      "location": "116.427025,40.037175",
+      "photo_url": "https://store.is.autonavi.com/showpic/6dc14391a56dd129194d2a8d02419252",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 13.0,
+      "rating": 3.2,
+      "tags": [
+        "小吃快餐",
+        "鸡蛋灌饼"
+      ]
+    },
+    {
+      "id": "B0KDPO7H6P",
+      "name": "小福南(筑华年店)",
+      "distance_m": 1084,
+      "address": "来广营乡双营路2号院12号楼1层105内-1-6小福南",
+      "location": "116.427039,40.037179",
+      "photo_url": "https://aos-comment.amap.com/B0KDPO7H6P/comment/5d857db8-8375-42f3-acb3-c8c12d5f6ab5.png",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 39.0,
+      "rating": 4.6,
+      "opening_hours": "周一至周日 10:30-21:00 2026-02-12至2026-02-24 周一至周日 全天关闭",
+      "tags": [
+        "小吃快餐",
+        "肥肠",
+        "粉面",
+        "堂食"
+      ]
+    },
+    {
+      "id": "B0LRY9X35P",
+      "name": "东北菜小龙虾",
+      "distance_m": 1095,
+      "address": "来广营街道北苑家园双营路2号筑华年",
+      "location": "116.427125,40.037260",
+      "photo_url": "https://store.is.autonavi.com/showpic/2faeff01f16e9decaec2b0754ad9a655",
+      "category": "中餐厅",
+      "area": "来广营",
+      "rating": 2.7,
+      "tags": [
+        "小龙虾",
+        "东北菜"
+      ]
+    },
+    {
+      "id": "B0K1TLUAA3",
+      "name": "晋鸿顺手擀面双营路旗舰店",
+      "distance_m": 1099,
+      "address": "双营路二号院十二号",
+      "location": "116.427263,40.037164",
+      "photo_url": "https://aos-comment.amap.com/B0K1TLUAA3/comment/file_media_Photo_5703_IMG_1748038500_5333_IMG_20250524_061320_jpg_ss_2.jpg",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 24.0,
+      "rating": 4.4,
+      "opening_hours": "周一至周日 10:00-23:00",
+      "tags": [
+        "小吃快餐",
+        "手擀面"
+      ]
+    },
+    {
+      "id": "B0FFGHUO29",
+      "name": "老诚一锅(北苑筑华年店)",
+      "distance_m": 1101,
+      "address": "北苑家园双营路2号北京城建华年12号楼北侧一层底商",
+      "location": "116.427300,40.037164",
+      "photo_url": "https://aos-comment.amap.com/B0FFGHUO29/comment/FF2B20EB_2D7C_417E_8F3F_E5E11EAA2FD6_L0_001_2000_1126_1726965873470_05285238.jpg",
+      "category": "火锅店",
+      "area": "来广营",
+      "average_cost_yuan": 84.0,
+      "rating": 4.5,
+      "opening_hours": "周一至周日 10:00-24:00",
+      "tags": [
+        "羊蝎子火锅",
+        "百年牛栏山",
+        "白萝卜",
+        "油皮",
+        "面片",
+        "蒙古王",
+        "精品蝎子锅(大)"
+      ]
+    },
+    {
+      "id": "B0LAOSF4T1",
+      "name": "仁和兴顺烤羊腿串店(北苑店)",
+      "distance_m": 1101,
+      "address": "双营路2号院12号楼1层105内105-1-01",
+      "location": "116.427312,40.037154",
+      "photo_url": "https://store.is.autonavi.com/showpic/61afe46ac798e8532375cf61c4ad8544",
+      "category": "特色/地方风味餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 85.0,
+      "rating": 4.2,
+      "opening_hours": "周一至周日 10:00-02:00",
+      "tags": [
+        "烧烤"
+      ]
+    },
+    {
+      "id": "B0H3HR0KP4",
+      "name": "山西烧饼(北卫家园店)",
+      "distance_m": 1109,
+      "address": "北苑路96号北卫家园北门烧饼店",
+      "location": "116.419289,40.021564",
+      "photo_url": "https://aos-comment.amap.com/B0H3HR0KP4/comment/093ed4e81c56ad7a8696fdcf5fec04f5_2048_2048_80.jpg",
+      "category": "快餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 14.0,
+      "rating": 3.5,
+      "opening_hours": "周一至周日 06:30-22:00",
+      "tags": [
+        "烧饼",
+        "酱香饼",
+        "手抓饼",
+        "烤冷面",
+        "鸡蛋灌饼"
+      ]
+    },
+    {
+      "id": "B0FFGHJIBL",
+      "name": "主食厨房(清林路店)",
+      "distance_m": 1126,
+      "address": "清林小街与清林东路交叉口西160米",
+      "location": "116.404394,40.034809",
+      "category": "中餐厅",
+      "average_cost_yuan": 18.0,
+      "rating": 3.0,
+      "opening_hours": "08:00-21:00",
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "id": "B0MD07RMGF",
+      "name": "越乡牛肉面",
+      "distance_m": 1130,
+      "address": "清林小街与清林东路交叉口西160米",
+      "location": "116.404425,40.034975",
+      "category": "清真菜馆",
+      "rating": 2.4,
+      "tags": [
+        "牛肉面"
+      ]
+    },
+    {
+      "id": "B0GKXCEJBV",
+      "name": "京门四季炭火铜锅涮肉",
+      "distance_m": 1135,
+      "address": "双营路2号院11号楼1层12号",
+      "location": "116.427825,40.037125",
+      "photo_url": "https://aos-comment.amap.com/B0GKXCEJBV/comment/2171598E_083B_4E6B_923F_81E1108D72B0_L0_001_2000_1500_1726802947175_55955791.jpg",
+      "category": "火锅店",
+      "area": "来广营",
+      "average_cost_yuan": 82.0,
+      "rating": 4.5,
+      "opening_hours": "周一至周日 11:00-02:00 10-01至10-07 周一至周日 11:00-01:00",
+      "tags": [
+        "火锅",
+        "双人餐",
+        "羊肉串"
+      ]
+    },
+    {
+      "id": "B0MDFLAQQT",
+      "name": "杨记烧烤大排档(北苑店)",
+      "distance_m": 1137,
+      "address": "来广营街道北苑家园双营路2号筑华年11号楼",
+      "location": "116.427869,40.037107",
+      "photo_url": "https://store.is.autonavi.com/showpic/ee8ba6c425fd188285fad6f3d93ef989",
+      "category": "特色/地方风味餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 76.0,
+      "rating": 3.3,
+      "opening_hours": "周一至周日 10:00-24:00",
+      "tags": [
+        "大排档",
+        "烧烤大排档"
+      ]
+    },
+    {
+      "id": "B0FFJ1RK60",
+      "name": "山西刀削面·家常菜(清林路世茂奥临店)",
+      "distance_m": 1138,
+      "address": "世茂奥林花园东区七号楼二层",
+      "location": "116.404244,40.034811",
+      "average_cost_yuan": 45.0,
+      "rating": 1.6,
+      "tags": [
+        "刀削面",
+        "家常菜"
+      ]
+    },
+    {
+      "id": "B0FFH00KF1",
+      "name": "山西刀削面(S50北五环辅路)",
+      "distance_m": 1146,
+      "address": "北苑路96号北卫家园",
+      "location": "116.419427,40.021246",
+      "photo_url": "http://store.is.autonavi.com/showpic/aba276ce4ecf686d8283dbe2582b9cdc",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 35.0,
+      "rating": 4.0,
+      "opening_hours": "周一至周日 10:30-22:30",
+      "tags": [
+        "刀削面"
+      ]
+    },
+    {
+      "id": "B0KAOMTSZ2",
+      "name": "老杨吉林烧烤(筑华年店)",
+      "distance_m": 1148,
+      "address": "双营路2号院筑华年",
+      "location": "116.428014,40.037112",
+      "photo_url": "https://aos-comment.amap.com/B0KAOMTSZ2/comment/1541C2AF_353A_4EEC_9E3A_B89E60905D0E_L0_001_2000_150_1745284965472_55962986.jpg",
+      "area": "来广营",
+      "average_cost_yuan": 73.0,
+      "rating": 4.7,
+      "opening_hours": "周一至周日 11:00-14:00,17:00-01:00 2026-02-12至2026-02-23 周一至周日 全天关闭",
+      "tags": [
+        "烧烤",
+        "炒方便面",
+        "开胃菜",
+        "蒜蓉扇贝"
+      ]
+    },
+    {
+      "id": "B0J02ROS41",
+      "name": "京鲜海鲜(筑华年店)",
+      "distance_m": 1151,
+      "address": "双营路筑华年11号楼圣盈吉超市内",
+      "location": "116.428112,40.037056",
+      "photo_url": "http://store.is.autonavi.com/showpic/f97a1f23ad22415db5db8aa43b5b410f",
+      "category": "中餐厅",
+      "area": "来广营",
+      "rating": 2.9,
+      "opening_hours": "周一至周日 08:00-19:00",
+      "tags": [
+        "烧烤",
+        "鲜海鲜"
+      ]
+    },
+    {
+      "id": "B0FFILC2ZQ",
+      "name": "三倒拐市井火锅(筑华年店)",
+      "distance_m": 1159,
+      "address": "双营路2号筑华年11号楼南侧一层底商",
+      "location": "116.428251,40.037022",
+      "photo_url": "https://aos-comment.amap.com/B0FFILC2ZQ/comment/5c354a2f81c9af26f807da270a103247_2048_2048_80.jpg",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 128.0,
+      "rating": 4.7,
+      "opening_hours": "周一至周五 11:00-14:00,16:00-23:30；周六至周日 11:00-23:30",
+      "tags": [
+        "火锅",
+        "重庆火锅",
+        "鸭肠",
+        "小酥肉",
+        "豆腐",
+        "玉米",
+        "狼牙土豆"
+      ]
+    },
+    {
+      "id": "B0MG7PHDV0",
+      "name": "越乡小笼包店",
+      "distance_m": 1159,
+      "address": "世茂奥临七号商业楼",
+      "location": "116.403925,40.034675",
+      "category": "中餐厅",
+      "average_cost_yuan": 11.0,
+      "rating": 3.3,
+      "opening_hours": "周一至周日 06:00-22:00",
+      "tags": [
+        "小笼包"
+      ]
+    },
+    {
+      "id": "B0G0798MHU",
+      "name": "两路口梯坎面(筑华年店)",
+      "distance_m": 1164,
+      "address": "北京城建筑华年2号院11号楼1层18号",
+      "location": "116.428356,40.036975",
+      "photo_url": "https://aos-comment.amap.com/B0G0798MHU/comment/content_media_external_file_32467_ss__1747317229768_19873809.jpg",
+      "category": "快餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 32.0,
+      "rating": 4.7,
+      "opening_hours": "周一至周日 08:00-22:00 2026-02-13至2026-02-23 周一至周日 全天关闭",
+      "tags": [
+        "面馆",
+        "肥肠",
+        "宜宾燃面",
+        "口水鸡",
+        "狼牙土豆",
+        "红油抄手",
+        "面食"
+      ]
+    },
+    {
+      "id": "B0FFGWTZ89",
+      "name": "京八珍(北苑家园店)",
+      "distance_m": 1209,
+      "address": "北苑家园茉藜园2号楼一层(茉莉园北门西侧)",
+      "location": "116.422824,40.041212",
+      "photo_url": "https://aos-comment.amap.com/B0FFGWTZ89/comment/6D7F3B88_F2EB_4395_BD38_DE3865B6BFFD_L0_001_2000_1500_1726383386330_89832791.jpg",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 51.0,
+      "rating": 4.3,
+      "opening_hours": "周一至周日 10:00-21:00",
+      "tags": [
+        "卤味",
+        "双人餐",
+        "单人餐"
+      ]
+    },
+    {
+      "id": "B0FFLBBNFF",
+      "name": "南北风味·家宴(北苑店)(暂停营业)",
+      "distance_m": 1211,
+      "address": "双营路2号筑华年10号楼东侧二层",
+      "location": "116.429269,40.036629",
+      "photo_url": "http://store.is.autonavi.com/showpic/240a19129aa537f9b61c0edf36b9ef23",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 84.0,
+      "rating": 4.2,
+      "opening_hours": "周一至周日 09:00-21:30",
+      "tags": [
+        "川菜",
+        "家常菜",
+        "三鲜烩蚕豆",
+        "筋头巴脑一锅鲜",
+        "南北熏卤大拼盘",
+        "鲍鱼煨牛蹄筋",
+        "筋头巴脑炖柴火豆腐"
+      ]
+    },
+    {
+      "id": "B0KU2G2TSX",
+      "name": "宫门口馒头铺(创始人北苑店)",
+      "distance_m": 1215,
+      "address": "北苑家园茉藜园北门西侧一层底商",
+      "location": "116.422970,40.041219",
+      "photo_url": "https://store.is.autonavi.com/showpic/a5fcded827e0e91dca1430f41866d770?operate=original",
+      "area": "来广营",
+      "average_cost_yuan": 17.0,
+      "rating": 4.6,
+      "opening_hours": "周一至周日 07:00-19:30",
+      "tags": [
+        "小吃快餐",
+        "贝勒红豆卷",
+        "桑葚",
+        "麻酱",
+        "葱油拌面",
+        "奶皮子"
+      ]
+    },
+    {
+      "id": "B0GR5L2Q5M",
+      "name": "福益盛主食(北苑店)",
+      "distance_m": 1238,
+      "address": "茉藜园北门旁",
+      "location": "116.423550,40.041227",
+      "photo_url": "https://aos-comment.amap.com/B0GR5L2Q5M/comment/5a5d301a6f928de9e081f842274a5552_2048_2048_80.jpg",
+      "area": "来广营",
+      "average_cost_yuan": 13.0,
+      "rating": 3.8,
+      "opening_hours": "周一至周日 00:00-24:00",
+      "tags": [
+        "中餐",
+        "冷面",
+        "土家酱香饼",
+        "肉饼",
+        "烤面筋",
+        "烤冷面",
+        "金针菇"
+      ]
+    },
+    {
+      "id": "B0IDF71I5Y",
+      "name": "久久丫鸭脖(来广营茉藜园店)",
+      "distance_m": 1238,
+      "address": "茉藜园北门旁",
+      "location": "116.423592,40.041213",
+      "photo_url": "https://store.is.autonavi.com/showpic/755ce81699e8e5e90000003165096431?type=pic",
+      "area": "来广营",
+      "average_cost_yuan": 27.0,
+      "rating": 3.5,
+      "opening_hours": "周一至周日 10:00-22:00",
+      "tags": [
+        "鸭脖",
+        "虎皮鸡爪"
+      ]
+    },
+    {
+      "id": "B0I33KL4XR",
+      "name": "袁记云饺(立水桥南茉藜园店)",
+      "distance_m": 1240,
+      "address": "北苑家园茉莉园3号楼111号",
+      "location": "116.423669,40.041199",
+      "photo_url": "https://store.is.autonavi.com/showpic/24d8c4f250f7147f3ac600fc4842f0ff?operate=original?operate=original?operate=original?operate=original",
+      "area": "来广营",
+      "average_cost_yuan": 23.0,
+      "rating": 4.2,
+      "opening_hours": "周一至周日 07:00-21:00",
+      "tags": [
+        "小吃快餐",
+        "云吞",
+        "豆皮",
+        "素食",
+        "芹菜"
+      ]
+    },
+    {
+      "id": "B0J2LRS00B",
+      "name": "木屋烧烤(朝阳城悦荟店)",
+      "distance_m": 1241,
+      "address": "北京城区秋实街城悦购物中心1层F1-007木屋烧烤",
+      "location": "116.421491,40.041929",
+      "photo_url": "https://aos-comment.amap.com/B0J2LRS00B/comment/content_media_external_file_1000008116_ss__1763640533365_52010578.jpg",
+      "area": "立水桥",
+      "average_cost_yuan": 82.0,
+      "rating": 4.5,
+      "opening_hours": "周一至周日 11:00-03:00",
+      "tags": [
+        "烧烤",
+        "疙瘩汤",
+        "花甲",
+        "三明治",
+        "烤鸡爪",
+        "牛肉串",
+        "虾滑"
+      ]
+    },
+    {
+      "id": "B0J3PC9FPQ",
+      "name": "云念·云南菜(北京城建·城悦荟店)",
+      "distance_m": 1242,
+      "address": "秋实街1号城悦荟商场2层",
+      "location": "116.421357,40.041978",
+      "photo_url": "https://store.is.autonavi.com/showpic/a541a579baf15f870000001727070641?type=pic",
+      "category": "云贵菜",
+      "area": "立水桥",
+      "average_cost_yuan": 71.0,
+      "rating": 4.5,
+      "opening_hours": "周一至周日 10:30-21:30",
+      "tags": [
+        "云南菜",
+        "烤鸡",
+        "鲜花饼",
+        "酸辣小锅米线",
+        "香茅草烤鱼",
+        "云南手工鲜花饼",
+        "火腿"
+      ]
+    },
+    {
+      "id": "B0J3MHFKSY",
+      "name": "情满四合院(北京城建·城悦荟店)",
+      "distance_m": 1243,
+      "address": "北京城区秋实街1号北京城建·城悦荟F2层",
+      "location": "116.421548,40.041938",
+      "photo_url": "https://store.is.autonavi.com/showpic/85a762a5d4d7945b0000003214934816",
+      "category": "中餐厅",
+      "area": "来广营",
+      "rating": 4.5,
+      "opening_hours": "周一至周日 10:00-21:30",
+      "tags": [
+        "中餐",
+        "红烧肉",
+        "毛血旺",
+        "烤鸭",
+        "炙子烤肉",
+        "皇城根炙子烤羊肉",
+        "小吊梨汤"
+      ]
+    },
+    {
+      "id": "B0MGZHIN6N",
+      "name": "好开心烧饼里脊(立水桥店)",
+      "distance_m": 1246,
+      "address": "来广营地区北苑路6号(立水桥地铁立水桥南c口)",
+      "location": "116.414575,40.042425",
+      "photo_url": "https://store.is.autonavi.com/showpic/475bad4acb07e16a35893b74a9cf6b91",
+      "area": "来广营",
+      "average_cost_yuan": 13.0,
+      "rating": 4.1,
+      "opening_hours": "周一至周日 06:30-13:30,16:00-21:00",
+      "tags": [
+        "小吃快餐",
+        "烧饼里脊"
+      ]
+    },
+    {
+      "id": "B0MDMHY3QJ",
+      "name": "仓硕家•东北麻辣烫",
+      "distance_m": 1254,
+      "address": "北京城区北京城区北京市朝阳区北苑路6号2幢1层3号",
+      "location": "116.414692,40.042520",
+      "photo_url": "https://store.is.autonavi.com/showpic/e221caeb9e303f610000003026848709?type=pic",
+      "category": "特色/地方风味餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 25.0,
+      "rating": 4.2,
+      "opening_hours": "周一至周日 09:00-21:00",
+      "tags": [
+        "东北小吃"
+      ]
+    },
+    {
+      "id": "B0J3ULUUDR",
+      "name": "昌胜香港深井烧鹅(北京城建·城悦荟店)",
+      "distance_m": 1255,
+      "address": "秋实街1号北京城建·城悦荟F4层",
+      "location": "116.421538,40.042048",
+      "photo_url": "https://aos-comment.amap.com/B0J3ULUUDR/comment/ba5dbc6631a09ce0d5b292e4d7dd895e_2048_2048_80.jpg",
+      "area": "来广营",
+      "average_cost_yuan": 56.0,
+      "rating": 4.2,
+      "opening_hours": "周一至周日 10:00-21:30",
+      "tags": [
+        "肉类",
+        "鸡肉"
+      ]
+    },
+    {
+      "id": "B0KRCG90IZ",
+      "name": "黄桥烧饼",
+      "distance_m": 1261,
+      "address": "华发颐园西南1门南70米(立水桥南地铁站C东南口步行80米)",
+      "location": "116.414655,40.042575",
+      "photo_url": "https://aos-comment.amap.com/B0KRCG90IZ/comment/63847ef3-f62a-4071-9e4a-1fc02389fd97.png",
+      "area": "来广营",
+      "average_cost_yuan": 9.0,
+      "rating": 4.1,
+      "opening_hours": "周一至周日 06:30-21:00",
+      "tags": [
+        "烧饼",
+        "肉夹馍"
+      ]
+    },
+    {
+      "id": "B0FFHII24Y",
+      "name": "南门四季铜锅涮肉(立水桥店)",
+      "distance_m": 1265,
+      "address": "北京城区北苑路6号(立水桥南地铁站C东南口步行80米)",
+      "location": "116.414645,40.042608",
+      "photo_url": "https://aos-comment.amap.com/B0FFHII24Y/comment/content_media_external_file_1000015985_ss__1768395290191_14459685.jpg",
+      "category": "火锅店",
+      "area": "立水桥",
+      "average_cost_yuan": 104.0,
+      "rating": 4.6,
+      "opening_hours": "周一至周日 11:00-22:30",
+      "tags": [
+        "涮羊肉",
+        "麻酱",
+        "铜锅涮肉",
+        "羊肉",
+        "牛肉"
+      ]
+    },
+    {
+      "id": "B0J2RHNMKT",
+      "name": "飨恰·湖南菜(北京城建·城悦荟店)",
+      "distance_m": 1266,
+      "address": "来广营乡秋实街1号城悦荟购物中心4层(东南角)",
+      "location": "116.421691,40.042116",
+      "photo_url": "https://aos-comment.amap.com/B0J2RHNMKT/comment/15edd4d8909b2c0ad690981b8849a1c9_2048_2048_80.jpg",
+      "category": "湖南菜(湘菜)",
+      "area": "来广营",
+      "average_cost_yuan": 76.0,
+      "rating": 4.2,
+      "opening_hours": "周一至周日 11:00-15:00,17:00-21:30 2026-02-15至2026-02-21 周一至周日 全天关闭",
+      "tags": [
+        "湘菜",
+        "肉片",
+        "特色菜",
+        "豆腐",
+        "辣椒炒肉",
+        "茄子",
+        "臭豆腐"
+      ]
+    },
+    {
+      "id": "B0MD649W2Z",
+      "name": "烧烤溜达串",
+      "distance_m": 1270,
+      "address": "清苑路与双营路交叉口西北80米",
+      "location": "116.429425,40.037475",
+      "category": "特色/地方风味餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 45.0,
+      "rating": 2.7,
+      "tags": [
+        "烤串"
+      ]
+    },
+    {
+      "id": "B0L2MR08MR",
+      "name": "西塔婆婆生蚝烤肉自助(城悦荟店)",
+      "distance_m": 1275,
+      "address": "北京城区秋实街城悦荟4楼",
+      "location": "116.421869,40.042156",
+      "photo_url": "https://aos-comment.amap.com/B0L2MR08MR/comment/content_media_external_file_29513_ss__1764034916171_74792524.jpg",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 76.0,
+      "rating": 4.5,
+      "opening_hours": "周一至周日 11:00-24:00",
+      "tags": [
+        "自助餐",
+        "烤肉自助"
+      ]
+    },
+    {
+      "id": "B0IB2CTFN0",
+      "name": "晋状元刀削面",
+      "distance_m": 1278,
+      "address": "华发颐园西南1门南50米(立水桥南地铁站C东南口步行70米)",
+      "location": "116.414539,40.042712",
+      "photo_url": "https://store.is.autonavi.com/showpic/b67ed887bae38d4c0000001383126678?type=pic",
+      "category": "中餐厅",
+      "area": "立水桥",
+      "average_cost_yuan": 21.0,
+      "rating": 3.7,
+      "opening_hours": "周一至周日 09:00-23:00",
+      "tags": [
+        "刀削面",
+        "特色菜",
+        "米线"
+      ]
+    },
+    {
+      "id": "B0MUP7FG49",
+      "name": "山晋万家刀削面家常菜(立水桥店)",
+      "distance_m": 1278,
+      "address": "北苑路与春华路交叉口北200米",
+      "location": "116.414539,40.042712",
+      "photo_url": "https://store.is.autonavi.com/showpic/4e986a68bded9b8f0000003026846886?type=pic",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 22.0,
+      "rating": 3.4,
+      "tags": [
+        "刀削面",
+        "家常菜"
+      ]
+    },
+    {
+      "id": "B0HA1XFZ3F",
+      "name": "小宋早餐铺",
+      "distance_m": 1287,
+      "address": "北苑路6号1号楼一层(立水桥南地铁站C东南口步行100米)",
+      "location": "116.414587,40.042800",
+      "photo_url": "https://aos-comment.amap.com/B0HA1XFZ3F/comment/bf5508103dc92e47d66b52ad4921917c_2048_2048_80.jpg",
+      "category": "中餐厅",
+      "area": "立水桥",
+      "average_cost_yuan": 15.0,
+      "rating": 3.8,
+      "opening_hours": "周一至周日 02:00-22:00",
+      "tags": [
+        "小吃快餐",
+        "胡辣汤"
+      ]
+    },
+    {
+      "id": "B0K1LOJK3U",
+      "name": "八宝鸭头(立水桥店)",
+      "distance_m": 1287,
+      "address": "来广营北苑路18号华发颐园",
+      "location": "116.414494,40.042797",
+      "photo_url": "https://aos-comment.amap.com/B0K1LOJK3U/comment/57fc0355be07d5763d02173b7b0dc99a_2048_2048_80.jpg",
+      "area": "立水桥",
+      "average_cost_yuan": 30.0,
+      "rating": 3.7,
+      "opening_hours": "周一至周日 11:00-23:00",
+      "tags": [
+        "熟食",
+        "鸭头"
+      ]
+    },
+    {
+      "id": "B0MUT6J0VG",
+      "name": "痴串串·串串香火锅",
+      "distance_m": 1288,
+      "address": "秋实街与春华路交叉口西北80米",
+      "location": "116.421875,40.042275",
+      "photo_url": "https://store.is.autonavi.com/showpic/29f372d568388a2ff8047b6cff3be374",
+      "category": "火锅店",
+      "area": "来广营",
+      "average_cost_yuan": 83.0,
+      "rating": 3.8,
+      "tags": [
+        "串串香",
+        "串串"
+      ]
+    },
+    {
+      "id": "B0KG0MK1PS",
+      "name": "高群生胡辣汤(北苑店)",
+      "distance_m": 1289,
+      "address": "北苑路18号华发颐园4号楼一层底商南侧",
+      "location": "116.414490,40.042814",
+      "photo_url": "https://aos-comment.amap.com/B0KG0MK1PS/comment/ba27406c17f76f569342927d71a935d8_2048_2048_80.jpg",
+      "category": "中餐厅",
+      "area": "立水桥",
+      "average_cost_yuan": 21.0,
+      "rating": 4.6,
+      "opening_hours": "周一至周日 06:00-21:30",
+      "tags": [
+        "小吃快餐",
+        "牛肉",
+        "胡辣汤"
+      ]
+    },
+    {
+      "id": "B0J34LQWLV",
+      "name": "马记永·兰州牛肉面(北京城建·城悦荟店)",
+      "distance_m": 1290,
+      "address": "来广营乡秋实街城悦荟4楼008-009号",
+      "location": "116.421531,40.042386",
+      "photo_url": "http://store.is.autonavi.com/query_pic?id=stc0444e99-56e7-42fb-bccc-89bf671bff76&user=search&operate=original",
+      "area": "来广营",
+      "average_cost_yuan": 32.0,
+      "rating": 4.1,
+      "opening_hours": "周一至周日 10:30-21:00",
+      "tags": [
+        "牛肉面",
+        "羊肉串",
+        "牛肉",
+        "羊肉",
+        "鸡肉",
+        "柠檬茶"
+      ]
+    },
+    {
+      "id": "B0FFHTSO9T",
+      "name": "80-5兰州牛肉面(立水桥南店)",
+      "distance_m": 1292,
+      "address": "北京城区华发颐园4号楼底商(立水桥南地铁站C东南口步行70米)",
+      "location": "116.414492,40.042836",
+      "photo_url": "http://store.is.autonavi.com/query_pic?id=st1c70706a-ddd6-4231-b85f-91ffd4561d53&user=search&operate=original",
+      "category": "快餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 37.0,
+      "rating": 4.6,
+      "opening_hours": "周一至周日 09:30-23:00",
+      "tags": [
+        "面馆",
+        "拉面",
+        "牛肉拉面",
+        "牛肉面",
+        "羊肉串",
+        "牛肉"
+      ]
+    },
+    {
+      "id": "B0FFHDW7TV",
+      "name": "吉野家(秋实街-城悦荟)",
+      "distance_m": 1297,
+      "address": "来广营乡秋实街1号1层006",
+      "location": "116.421807,40.042380",
+      "photo_url": "https://store.is.autonavi.com/showpic/e0d679c73d62bd770000003164734236?type=pic",
+      "category": "吉野家",
+      "area": "来广营",
+      "average_cost_yuan": 30.0,
+      "rating": 4.2,
+      "opening_hours": "周一至周日 10:00-22:00",
+      "tags": [
+        "小吃快餐",
+        "双人餐"
+      ]
+    },
+    {
+      "id": "B0KU2G26NI",
+      "name": "二三九品手工水饺自助(北苑路店)",
+      "distance_m": 1297,
+      "address": "来广营北苑路18号华发颐园",
+      "location": "116.414454,40.042880",
+      "photo_url": "https://aos-comment.amap.com/B0KU2G26NI/comment/content_media_external_file_125665_ss__1763441833287_17387423.jpg",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 44.0,
+      "rating": 4.7,
+      "opening_hours": "周一至周日 10:30-21:30",
+      "tags": [
+        "自助餐",
+        "猪肉香菇",
+        "骨肉相连",
+        "凉拌菠菜花生米",
+        "猪肉大葱水饺",
+        "凉拌藕片",
+        "猪肉大葱"
+      ]
+    },
+    {
+      "id": "B0LANCXS20",
+      "name": "赛百味 SUBWAY(北京城悦荟店)",
+      "distance_m": 1300,
+      "address": "来广营乡秋实街1号1层022",
+      "location": "116.421644,40.042446",
+      "photo_url": "https://store.is.autonavi.com/showpic/ceffb538cf9b711a5549e39ac1ce6389?operate=original",
+      "category": "快餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 25.0,
+      "rating": 4.2,
+      "opening_hours": "周一至周日 07:30-21:30",
+      "tags": [
+        "西式快餐",
+        "西式火腿三明治",
+        "照烧鸡蛋料双拼三明治三件套",
+        "香溢金枪鱼双拼三明治三件套",
+        "黑胡椒厚切牛排三明治三件套",
+        "日式照烧鸡三明治",
+        "黑胡椒厚切牛排三明治"
+      ]
+    },
+    {
+      "id": "B0J27RBZL6",
+      "name": "卤煮·老汤拉面",
+      "distance_m": 1304,
+      "address": "清苑路清友园4号楼底商",
+      "location": "116.429609,40.037813",
+      "photo_url": "https://aos-comment.amap.com/B0J27RBZL6/comment/5259a856160466d191d6358b5b08f816_2048_2048_80.jpg",
+      "category": "快餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 58.0,
+      "rating": 4.1,
+      "opening_hours": "周一至周日 10:00-22:00",
+      "tags": [
+        "小吃快餐",
+        "米线",
+        "豆腐"
+      ]
+    },
+    {
+      "id": "B0L2C9IARU",
+      "name": "铭辛阁川菜 水煮鱼(北京城建·城悦荟店)",
+      "distance_m": 1304,
+      "address": "来广营乡秋实街1号4层022",
+      "location": "116.421626,40.042495",
+      "photo_url": "https://aos-comment.amap.com/B0L2C9IARU/comment/FF7CBE1B_D996_4E78_928D_FA0ED739D7A4_L0_001_1536_204_1765086341110_67464297.jpg",
+      "category": "四川菜(川菜)",
+      "area": "来广营",
+      "average_cost_yuan": 61.0,
+      "rating": 4.3,
+      "opening_hours": "周一至周日 10:30-22:00",
+      "tags": [
+        "川菜",
+        "水煮鱼"
+      ]
+    },
+    {
+      "id": "B0FFH1YOHS",
+      "name": "秦岭人家·川湘菜(立水桥店)",
+      "distance_m": 1310,
+      "address": "北苑路5号院2号楼底层",
+      "location": "116.413602,40.042874",
+      "photo_url": "https://aos-comment.amap.com/B0FFH1YOHS/comment/6efd159ad25b36a2fe9f16c9bb3580d0_2048_2048_80.jpg",
+      "category": "中餐厅",
+      "area": "立水桥",
+      "average_cost_yuan": 44.0,
+      "rating": 4.3,
+      "opening_hours": "周一至周日 09:30-23:00",
+      "tags": [
+        "川菜",
+        "姜汁松花蛋",
+        "老汤精品牛肉烩面",
+        "老干妈炒饭",
+        "肉沫酸豆角饭",
+        "大果粒",
+        "土豆牛肉饭"
+      ]
+    },
+    {
+      "id": "B0J365HTZT",
+      "name": "阿上阿上(北京城建·城悦荟店)",
+      "distance_m": 1310,
+      "address": "秋实街1号北京城建·城悦荟F4层",
+      "location": "116.421549,40.042567",
+      "photo_url": "https://aos-comment.amap.com/B0J365HTZT/comment/E092FC08_A5FC_4311_8A61_954AA3A5077E_L0_001_1190_88_1769184849324_29991641.jpg",
+      "category": "快餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 41.0,
+      "rating": 4.2,
+      "opening_hours": "周一至周日 10:00-21:00",
+      "tags": [
+        "麻辣烫",
+        "鸡肉"
+      ]
+    },
+    {
+      "id": "B0JAFSHJER",
+      "name": "殿庆水饺(北苑商场店)",
+      "distance_m": 1312,
+      "address": "清苑路与双营路交叉口北120米",
+      "location": "116.429590,40.037966",
+      "photo_url": "http://store.is.autonavi.com/showpic/9ea6ae10b35f31e8713333fb7b07e51d",
+      "category": "特色/地方风味餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 23.0,
+      "rating": 2.0,
+      "opening_hours": "周一至周日 08:00-21:00",
+      "tags": [
+        "小吃快餐"
+      ]
+    },
+    {
+      "id": "B0H35R5B7W",
+      "name": "四九城烧饼夹肉(清友园店)",
+      "distance_m": 1313,
+      "address": "北京城区北京城区北苑家园清友园4号楼1层-1",
+      "location": "116.429614,40.037956",
+      "photo_url": "https://aos-comment.amap.com/B0H35R5B7W/comment/e1e27221448d174c61bfcead9b86eee1_2048_2048_80.jpg",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 18.0,
+      "rating": 4.5,
+      "opening_hours": "周一至周日 06:00-22:00",
+      "tags": [
+        "小吃快餐",
+        "牛肉",
+        "羊肉汤",
+        "胡辣汤",
+        "羊杂汤",
+        "油条"
+      ]
+    },
+    {
+      "id": "B0L0HPP1JU",
+      "name": "彪记野串儿",
+      "distance_m": 1319,
+      "address": "来广营乡北苑家园清友园4号楼北苑商场二楼",
+      "location": "116.429617,40.038054",
+      "photo_url": "https://store.is.autonavi.com/showpic/66399b04669cacd436b97aa9b1fc16cf",
+      "area": "来广营",
+      "average_cost_yuan": 60.0,
+      "rating": 4.4,
+      "opening_hours": "周一至周日 18:00-01:00",
+      "tags": [
+        "烤串"
+      ]
+    },
+    {
+      "id": "B0MRMUUBAR",
+      "name": "卤煮火烧(北苑商场店)",
+      "distance_m": 1319,
+      "address": "清友园东门南150米",
+      "location": "116.429622,40.038041",
+      "photo_url": "https://store.is.autonavi.com/showpic/f4082780df9c29a83f95a458211fb237",
+      "category": "快餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 54.0,
+      "rating": 3.4,
+      "tags": [
+        "卤煮",
+        "卤煮火烧"
+      ]
+    },
+    {
+      "id": "B0J0RRFFBX",
+      "name": "悠乐堡儿童乐园(城悦荟店)",
+      "distance_m": 1321,
+      "address": "秋实街1号北京城建·城悦荟F3层",
+      "location": "116.421620,40.042653",
+      "photo_url": "http://store.is.autonavi.com/showpic/e629d9fca556f1dfc930436c9f455211",
+      "category": "快餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 116.0,
+      "rating": 3.9,
+      "opening_hours": "周一至周日 10:00-22:00",
+      "tags": [
+        "儿童乐园"
+      ]
+    },
+    {
+      "id": "B0L29DRPKF",
+      "name": "烤面筋公社(烧烤·北苑城悦荟店)",
+      "distance_m": 1324,
+      "address": "北京城区城悦荟4楼烤面筋公社",
+      "location": "116.421286,40.042760",
+      "photo_url": "https://aos-comment.amap.com/B0L29DRPKF/comment/A452E6B0_11D0_470C_A974_6ABC21FBF5F8_L0_001_1500_2000_1758893036253_13213907.jpg",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 18.0,
+      "rating": 3.7,
+      "opening_hours": "周一至周日 09:00-03:00",
+      "tags": [
+        "烤肉",
+        "烤面筋"
+      ]
+    },
+    {
+      "id": "B0LKRH6H45",
+      "name": "半天妖烤鱼(北京城建·城悦荟店)",
+      "distance_m": 1327,
+      "address": "来广营乡秋实街1号4层012、013",
+      "location": "116.421625,40.042707",
+      "photo_url": "https://store.is.autonavi.com/showpic/7e873e137009013f0000002804038799?type=pic",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 78.0,
+      "rating": 4.2,
+      "opening_hours": "周一至周日 10:00-22:00",
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "id": "B0MGMP8NO2",
+      "name": "东北老式麻辣烫·炸串",
+      "distance_m": 1327,
+      "address": "北苑商场",
+      "location": "116.429575,40.038225",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 34.0,
+      "rating": 3.2,
+      "tags": [
+        "麻辣烫",
+        "炸串"
+      ]
+    },
+    {
+      "id": "B0KGJKTDW7",
+      "name": "京城炙子王·老北京炙子烤肉",
+      "distance_m": 1328,
+      "address": "来广营乡北苑家园清友园4号楼1楼底商(回味宫旁边)",
+      "location": "116.429608,40.038199",
+      "photo_url": "https://aos-comment.amap.com/B0KGJKTDW7/comment/5E437B06_1EEC_408A_AAD6_3BC7655E4155_L0_001_1500_2000_1732086677255_25255925.jpg",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 80.0,
+      "rating": 4.6,
+      "opening_hours": "周一至周五 11:00-14:00,16:30-22:00；周六至周日 11:00-22:30",
+      "tags": [
+        "烤肉",
+        "烤羊后腿肉拼酸菜",
+        "炸窝头",
+        "红油香辣板筋",
+        "冰梨山楂",
+        "雪花大理石牛排",
+        "烤酸菜"
+      ]
+    },
+    {
+      "id": "B0KUC5ZAC2",
+      "name": "老大烧烤",
+      "distance_m": 1328,
+      "address": "北京城区北苑家园清友园4号楼北苑商场二楼B12号",
+      "location": "116.429625,40.038175",
+      "photo_url": "https://store.is.autonavi.com/showpic/af2ce9f5e835392a2c6c1a1071db6c33",
+      "category": "特色/地方风味餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 54.0,
+      "rating": 4.0,
+      "opening_hours": "周一至周日 17:00-02:00",
+      "tags": [
+        "烧烤"
+      ]
+    },
+    {
+      "id": "B0H35R3TYR",
+      "name": "回味宫·清真宁夏菜(北苑店)",
+      "distance_m": 1329,
+      "address": "北京城区北京城区清苑路清友园4号楼106号",
+      "location": "116.429609,40.038216",
+      "photo_url": "https://aos-comment.amap.com/B0H35R3TYR/comment/f0c37e172c9a320811c45ea22bddcde9_2048_2048_80.jpg",
+      "category": "西北菜",
+      "area": "来广营",
+      "average_cost_yuan": 98.0,
+      "rating": 4.6,
+      "opening_hours": "周一至周日 10:30-23:30",
+      "tags": [
+        "西北菜",
+        "宵夜",
+        "羊肉串",
+        "羊肉",
+        "大盘鸡"
+      ]
+    },
+    {
+      "id": "B0MGM7A24Y",
+      "name": "果雷卤肉(北苑商场店)",
+      "distance_m": 1329,
+      "address": "清苑路与双营路交叉口北140米",
+      "location": "116.429643,40.038179",
+      "area": "来广营",
+      "average_cost_yuan": 28.0,
+      "rating": 3.7,
+      "opening_hours": "周一至周日 08:00-20:00",
+      "tags": [
+        "卤味",
+        "卤肉"
+      ]
+    },
+    {
+      "id": "B0FFI207IT",
+      "name": "张记卤煮老北京馅饼粥",
+      "distance_m": 1330,
+      "address": "来广营北苑家园清友园4号楼一层",
+      "location": "116.429637,40.038202",
+      "photo_url": "https://store.is.autonavi.com/showpic/88442ce3828fa3b2a2cf4829d5adec41",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 22.0,
+      "rating": 3.5,
+      "tags": [
+        "卤煮"
+      ]
+    },
+    {
+      "id": "B0JRDSVT3Z",
+      "name": "春鼎小面(华发颐园店)",
+      "distance_m": 1333,
+      "address": "北京城区北苑路18号院3号楼一层底商",
+      "location": "116.414379,40.043198",
+      "photo_url": "https://store.is.autonavi.com/showpic/0646c2b7b8dfa1c45c87105217463fc0",
+      "category": "中餐厅",
+      "area": "立水桥",
+      "average_cost_yuan": 39.0,
+      "rating": 4.5,
+      "opening_hours": "周一至周日 10:00-22:00",
+      "tags": [
+        "面馆",
+        "狼牙土豆"
+      ]
+    },
+    {
+      "id": "B0JK3UBAS4",
+      "name": "二肆六手工现包饺子(城悦荟店)",
+      "distance_m": 1334,
+      "address": "秋实街1号北京城建·城悦荟F1层",
+      "location": "116.421942,40.042694",
+      "photo_url": "https://aos-comment.amap.com/B0JK3UBAS4/comment/6db47c701a2e588463a01563f49bcf08_2048_2048_80.jpg",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 51.0,
+      "rating": 4.4,
+      "opening_hours": "周一至周日 10:00-22:00",
+      "tags": [
+        "饺子",
+        "土豆丝",
+        "小酥肉",
+        "锅包肉",
+        "南瓜粥"
+      ]
+    },
+    {
+      "id": "B0MB75PJE8",
+      "name": "京豆美",
+      "distance_m": 1335,
+      "address": "北苑家园秋实街1号北京城建·城悦荟",
+      "location": "116.421287,40.042862",
+      "area": "立水桥",
+      "rating": 2.6,
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "id": "B0H0F5LK78",
+      "name": "南北菜私房馆(恒大书院店)",
+      "distance_m": 1345,
+      "address": "北京城区恒大书院G5号楼底商",
+      "location": "116.431354,40.026613",
+      "photo_url": "https://aos-comment.amap.com/B0H0F5LK78/comment/32811157-f228-4c3c-84be-7f2bdcd53183.png",
+      "category": "四川菜(川菜)",
+      "area": "来广营",
+      "average_cost_yuan": 66.0,
+      "rating": 4.6,
+      "opening_hours": "周一至周日 09:00-14:00,16:30-21:30",
+      "tags": [
+        "私房菜",
+        "川菜",
+        "鱼头泡饼",
+        "鱼籽煎饼",
+        "南北熏卤大拼盘",
+        "筋头巴脑炖柴火豆腐",
+        "鲍鱼煨牛蹄筋"
+      ]
+    },
+    {
+      "id": "B0K3ZMC23S",
+      "name": "南北风味·鱼头泡饼筋头巴脑(恒大书院店)",
+      "distance_m": 1345,
+      "address": "北苑小街与红军营路交叉口西120米",
+      "location": "116.431354,40.026613",
+      "photo_url": "https://store.is.autonavi.com/showpic/b8ec21e6318c2ea9ed055b97ac43dfc2",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 97.0,
+      "rating": 4.3,
+      "opening_hours": "周一至周日 09:00-21:30",
+      "tags": [
+        "鱼头",
+        "鱼头泡饼",
+        "筋头巴脑"
+      ]
+    },
+    {
+      "id": "B0K1FHKGWW",
+      "name": "树友·啫煲打边炉(北苑店)",
+      "distance_m": 1350,
+      "address": "红军营路23号院恒大书院G5号楼101",
+      "location": "116.431379,40.026549",
+      "photo_url": "https://aos-comment.amap.com/B0K1FHKGWW/comment/D487E862_0A8C_4A42_91D5_B4935E59E77C_L0_001_2000_1126_1733192608582_76144362.jpg",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 74.0,
+      "rating": 4.3,
+      "opening_hours": "周一至周日 09:00-23:00",
+      "tags": [
+        "粤菜",
+        "招牌特色菜",
+        "牛杂锅",
+        "干炸小黄鱼",
+        "打边炉",
+        "啫啫煲",
+        "煲仔饭"
+      ]
+    },
+    {
+      "id": "B0MACXXUI1",
+      "name": "本真农场第二食堂",
+      "distance_m": 1350,
+      "address": "清友园",
+      "location": "116.429625,40.038525",
+      "category": "中餐厅",
+      "area": "来广营",
+      "rating": 3.2,
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "id": "B0G254S43R",
+      "name": "杭州小笼包(北苑商场店)",
+      "distance_m": 1351,
+      "address": "来广营乡清苑路清友园4号楼108室",
+      "location": "116.429652,40.038510",
+      "photo_url": "https://aos-comment.amap.com/B0G254S43R/comment/e978e657974a5bd68911a2f81656aae5_2048_2048_80.jpg",
+      "category": "快餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 22.0,
+      "rating": 4.0,
+      "opening_hours": "周一至周日 06:00-22:00",
+      "tags": [
+        "小笼包",
+        "炒饭",
+        "炒面"
+      ]
+    },
+    {
+      "id": "B0J3BS25C6",
+      "name": "艾米西厨·意面·披萨·牛排(城悦荟店)",
+      "distance_m": 1356,
+      "address": "秋实街1号北京城建·城悦荟F1层",
+      "location": "116.421816,40.042939",
+      "photo_url": "https://aos-comment.amap.com/B0J3BS25C6/comment/c88ce3186296870e04f911cfb9d4ccaf_2048_2048_80.jpg",
+      "category": "西餐厅(综合风味)",
+      "area": "来广营",
+      "average_cost_yuan": 94.0,
+      "rating": 4.4,
+      "opening_hours": "周一至周日 10:00-22:00",
+      "tags": [
+        "西餐",
+        "牛排",
+        "牛肉",
+        "披萨",
+        "意面",
+        "提拉米苏"
+      ]
+    },
+    {
+      "id": "B0HU3ZYTC1",
+      "name": "小龙坎老火锅(北苑店)",
+      "distance_m": 1357,
+      "address": "北京城区北苑家园清友园19号楼2层(链家房产中介旁)",
+      "location": "116.426262,40.041192",
+      "photo_url": "http://store.is.autonavi.com/query_pic?id=stec838378-a0f7-4492-8bcc-2d6637544988&user=search&operate=original",
+      "category": "火锅店",
+      "area": "来广营",
+      "average_cost_yuan": 127.0,
+      "rating": 3.9,
+      "opening_hours": "周一至周日 10:00-22:30",
+      "tags": [
+        "四川火锅",
+        "红糖糍粑",
+        "极品鲜毛肚",
+        "精品黄喉",
+        "锅底",
+        "小龙坎毛肚",
+        "现炸酥肉"
+      ]
+    },
+    {
+      "id": "B0LDAD2J2W",
+      "name": "超意兴·把子肉(立水桥店)",
+      "distance_m": 1367,
+      "address": "北苑路18号院3号楼1层101等套内1层内106B号",
+      "location": "116.414290,40.043498",
+      "photo_url": "https://aos-comment.amap.com/B0LDAD2J2W/comment/content_media_external_file_51357_ss__1764802434181_59462673.jpg",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 25.0,
+      "rating": 4.5,
+      "opening_hours": "周一至周日 06:00-21:00",
+      "tags": [
+        "鲁菜",
+        "把子肉"
+      ]
+    },
+    {
+      "id": "B0L0LZ94I9",
+      "name": "X平方档口",
+      "distance_m": 1387,
+      "address": "来广营北苑路18号华发颐园",
+      "location": "116.414275,40.043675",
+      "photo_url": "https://store.is.autonavi.com/showpic/315c8d6f9043780ee3b7a982f1988046",
+      "category": "中餐厅",
+      "area": "立水桥",
+      "average_cost_yuan": 20.0,
+      "rating": 2.0,
+      "opening_hours": "周一至周五 10:30-23:00；周六至周日 10:30-22:30",
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "id": "B0MA5COBOE",
+      "name": "嗦粉儿·瓦罐鲜汤爆肚粉(第2档口隆源美食城店)",
+      "distance_m": 1389,
+      "address": "北京城区北京城区北苑路18号院3号楼1层101等套内1层101内105号",
+      "location": "116.414292,40.043700",
+      "category": "快餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 34.0,
+      "rating": 2.7,
+      "opening_hours": "周一至周日 10:00-21:00",
+      "tags": [
+        "小吃快餐",
+        "鲜汤"
+      ]
+    },
+    {
+      "id": "B0J0BUROPL",
+      "name": "曾三仙米线(立水桥店)",
+      "distance_m": 1392,
+      "address": "北京城区北苑路18号院3号楼101",
+      "location": "116.414243,40.043720",
+      "photo_url": "https://aos-comment.amap.com/B0J0BUROPL/comment/content_media_external_images_media_1000049268_ss__1726118733270_58875995.jpg",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 22.0,
+      "rating": 4.2,
+      "opening_hours": "周一至周日 09:30-22:00",
+      "tags": [
+        "米粉",
+        "素食",
+        "米线"
+      ]
+    },
+    {
+      "id": "B0MA4CUUR3",
+      "name": "流口水臭豆腐(立水桥店)",
+      "distance_m": 1393,
+      "address": "来广营北苑路18号华发颐园",
+      "location": "116.414225,40.043725",
+      "photo_url": "https://store.is.autonavi.com/showpic/1a1544daa34548560000002085606490",
+      "area": "来广营",
+      "average_cost_yuan": 14.0,
+      "rating": 3.5,
+      "opening_hours": "周一至周日 10:00-00:30",
+      "tags": [
+        "小吃快餐",
+        "臭豆腐"
+      ]
+    },
+    {
+      "id": "B0MDKZCJHB",
+      "name": "大刀凉皮",
+      "distance_m": 1393,
+      "address": "北苑路辅路与立通路交叉口东南100米",
+      "location": "116.414225,40.043725",
+      "category": "中餐厅",
+      "area": "来广营",
+      "rating": 2.9,
+      "tags": [
+        "小吃快餐",
+        "大刀凉皮"
+      ]
+    },
+    {
+      "id": "B0I1FSNPUY",
+      "name": "奇缘四季生态椰子鸡",
+      "distance_m": 1394,
+      "address": "北京城区恒大名都南区南门东60米",
+      "location": "116.431989,40.026640",
+      "photo_url": "http://store.is.autonavi.com/showpic/07fbcd80239483401e29944e87aa2d4b",
+      "category": "火锅店",
+      "area": "来广营",
+      "average_cost_yuan": 68.0,
+      "rating": 4.6,
+      "opening_hours": "周一至周日 10:00-22:00",
+      "tags": [
+        "中餐",
+        "双人餐",
+        "鸡肉"
+      ]
+    },
+    {
+      "id": "B0MAT9XT3X",
+      "name": "重庆板凳面(北苑商场店)",
+      "distance_m": 1398,
+      "address": "清苑路与红军营东路交叉口南180米",
+      "location": "116.429808,40.039059",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 17.0,
+      "rating": 3.6,
+      "opening_hours": "周一至周日 10:00-22:00",
+      "tags": [
+        "面馆"
+      ]
+    },
+    {
+      "id": "B0J0JOSZ8E",
+      "name": "一麻一辣麻辣香锅(红军营路店)",
+      "distance_m": 1406,
+      "address": "恒大名都东门南80米",
+      "location": "116.432479,40.027335",
+      "photo_url": "https://store.is.autonavi.com/showpic/15bc2ff9db9eb975904da9449be69318",
+      "category": "四川菜(川菜)",
+      "area": "来广营",
+      "average_cost_yuan": 78.0,
+      "rating": 4.4,
+      "opening_hours": "周一至周日 10:00-24:00",
+      "tags": [
+        "麻辣香锅",
+        "牛肉",
+        "双人餐"
+      ]
+    },
+    {
+      "id": "B0JKT6ZJNA",
+      "name": "蒸功夫包子(华发颐园店)",
+      "distance_m": 1409,
+      "address": "来广营北苑路18号华发颐园",
+      "location": "116.414197,40.043865",
+      "photo_url": "http://store.is.autonavi.com/showpic/5735f102973ef00501555794e7df661d",
+      "area": "立水桥",
+      "rating": 3.4,
+      "tags": [
+        "小吃快餐"
+      ]
+    },
+    {
+      "id": "B0FFI9Q4JL",
+      "name": "牛麒荟潮汕牛肉火锅(北苑店)",
+      "distance_m": 1411,
+      "address": "来广营红军营南路赢秋苑18号首层",
+      "location": "116.433274,40.032907",
+      "photo_url": "https://aos-comment.amap.com/B0FFI9Q4JL/comment/B445DF34_59E5_401F_BF90_A25B5D29F275_L0_001_1504_200_1770127933990_24803271.jpg",
+      "category": "火锅店",
+      "area": "来广营",
+      "average_cost_yuan": 118.0,
+      "rating": 4.7,
+      "opening_hours": "周一至周日 11:00-22:00",
+      "tags": [
+        "火锅",
+        "双人餐",
+        "牛肉"
+      ]
+    },
+    {
+      "id": "B0FFLBFF76",
+      "name": "咱家小院东北原生态黄金铁锅炖(红军营店)",
+      "distance_m": 1414,
+      "address": "北京城区红军营南路赢秋苑19号楼1层底商",
+      "location": "116.433298,40.032981",
+      "photo_url": "https://store.is.autonavi.com/showpic/3f02f99da673be1e2e58c02ba027442b",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 80.0,
+      "rating": 4.3,
+      "opening_hours": "周一至周日 10:30-23:00",
+      "tags": [
+        "东北菜",
+        "筋头巴脑",
+        "辣炒鸡",
+        "野生江鱼锅",
+        "排骨",
+        "东北乱炖",
+        "双人餐"
+      ]
+    },
+    {
+      "id": "B0JKHB7ZMS",
+      "name": "牛汤哥慢熬牛肉汤",
+      "distance_m": 1425,
+      "address": "来广营地区红军营路23号院9号楼1",
+      "location": "116.432738,40.027397",
+      "photo_url": "https://store.is.autonavi.com/showpic/9d2181472ebef3cb0000003468776124?type=pic",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 33.0,
+      "rating": 4.5,
+      "opening_hours": "周一至周日 00:00-24:00",
+      "tags": [
+        "小吃快餐",
+        "牛汤"
+      ]
+    },
+    {
+      "id": "B0MDXO2695",
+      "name": "小召烤肉",
+      "distance_m": 1427,
+      "address": "朝来绿色家园赢秋苑20栋西南门西180米",
+      "location": "116.433480,40.032817",
+      "photo_url": "https://store.is.autonavi.com/showpic/d32c803d949317b3f6cca5c214514185",
+      "area": "来广营",
+      "average_cost_yuan": 94.0,
+      "rating": 2.3,
+      "tags": [
+        "烤肉"
+      ]
+    },
+    {
+      "id": "B0LGX7BK8R",
+      "name": "小馨烤肉(北苑店)",
+      "distance_m": 1439,
+      "address": "北京城区赢秋苑18-19号中间",
+      "location": "116.433602,40.032900",
+      "photo_url": "https://aos-comment.amap.com/B0LGX7BK8R/comment/content_media_external_file_100013005_1771771546262_13134009.jpg",
+      "area": "来广营",
+      "average_cost_yuan": 76.0,
+      "rating": 4.5,
+      "opening_hours": "周一至周日 10:00-22:00",
+      "tags": [
+        "烤肉"
+      ]
+    },
+    {
+      "id": "B0FFFAH1ZQ",
+      "name": "馋嘴猫串吧(北苑莲葩园店)",
+      "distance_m": 1444,
+      "address": "北京城区莲葩园4号商业用楼7号",
+      "location": "116.421745,40.043787",
+      "photo_url": "https://store.is.autonavi.com/showpic/3a719d6bcd91b7290000002895932030?type=pic",
+      "category": "特色/地方风味餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 85.0,
+      "rating": 4.6,
+      "opening_hours": "周一至周日 11:00-14:00,16:30-01:00",
+      "tags": [
+        "烧烤",
+        "羊肉串",
+        "鸡肉",
+        "小龙虾",
+        "鸡翅",
+        "烤串"
+      ]
+    },
+    {
+      "id": "B0MDFS8K7L",
+      "name": "风渡嘉荷西餐厅Windy City(奥森店)",
+      "distance_m": 1446,
+      "address": "陈家营西路3正",
+      "location": "116.403482,40.039399",
+      "photo_url": "https://store.is.autonavi.com/showpic/f49fe7da41aa56f00000004729288347",
+      "category": "外国餐厅",
+      "area": "东小口",
+      "average_cost_yuan": 130.0,
+      "rating": 3.8,
+      "tags": [
+        "西餐"
+      ]
+    },
+    {
+      "id": "B0MGN5PUU6",
+      "name": "Windy City风成西餐吧(奥森店)",
+      "distance_m": 1446,
+      "address": "北京城区陈家营西路3正",
+      "location": "116.403482,40.039399",
+      "photo_url": "https://store.is.autonavi.com/showpic/1a614f43410abb79b25e4e7ae7564765",
+      "category": "外国餐厅",
+      "area": "东小口",
+      "average_cost_yuan": 84.0,
+      "rating": 4.0,
+      "opening_hours": "周一至周日 10:00-21:00",
+      "tags": [
+        "西餐"
+      ]
+    },
+    {
+      "id": "B0FFI62EWM",
+      "name": "乐家园潮汕砂锅粥(北苑店)",
+      "distance_m": 1448,
+      "address": "北苑家园莲葩园7号",
+      "location": "116.421804,40.043805",
+      "photo_url": "https://aos-comment.amap.com/B0FFI62EWM/comment/content_media_external_file_1000103659_ss__1769731253209_61239113.jpg",
+      "category": "中餐厅",
+      "area": "立水桥",
+      "average_cost_yuan": 73.0,
+      "rating": 4.5,
+      "opening_hours": "周一至周日 10:00-23:00 02-11至02-23 周一至周日 全天关闭",
+      "tags": [
+        "砂锅粥",
+        "双人餐"
+      ]
+    },
+    {
+      "id": "B000A88DP3",
+      "name": "大鸭梨烤鸭店(北苑家园店)",
+      "distance_m": 1450,
+      "address": "清苑路4号",
+      "location": "116.429841,40.039768",
+      "photo_url": "http://store.is.autonavi.com/showpic/5198151b78703d7c5db4774db6887fc7",
+      "category": "特色/地方风味餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 95.0,
+      "rating": 4.7,
+      "opening_hours": "周一至周日 10:00-14:30,17:30-22:00",
+      "tags": [
+        "北京菜",
+        "合菜",
+        "腊八蒜炒肥肠",
+        "大拌菜",
+        "烤鸭",
+        "大鸭梨",
+        "张氏狮子头"
+      ]
+    },
+    {
+      "id": "B0MATLXADN",
+      "name": "啊兰疆西域美食",
+      "distance_m": 1456,
+      "address": "红军营路与北苑中街交叉口东南120米",
+      "location": "116.433375,40.028075",
+      "category": "清真菜馆",
+      "area": "来广营",
+      "rating": 3.3,
+      "tags": [
+        "新疆菜"
+      ]
+    },
+    {
+      "id": "B0LDH5H8JA",
+      "name": "邹幺妹豌杂面",
+      "distance_m": 1457,
+      "address": "莲葩园",
+      "location": "116.422088,40.043829",
+      "photo_url": "https://aos-comment.amap.com/B0LDH5H8JA/comment/content_media_external_file_57007_ss__1768563118471_43715042.jpg",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 45.0,
+      "rating": 4.3,
+      "opening_hours": "周一至周日 10:00-23:30",
+      "tags": [
+        "面馆",
+        "豌杂面"
+      ]
+    },
+    {
+      "id": "B0FFLNEQFY",
+      "name": "绿色家园(来广营乡朝来绿色家园店)",
+      "distance_m": 1458,
+      "address": "蕴实园-3号楼",
+      "location": "116.432886,40.035909",
+      "photo_url": "https://store.is.autonavi.com/showpic/56316d6ed86207fd2c0c80b748303e7c",
+      "category": "中餐厅",
+      "area": "来广营",
+      "rating": 4.0,
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "id": "B0KKXZ4JPL",
+      "name": "三餐四季·市井烤肉",
+      "distance_m": 1460,
+      "address": "来广营红军营南路赢秋苑18号楼底商",
+      "location": "116.433865,40.032792",
+      "photo_url": "http://store.is.autonavi.com/showpic/b35300d44b27143b97e50b7cd5437a16",
+      "area": "来广营",
+      "average_cost_yuan": 68.0,
+      "rating": 1.8,
+      "tags": [
+        "烤肉"
+      ]
+    },
+    {
+      "id": "B0MDO9X9OO",
+      "name": "西格蕾立水桥店",
+      "distance_m": 1460,
+      "address": "安立路3号1幢北侧怡然科技大厦",
+      "location": "116.411075,40.043725",
+      "area": "来广营",
+      "rating": 2.0
+    },
+    {
+      "id": "B0K2HLHQ6X",
+      "name": "李氏麻辣烫(第三店)",
+      "distance_m": 1478,
+      "address": "莲葩园东南门西南120米",
+      "location": "116.422250,40.043985",
+      "photo_url": "https://aos-comment.amap.com/B0K2HLHQ6X/comment/DACC6579_EFF2_4DAA_A8CE_8AAADE379D28_L0_001_2000_150_1748179786392_29338003.jpg",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 35.0,
+      "rating": 3.9,
+      "opening_hours": "周一至周日 11:00-24:00",
+      "tags": [
+        "麻辣烫"
+      ]
+    },
+    {
+      "id": "B0MGD5R60D",
+      "name": "湘行记·湘味现炒(奥森店)",
+      "distance_m": 1479,
+      "address": "北京城区陈家营西路3正",
+      "location": "116.403458,40.039856",
+      "photo_url": "https://store.is.autonavi.com/showpic/c2660e7de5bce0eb0000003302978370?type=pic",
+      "category": "湖南菜(湘菜)",
+      "area": "东小口",
+      "average_cost_yuan": 59.0,
+      "rating": 4.3,
+      "opening_hours": "周一至周日 10:00-21:00",
+      "tags": [
+        "湘菜"
+      ]
+    },
+    {
+      "id": "B0LUF926ID",
+      "name": "郝四哥卤味(北苑店)",
+      "distance_m": 1482,
+      "address": "秋实东街与春华路交叉口北120米",
+      "location": "116.426325,40.042525",
+      "photo_url": "https://store.is.autonavi.com/showpic/ca1ab7944b2673d9bb82cf40b5fffd47",
+      "area": "立水桥",
+      "average_cost_yuan": 21.0,
+      "rating": 4.5,
+      "opening_hours": "周一至周日 08:30-22:00",
+      "tags": [
+        "卤味",
+        "五香牛肉",
+        "酱香猪蹄",
+        "带骨大肘子",
+        "招牌熏柴鸡",
+        "酱香猪头肉",
+        "双人餐"
+      ]
+    },
+    {
+      "id": "B0LUSR50E3",
+      "name": "穆兰疆兰州牛肉面",
+      "distance_m": 1483,
+      "address": "北京城区秋实街1号",
+      "location": "116.426324,40.042538",
+      "photo_url": "https://store.is.autonavi.com/showpic/6e974f60456f38d105951bf0be531047",
+      "area": "来广营",
+      "average_cost_yuan": 32.0,
+      "rating": 4.4,
+      "opening_hours": "周一至周日 10:00-22:00",
+      "tags": [
+        "面馆",
+        "锅仔白菜豆腐",
+        "辣爆花蛤",
+        "架子肉",
+        "金馕烤肉",
+        "巧手鸡汁茄子",
+        "双人餐"
+      ]
+    },
+    {
+      "id": "B0FFG7BYVK",
+      "name": "蕴实园餐饮",
+      "distance_m": 1489,
+      "address": "蕴实园小区甲1号楼底商",
+      "location": "116.432889,40.036651",
+      "category": "中餐厅",
+      "area": "来广营",
+      "rating": 4.0,
+      "tags": [
+        "小吃快餐",
+        "鸡肉"
+      ]
+    },
+    {
+      "id": "B0JAXM7B1D",
+      "name": "来广营社区大食堂",
+      "distance_m": 1489,
+      "address": "朝来绿色家园蕴实园",
+      "location": "116.432889,40.036651",
+      "photo_url": "https://store.is.autonavi.com/showpic/6b6caeeb4ad548d30000003162776791?type=pic",
+      "category": "中餐厅",
+      "area": "来广营",
+      "average_cost_yuan": 21.0,
+      "rating": 3.7,
+      "opening_hours": "周一至周日 06:00-14:00,16:00-20:00",
+      "tags": [
+        "中餐"
+      ]
+    },
+    {
+      "id": "B0M695CJD0",
+      "name": "门朝北鲜肉炭烤",
+      "distance_m": 1491,
+      "address": "秋实东街与春华路交叉口北120米",
+      "location": "116.426325,40.042625",
+      "photo_url": "https://store.is.autonavi.com/showpic/79f898f80bd31b7f0000002329666601?type=pic",
+      "category": "中餐厅",
+      "area": "立水桥",
+      "average_cost_yuan": 51.0,
+      "rating": 4.0,
+      "opening_hours": "周一至周日 17:30-01:00",
+      "tags": [
+        "烧烤"
+      ]
+    },
+    {
+      "id": "B0MAOZH40E",
+      "name": "江西小炒烧烤",
+      "distance_m": 1498,
+      "address": "朝来绿色家园赢秋苑20栋西南门西90米",
+      "location": "116.434322,40.032796",
+      "photo_url": "https://store.is.autonavi.com/showpic/22d2626e052f7da4c75ecab953c5eade",
+      "category": "特色/地方风味餐厅",
+      "area": "来广营",
+      "rating": 3.1,
+      "tags": [
+        "烤串"
+      ]
+    },
+    {
+      "id": "B0GRLUMSG1",
+      "name": "攥住腰餐厅(奥林匹克森林公园店)",
+      "distance_m": 1499,
+      "address": "科荟路33号4幢(距离奥森南园北门停车场100米)",
+      "location": "116.405446,40.021074",
+      "photo_url": "https://store.is.autonavi.com/showpic/106a83035f51a85e8e2f51c165c240cf",
+      "average_cost_yuan": 97.0,
+      "rating": 4.6,
+      "opening_hours": "周一至周日 09:30-20:00",
+      "tags": [
+        "融合菜",
+        "白兰地黄油炒蘑菇",
+        "芥末虾球",
+        "盐酸木果鱼",
+        "酸菜鱼",
+        "米线",
+        "小锅米线"
+      ]
+    }
+  ]
+}

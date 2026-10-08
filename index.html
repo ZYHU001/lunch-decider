@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#fffefa">
+  <meta name="description" content="根据人数、预算和口味，挑选今天的午饭餐厅。">
+  <title>What for lunch？</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script defer src="/shared.js"></script><script defer src="/vendor/matter.min.js"></script><script defer src="/pile-physics.js"></script><script defer src="/home.js"></script>
+</head>
+<body>
+  <main class="lunch-app" id="lunch-app">
+    <header class="intro-block">
+      <div class="intro-copy"><div class="brand" aria-label="ChatRaha"><img src="/assets/brand-icon.svg" alt=""><img src="/assets/brand-name.svg" alt="ChatRaha"></div><h1>What for lunch？</h1></div>
+      <img class="lunch-doodle" src="/assets/lunch-doodle.png" alt="手绘的面条和小菜">
+    </header>
+    <section class="recommendations" id="result-section" aria-label="推荐餐厅" hidden>
+      <div class="card-carousel" id="result" role="region" aria-label="左右滑动查看推荐餐厅" tabindex="0"></div>
+      <p class="selection-status" id="result-heading" role="status" aria-live="polite"></p>
+    </section>
+    <form id="preference-form" class="decision-form">
+      <section class="input-block cuisine-block" aria-label="午饭偏好"><div class="cuisine-options" id="cuisine-options" role="group" aria-label="午饭偏好"></div></section>
+      <section class="input-block people-block">
+        <div class="block-head"><label for="people">人数</label><output id="people-value" for="people">3 人</output></div>
+        <div class="slider-surface"><span class="slider-fill" id="people-fill"></span><span class="slider-dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span><input id="people" class="range-input" type="range" min="1" max="20" step="1" value="3" aria-label="用餐人数"></div>
+      </section>
+      <section class="input-block price-block">
+        <div class="block-head"><h2>人均价格</h2><span class="block-aside">拖动两端调整范围</span></div>
+        <div class="price-values"><label class="price-value" for="price-min"><span>最低</span><output id="price-min-value" for="price-min">¥15</output></label><label class="price-value" for="price-max"><span>最高</span><output id="price-max-value" for="price-max">¥35</output></label></div>
+        <div class="slider-surface dual-surface"><span class="slider-fill" id="price-fill"></span><span class="slider-dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span><input id="price-min" class="range-input dual-input" type="range" min="5" max="100" step="5" value="15" aria-label="最低人均价格"><input id="price-max" class="range-input dual-input" type="range" min="5" max="100" step="5" value="35" aria-label="最高人均价格"></div>
+      </section>
+      <section class="input-block spice-block">
+        <div class="block-head"><label for="spice">辣度</label><output id="spice-value" for="spice">随机</output></div>
+        <div class="slider-surface"><span class="slider-fill" id="spice-fill"></span><span class="slider-dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span><input id="spice" class="range-input" type="range" min="0" max="4" step="0.01" value="0" aria-valuetext="随机" aria-label="辣度，随机、不辣、一至三个辣椒"></div>
+      </section>
+      <button class="primary-button" id="choose-button" type="submit">Let's go!!</button>
+    </form>
+    <div class="restaurant-pile" id="restaurant-pile" aria-hidden="true"></div>
+  </main>
+  <dialog class="restaurant-detail" id="restaurant-detail" aria-labelledby="detail-name" tabindex="-1">
+    <div class="detail-handle" aria-hidden="true"></div>
+    <div class="detail-top"><span>餐厅详情</span><button class="detail-close" type="button" aria-label="关闭餐厅详情">×</button></div>
+    <div class="detail-hero">
+      <div class="detail-photo"><img id="detail-image" alt="餐厅图片" referrerpolicy="no-referrer" decoding="async"></div>
+      <div class="detail-summary">
+        <h2 class="detail-name" id="detail-name"></h2>
+        <span class="detail-score" id="detail-score"></span>
+        <div class="detail-price"><span>人均价格</span><strong id="detail-price"></strong></div>
+      </div>
+    </div>
+    <div class="detail-location">
+      <div class="detail-location-head"><span class="detail-label">具体位置</span><span class="detail-distance" id="detail-distance"></span></div>
+      <div class="detail-location-row">
+        <p id="detail-address"></p>
+        <a class="detail-navigation" id="detail-navigation" aria-label="在苹果地图打开餐厅位置" rel="noreferrer">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m4 20 16-16M10 4h10v10"/></svg>
+          <span>导航</span>
+        </a>
+      </div>
+    </div>
+  </dialog>
+</body>
+</html>
